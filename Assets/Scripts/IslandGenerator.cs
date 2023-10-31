@@ -149,6 +149,7 @@ public class IslandGenerator : MonoBehaviour
     /// </returns>
     public TileData GetTileDataWorld(Vector3 pos)
     {
+        print(1);
         return GetTileDataGrid(grid.WorldToCell(pos));
     }
 

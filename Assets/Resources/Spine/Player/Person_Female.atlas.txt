@@ -1,0 +1,8896 @@
+
+Person_Female.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Bag/Bag00/Back/BagB_00
+  rotate: false
+  xy: 171, 235
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+images/Bag/Bag00/Back/BagStrapBL
+  rotate: false
+  xy: 155, 317
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+images/Bag/Bag00/Front/BagF_00
+  rotate: false
+  xy: 118, 225
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+images/Bag/Bag00/Front/BagStrapFL
+  rotate: false
+  xy: 184, 235
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+images/Bag/Bag00/Side/BagS_00
+  rotate: false
+  xy: 172, 357
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+images/Bag/Bag00/Side/BagStrapSL
+  rotate: true
+  xy: 212, 235
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1
+images/Bag/Bag01/Back/BagB_00
+  rotate: false
+  xy: 94, 226
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+images/Bag/Bag01/Back/BagStrapBL
+  rotate: true
+  xy: 442, 221
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+images/Bag/Bag01/Front/BagF_00
+  rotate: false
+  xy: 106, 226
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+images/Bag/Bag01/Front/BagStrapFL
+  rotate: false
+  xy: 2, 395
+  size: 10, 7
+  orig: 10, 7
+  offset: 0, 0
+  index: -1
+images/Bag/Bag01/Side/BagS_00
+  rotate: true
+  xy: 184, 357
+  size: 8, 10
+  orig: 8, 10
+  offset: 0, 0
+  index: -1
+images/Bag/Bag01/Side/BagStrapSL
+  rotate: false
+  xy: 209, 356
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+images/Bag/Bag02/Back/BagB_00
+  rotate: true
+  xy: 427, 221
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+images/Bag/Bag02/Back/BagStrapBL
+  rotate: true
+  xy: 217, 418
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+images/Bag/Bag02/Back/BagStrapBR
+  rotate: true
+  xy: 234, 418
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+images/Bag/Bag02/Front/BagF_00
+  rotate: true
+  xy: 456, 221
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Bag/Bag02/Front/BagStrapFL
+  rotate: true
+  xy: 251, 418
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: -1
+images/Bag/Bag02/Front/BagStrapFR
+  rotate: true
+  xy: 263, 418
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: -1
+images/Bag/Bag02/Side/BagS_00
+  rotate: true
+  xy: 197, 235
+  size: 9, 13
+  orig: 9, 13
+  offset: 0, 0
+  index: -1
+images/Bag/Bag02/Side/BagStrapSL
+  rotate: true
+  xy: 196, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Bag/Bag02/Side/BagStrapSR
+  rotate: true
+  xy: 196, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Bag/Bag03/Back/BagB_00
+  rotate: true
+  xy: 87, 171
+  size: 13, 17
+  orig: 13, 17
+  offset: 0, 0
+  index: -1
+images/Bag/Bag03/Back/BagStrapBL
+  rotate: false
+  xy: 226, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Bag/Bag03/Back/BagStrapBR
+  rotate: false
+  xy: 243, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Bag/Bag03/Front/BagF_00
+  rotate: true
+  xy: 106, 171
+  size: 13, 17
+  orig: 13, 17
+  offset: 0, 0
+  index: -1
+images/Bag/Bag03/Front/BagStrapFL
+  rotate: true
+  xy: 28, 419
+  size: 5, 10
+  orig: 5, 10
+  offset: 0, 0
+  index: -1
+images/Bag/Bag03/Front/BagStrapFR
+  rotate: true
+  xy: 40, 419
+  size: 5, 10
+  orig: 5, 10
+  offset: 0, 0
+  index: -1
+images/Bag/Bag03/Side/BagS_00
+  rotate: true
+  xy: 322, 183
+  size: 12, 19
+  orig: 12, 19
+  offset: 0, 0
+  index: -1
+images/Bag/Bag03/Side/BagStrapSL
+  rotate: true
+  xy: 224, 356
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Bag/Bag03/Side/BagStrapSR
+  rotate: true
+  xy: 224, 356
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Back/ArmBL_Down_00
+  rotate: true
+  xy: 252, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Back/ArmBL_UP_00
+  rotate: true
+  xy: 291, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Back/ArmBR_Down_00
+  rotate: true
+  xy: 330, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Back/ArmBR_UP_00
+  rotate: true
+  xy: 369, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Back/FootBL_00
+  rotate: false
+  xy: 60, 419
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Back/FootBR_00
+  rotate: false
+  xy: 60, 419
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Back/HeadB_00
+  rotate: true
+  xy: 41, 79
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Back/LegBL_00
+  rotate: true
+  xy: 412, 356
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Back/LegBL_01
+  rotate: true
+  xy: 463, 356
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Back/LegBR_00
+  rotate: true
+  xy: 19, 348
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Back/LegBR_01
+  rotate: true
+  xy: 70, 348
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Back/TorsoB_00
+  rotate: true
+  xy: 143, 169
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Front/ArmFL_Down_00
+  rotate: true
+  xy: 104, 348
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Front/ArmFL_UP_00
+  rotate: true
+  xy: 143, 348
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Front/ArmFR_Down_00
+  rotate: true
+  xy: 182, 347
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Front/ArmFR_UP_00
+  rotate: true
+  xy: 221, 346
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Front/FootFL_00
+  rotate: false
+  xy: 327, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Front/FootFR_00
+  rotate: false
+  xy: 327, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Front/HeadF_00
+  rotate: true
+  xy: 95, 77
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Front/LegFL_00
+  rotate: true
+  xy: 262, 346
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Front/LegFL_01
+  rotate: true
+  xy: 307, 346
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Front/LegFR_00
+  rotate: true
+  xy: 352, 346
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Front/LegFR_01
+  rotate: true
+  xy: 397, 346
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Front/TorsoF_00
+  rotate: true
+  xy: 197, 169
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/HandL_00
+  rotate: false
+  xy: 351, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/HandR_00
+  rotate: false
+  xy: 351, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/HandL_01
+  rotate: true
+  xy: 393, 418
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/HandL_02
+  rotate: true
+  xy: 14, 394
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/HandL_03
+  rotate: true
+  xy: 65, 394
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/HandL_04
+  rotate: true
+  xy: 120, 394
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/HandR_01
+  rotate: true
+  xy: 451, 418
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/HandR_02
+  rotate: true
+  xy: 174, 394
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/HandR_03
+  rotate: true
+  xy: 225, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/HandR_04
+  rotate: true
+  xy: 280, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Hand_HoldWaterBottle
+  rotate: true
+  xy: 275, 418
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Side/ArmSL_Down_00
+  rotate: true
+  xy: 336, 393
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Side/ArmSL_UP_00
+  rotate: true
+  xy: 372, 393
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Side/ArmSR_Down_00
+  rotate: true
+  xy: 225, 235
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Side/ArmSR_UP_00
+  rotate: true
+  xy: 238, 235
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Side/FootSL_00
+  rotate: false
+  xy: 13, 412
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Side/FootSR_00
+  rotate: false
+  xy: 35, 411
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Side/HeadS_00
+  rotate: false
+  xy: 148, 77
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Side/LegSL_00
+  rotate: true
+  xy: 441, 346
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Side/LegSR_00
+  rotate: true
+  xy: 494, 345
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Base/Side/TorsoS_00
+  rotate: true
+  xy: 488, 218
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Back/ArmBL_Down_00
+  rotate: true
+  xy: 265, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Back/ArmBL_UP_00
+  rotate: true
+  xy: 304, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Back/ArmBR_Down_00
+  rotate: true
+  xy: 343, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Back/ArmBR_UP_00
+  rotate: true
+  xy: 382, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Back/FootBL_00
+  rotate: false
+  xy: 68, 419
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Back/FootBR_00
+  rotate: false
+  xy: 68, 419
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Back/HeadB_00
+  rotate: true
+  xy: 59, 79
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Back/LegBL_00
+  rotate: true
+  xy: 429, 356
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Back/LegBL_01
+  rotate: true
+  xy: 480, 355
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Back/LegBR_00
+  rotate: true
+  xy: 36, 348
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Back/LegBR_01
+  rotate: true
+  xy: 87, 348
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Back/TorsoB_00
+  rotate: true
+  xy: 161, 169
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Front/ArmFL_Down_00
+  rotate: true
+  xy: 117, 348
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Front/ArmFL_UP_00
+  rotate: true
+  xy: 156, 348
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Front/ArmFR_Down_00
+  rotate: true
+  xy: 195, 346
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Front/ArmFR_UP_00
+  rotate: true
+  xy: 234, 346
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Front/FootFL_00
+  rotate: false
+  xy: 335, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Front/FootFR_00
+  rotate: false
+  xy: 335, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Front/HeadF_00
+  rotate: true
+  xy: 113, 77
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Front/LegFL_00
+  rotate: true
+  xy: 277, 346
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Front/LegFL_01
+  rotate: true
+  xy: 322, 346
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Front/LegFR_00
+  rotate: true
+  xy: 367, 346
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Front/LegFR_01
+  rotate: true
+  xy: 412, 346
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Front/TorsoF_00
+  rotate: true
+  xy: 215, 169
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/HandL_00
+  rotate: false
+  xy: 359, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/HandR_00
+  rotate: false
+  xy: 359, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/HandL_01
+  rotate: true
+  xy: 403, 418
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/HandL_02
+  rotate: true
+  xy: 24, 394
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/HandL_03
+  rotate: true
+  xy: 76, 394
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/HandL_04
+  rotate: true
+  xy: 131, 394
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/HandR_01
+  rotate: true
+  xy: 461, 418
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/HandR_02
+  rotate: true
+  xy: 184, 394
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/HandR_03
+  rotate: true
+  xy: 236, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/HandR_04
+  rotate: true
+  xy: 291, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Hand_HoldWaterBottle
+  rotate: true
+  xy: 308, 418
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Side/ArmSL_Down_00
+  rotate: true
+  xy: 348, 393
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Side/ArmSL_UP_00
+  rotate: true
+  xy: 384, 393
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Side/ArmSR_Down_00
+  rotate: true
+  xy: 407, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Side/ArmSR_UP_00
+  rotate: true
+  xy: 429, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Side/FootSL_00
+  rotate: false
+  xy: 24, 411
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Side/FootSR_00
+  rotate: false
+  xy: 45, 411
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Side/HeadS_00
+  rotate: false
+  xy: 165, 77
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Side/LegSL_00
+  rotate: true
+  xy: 455, 346
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Side/LegSR_00
+  rotate: true
+  xy: 2, 338
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Dark/Side/TorsoS_00
+  rotate: true
+  xy: 2, 214
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Back/ArmBL_Down_00
+  rotate: true
+  xy: 239, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Back/ArmBL_UP_00
+  rotate: true
+  xy: 278, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Back/ArmBR_Down_00
+  rotate: true
+  xy: 317, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Back/ArmBR_UP_00
+  rotate: true
+  xy: 356, 356
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Back/FootBL_00
+  rotate: false
+  xy: 52, 419
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Back/FootBR_00
+  rotate: false
+  xy: 52, 419
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Back/HeadB_00
+  rotate: true
+  xy: 23, 81
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Back/LegBL_00
+  rotate: true
+  xy: 395, 356
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Back/LegBL_01
+  rotate: true
+  xy: 446, 356
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Back/LegBR_00
+  rotate: true
+  xy: 2, 348
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Back/LegBR_01
+  rotate: true
+  xy: 53, 348
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Back/TorsoB_00
+  rotate: true
+  xy: 125, 170
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Front/ArmFL_Down_00
+  rotate: true
+  xy: 497, 355
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Front/ArmFL_UP_00
+  rotate: true
+  xy: 130, 348
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Front/ArmFR_Down_00
+  rotate: true
+  xy: 169, 347
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Front/ArmFR_UP_00
+  rotate: true
+  xy: 208, 346
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Front/FootFL_00
+  rotate: false
+  xy: 319, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Front/FootFR_00
+  rotate: false
+  xy: 319, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Front/HeadF_00
+  rotate: true
+  xy: 77, 78
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Front/LegFL_00
+  rotate: true
+  xy: 247, 346
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Front/LegFL_01
+  rotate: true
+  xy: 292, 346
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Front/LegFR_00
+  rotate: true
+  xy: 337, 346
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Front/LegFR_01
+  rotate: true
+  xy: 382, 346
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Front/TorsoF_00
+  rotate: true
+  xy: 179, 169
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/HandL_00
+  rotate: false
+  xy: 343, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/HandR_00
+  rotate: false
+  xy: 343, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/HandL_01
+  rotate: true
+  xy: 383, 418
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/HandL_02
+  rotate: true
+  xy: 501, 401
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/HandL_03
+  rotate: true
+  xy: 54, 394
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/HandL_04
+  rotate: true
+  xy: 109, 394
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/HandR_01
+  rotate: true
+  xy: 441, 418
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/HandR_02
+  rotate: true
+  xy: 164, 394
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/HandR_03
+  rotate: true
+  xy: 214, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/HandR_04
+  rotate: true
+  xy: 269, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Hand_HoldWaterBottle
+  rotate: true
+  xy: 491, 418
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Side/ArmSL_Down_00
+  rotate: true
+  xy: 324, 393
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Side/ArmSL_UP_00
+  rotate: true
+  xy: 360, 393
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Side/ArmSR_Down_00
+  rotate: true
+  xy: 396, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Side/ArmSR_UP_00
+  rotate: true
+  xy: 418, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Side/FootSL_00
+  rotate: false
+  xy: 2, 412
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Side/FootSR_00
+  rotate: false
+  xy: 502, 418
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Side/HeadS_00
+  rotate: false
+  xy: 131, 77
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Side/LegSL_00
+  rotate: true
+  xy: 427, 346
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Side/LegSR_00
+  rotate: true
+  xy: 480, 345
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/Pale/Side/TorsoS_00
+  rotate: true
+  xy: 472, 221
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Back/ArmBL_Down_00
+  rotate: true
+  xy: 16, 338
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Back/ArmBL_UP_00
+  rotate: true
+  xy: 29, 338
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Back/ArmBR_Down_00
+  rotate: true
+  xy: 42, 338
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Back/ArmBR_UP_00
+  rotate: true
+  xy: 55, 338
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Back/FootBL_00
+  rotate: false
+  xy: 76, 419
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Back/FootBR_00
+  rotate: false
+  xy: 84, 419
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Back/HeadB_00
+  rotate: true
+  xy: 182, 77
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Back/LegBL_00
+  rotate: true
+  xy: 68, 338
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Back/LegBL_01
+  rotate: true
+  xy: 85, 338
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Back/LegBR_00
+  rotate: true
+  xy: 100, 338
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Back/LegBR_01
+  rotate: true
+  xy: 117, 338
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Back/TorsoB_00
+  rotate: true
+  xy: 233, 169
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Front/ArmFL_Down_00
+  rotate: true
+  xy: 132, 338
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Front/ArmFL_UP_00
+  rotate: true
+  xy: 145, 338
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Front/ArmFR_Down_00
+  rotate: true
+  xy: 169, 337
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Front/ArmFR_UP_00
+  rotate: true
+  xy: 182, 337
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Front/FootFL_00
+  rotate: false
+  xy: 55, 411
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Front/FootFR_00
+  rotate: false
+  xy: 63, 411
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Front/HeadF_00
+  rotate: true
+  xy: 200, 77
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Front/LegFL_00
+  rotate: true
+  xy: 195, 336
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Front/LegFL_01
+  rotate: true
+  xy: 210, 336
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Front/LegFR_00
+  rotate: true
+  xy: 225, 336
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Front/LegFR_01
+  rotate: true
+  xy: 240, 336
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Front/TorsoF_00
+  rotate: true
+  xy: 251, 169
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/HandL_00
+  rotate: true
+  xy: 71, 411
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/HandR_00
+  rotate: true
+  xy: 71, 411
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/HandL_01
+  rotate: true
+  xy: 80, 411
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/HandL_02
+  rotate: true
+  xy: 440, 393
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/HandL_03
+  rotate: true
+  xy: 450, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/HandL_04
+  rotate: true
+  xy: 461, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/HandR_01
+  rotate: true
+  xy: 90, 411
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/HandR_02
+  rotate: true
+  xy: 472, 393
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/HandR_03
+  rotate: true
+  xy: 482, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/HandR_04
+  rotate: true
+  xy: 493, 392
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Hand_HoldWaterBottle
+  rotate: true
+  xy: 255, 336
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Side/ArmSL_Down_00
+  rotate: true
+  xy: 2, 386
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Side/ArmSL_UP_00
+  rotate: true
+  xy: 14, 385
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Side/ArmSR_Down_00
+  rotate: true
+  xy: 26, 385
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Side/ArmSR_UP_00
+  rotate: true
+  xy: 37, 385
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Side/FootSL_00
+  rotate: false
+  xy: 100, 411
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Side/FootSR_00
+  rotate: false
+  xy: 111, 411
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Side/HeadS_00
+  rotate: false
+  xy: 218, 77
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Side/LegSL_00
+  rotate: true
+  xy: 268, 336
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Side/LegSR_00
+  rotate: true
+  xy: 282, 336
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_green/Side/TorsoS_00
+  rotate: true
+  xy: 18, 214
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Back/ArmBL_Down_00
+  rotate: true
+  xy: 296, 336
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Back/ArmBL_UP_00
+  rotate: true
+  xy: 309, 336
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Back/ArmBR_Down_00
+  rotate: true
+  xy: 322, 336
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Back/ArmBR_UP_00
+  rotate: true
+  xy: 335, 336
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Back/FootBL_00
+  rotate: false
+  xy: 92, 419
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Back/FootBR_00
+  rotate: false
+  xy: 100, 419
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Back/HeadB_00
+  rotate: true
+  xy: 235, 77
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Back/LegBL_00
+  rotate: true
+  xy: 348, 336
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Back/LegBL_01
+  rotate: true
+  xy: 365, 336
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Back/LegBR_00
+  rotate: true
+  xy: 379, 336
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Back/LegBR_01
+  rotate: true
+  xy: 396, 336
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Back/TorsoB_00
+  rotate: true
+  xy: 269, 169
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Front/ArmFL_Down_00
+  rotate: true
+  xy: 410, 336
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Front/ArmFL_UP_00
+  rotate: true
+  xy: 423, 336
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Front/ArmFR_Down_00
+  rotate: true
+  xy: 436, 336
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Front/ArmFR_UP_00
+  rotate: true
+  xy: 449, 336
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Front/FootFL_00
+  rotate: false
+  xy: 121, 411
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Front/FootFR_00
+  rotate: false
+  xy: 129, 411
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Front/HeadF_00
+  rotate: true
+  xy: 253, 77
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Front/LegFL_00
+  rotate: true
+  xy: 462, 336
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Front/LegFL_01
+  rotate: true
+  xy: 477, 335
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Front/LegFR_00
+  rotate: true
+  xy: 492, 335
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Front/LegFR_01
+  rotate: true
+  xy: 2, 328
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Front/TorsoF_00
+  rotate: true
+  xy: 287, 169
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/HandL_00
+  rotate: true
+  xy: 137, 411
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/HandR_00
+  rotate: true
+  xy: 137, 411
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/HandL_01
+  rotate: true
+  xy: 146, 411
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/HandL_02
+  rotate: true
+  xy: 48, 385
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/HandL_03
+  rotate: true
+  xy: 58, 385
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/HandL_04
+  rotate: true
+  xy: 69, 385
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/HandR_01
+  rotate: true
+  xy: 156, 411
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/HandR_02
+  rotate: true
+  xy: 80, 385
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/HandR_03
+  rotate: true
+  xy: 90, 385
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/HandR_04
+  rotate: true
+  xy: 101, 385
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Hand_HoldWaterBottle
+  rotate: true
+  xy: 17, 328
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Side/ArmSL_Down_00
+  rotate: true
+  xy: 112, 385
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Side/ArmSL_UP_00
+  rotate: true
+  xy: 124, 385
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Side/ArmSR_Down_00
+  rotate: true
+  xy: 136, 385
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Side/ArmSR_UP_00
+  rotate: true
+  xy: 147, 385
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Side/FootSL_00
+  rotate: false
+  xy: 166, 411
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Side/FootSR_00
+  rotate: false
+  xy: 177, 411
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Side/HeadS_00
+  rotate: false
+  xy: 271, 77
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Side/LegSL_00
+  rotate: true
+  xy: 30, 328
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Side/LegSR_00
+  rotate: true
+  xy: 44, 328
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/BodyColor/Female/zombie_purple/Side/TorsoS_00
+  rotate: true
+  xy: 34, 214
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair00/BodyColorType00/Back/HairBM
+  rotate: false
+  xy: 467, 69
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair00/BodyColorType00/Front/HairFM
+  rotate: false
+  xy: 211, 210
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair00/BodyColorType00/Side/HairSM
+  rotate: false
+  xy: 105, 60
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair00/BodyColorType01/Back/HairBM
+  rotate: false
+  xy: 484, 69
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair00/BodyColorType01/Front/HairFM
+  rotate: false
+  xy: 228, 210
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair00/BodyColorType01/Side/HairSM
+  rotate: false
+  xy: 122, 60
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair00/BodyColorType02/Back/HairBM
+  rotate: false
+  xy: 2, 66
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair00/BodyColorType02/Front/HairFM
+  rotate: false
+  xy: 245, 210
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair00/BodyColorType02/Side/HairSM
+  rotate: false
+  xy: 139, 60
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair01/Back/HairBM
+  rotate: false
+  xy: 56, 112
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair01/Front/HairBangFL
+  rotate: true
+  xy: 371, 384
+  size: 7, 15
+  orig: 7, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair01/Front/HairBangFM
+  rotate: false
+  xy: 126, 328
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair01/Front/HairBangFR
+  rotate: true
+  xy: 388, 384
+  size: 7, 15
+  orig: 7, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair01/Front/HairFB
+  rotate: true
+  xy: 341, 235
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair01/Back/HairBB
+  rotate: true
+  xy: 341, 235
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair01/Front/HairFM
+  rotate: false
+  xy: 99, 213
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair01/Side/HairBangSL
+  rotate: true
+  xy: 405, 384
+  size: 7, 16
+  orig: 7, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair01/Side/HairBangSM
+  rotate: true
+  xy: 501, 273
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair01/Side/HairBangSR
+  rotate: true
+  xy: 352, 410
+  size: 6, 15
+  orig: 6, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair01/Side/HairSB
+  rotate: true
+  xy: 399, 235
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair01/Side/HairSM
+  rotate: false
+  xy: 19, 64
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair02/Back/HairBM
+  rotate: false
+  xy: 397, 73
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair02/Front/HairFM
+  rotate: false
+  xy: 143, 211
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair02/Side/HairSM
+  rotate: false
+  xy: 36, 62
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair03/BodyColorType00/Back/HairBM
+  rotate: false
+  xy: 414, 73
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair03/BodyColorType00/Back/HairBangBL
+  rotate: true
+  xy: 285, 210
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair03/BodyColorType02/Back/HairBangBL
+  rotate: true
+  xy: 285, 210
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair03/BodyColorType00/Front/HairBangFR
+  rotate: true
+  xy: 303, 210
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair03/BodyColorType00/Front/HairFM
+  rotate: false
+  xy: 387, 183
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair03/BodyColorType00/Side/HairBangSR
+  rotate: true
+  xy: 333, 210
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair03/BodyColorType00/Side/HairSM
+  rotate: false
+  xy: 266, 25
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair03/BodyColorType02/Back/HairBM
+  rotate: false
+  xy: 431, 69
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair03/BodyColorType02/Front/HairBangFR
+  rotate: true
+  xy: 318, 210
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair03/BodyColorType02/Front/HairFM
+  rotate: false
+  xy: 405, 183
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair03/BodyColorType02/Side/HairBangSR
+  rotate: true
+  xy: 348, 210
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair03/BodyColorType02/Side/HairSM
+  rotate: false
+  xy: 284, 24
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Back/HairBB
+  rotate: false
+  xy: 483, 162
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Back/HairBM
+  rotate: true
+  xy: 2, 159
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Back/HairBangBL
+  rotate: true
+  xy: 451, 384
+  size: 7, 12
+  orig: 7, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Front/HairBangFL
+  rotate: true
+  xy: 451, 384
+  size: 7, 12
+  orig: 7, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Back/HairBangBM
+  rotate: false
+  xy: 377, 210
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Back/HairBangBR
+  rotate: true
+  xy: 465, 384
+  size: 7, 12
+  orig: 7, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Front/HairBangFR
+  rotate: true
+  xy: 465, 384
+  size: 7, 12
+  orig: 7, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Front/HairBangFM
+  rotate: false
+  xy: 257, 223
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Front/HairFB
+  rotate: false
+  xy: 18, 159
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Front/HairFM
+  rotate: false
+  xy: 289, 223
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Side/HairBangSL
+  rotate: true
+  xy: 314, 326
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Side/HairBangSR
+  rotate: true
+  xy: 314, 326
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Side/HairBangSM
+  rotate: true
+  xy: 479, 384
+  size: 7, 12
+  orig: 7, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Side/HairSB
+  rotate: true
+  xy: 411, 210
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair04/Side/HairSM
+  rotate: false
+  xy: 308, 59
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Back/HairBB
+  rotate: true
+  xy: 156, 60
+  size: 15, 23
+  orig: 15, 23
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Back/HairBM
+  rotate: false
+  xy: 215, 60
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Back/HairBangBL
+  rotate: true
+  xy: 369, 410
+  size: 6, 19
+  orig: 6, 19
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Front/HairBangFL
+  rotate: true
+  xy: 369, 410
+  size: 6, 19
+  orig: 6, 19
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Back/HairBangBM
+  rotate: false
+  xy: 224, 326
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Front/HairBangFM
+  rotate: false
+  xy: 224, 326
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Back/HairBangBR
+  rotate: true
+  xy: 405, 410
+  size: 6, 19
+  orig: 6, 19
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Front/HairBangFR
+  rotate: true
+  xy: 405, 410
+  size: 6, 19
+  orig: 6, 19
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Front/HairFB
+  rotate: true
+  xy: 250, 60
+  size: 15, 22
+  orig: 15, 22
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Front/HairFM
+  rotate: false
+  xy: 444, 208
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Side/HairBangSL
+  rotate: true
+  xy: 469, 410
+  size: 6, 16
+  orig: 6, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Side/HairBangSR
+  rotate: true
+  xy: 469, 410
+  size: 6, 16
+  orig: 6, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Side/HairBangSM
+  rotate: true
+  xy: 493, 383
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Side/HairSB
+  rotate: true
+  xy: 327, 326
+  size: 8, 18
+  orig: 8, 18
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05/Side/HairSM
+  rotate: false
+  xy: 325, 59
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Back/HairBB_Z
+  rotate: true
+  xy: 420, 16
+  size: 17, 21
+  orig: 17, 21
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Back/HairBM_Z
+  rotate: false
+  xy: 443, 16
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Back/HairBangBL_Z
+  rotate: true
+  xy: 158, 385
+  size: 7, 16
+  orig: 7, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Back/HairBangBR_Z
+  rotate: true
+  xy: 176, 385
+  size: 7, 15
+  orig: 7, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Front/HairBangFL_Z
+  rotate: true
+  xy: 187, 411
+  size: 6, 14
+  orig: 6, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Front/HairBangFM_Z
+  rotate: false
+  xy: 50, 214
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Front/HairBangFR_Z
+  rotate: true
+  xy: 217, 410
+  size: 6, 19
+  orig: 6, 19
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Front/HairFB_Z
+  rotate: true
+  xy: 462, 16
+  size: 17, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Front/HairFM_Z
+  rotate: false
+  xy: 396, 90
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Side/HairBangSL_Z
+  rotate: true
+  xy: 108, 419
+  size: 5, 10
+  orig: 5, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Side/HairBangSM_Z
+  rotate: false
+  xy: 67, 214
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Side/HairBangSR_Z
+  rotate: true
+  xy: 2, 420
+  size: 4, 13
+  orig: 4, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Side/HairSB_Z
+  rotate: true
+  xy: 207, 384
+  size: 7, 20
+  orig: 7, 20
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair05_Z/Side/HairSM_Z
+  rotate: false
+  xy: 288, 77
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair06/Back/HairBB
+  rotate: true
+  xy: 200, 223
+  size: 10, 25
+  orig: 10, 25
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair06/Back/HairBM
+  rotate: true
+  xy: 361, 168
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair06/Front/HairBangFM
+  rotate: true
+  xy: 145, 419
+  size: 5, 8
+  orig: 5, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair06/Front/HairFB
+  rotate: true
+  xy: 116, 212
+  size: 11, 25
+  orig: 11, 25
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair06/Front/HairFM
+  rotate: false
+  xy: 423, 181
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair06/Side/HairBangSM
+  rotate: true
+  xy: 441, 384
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair06/Side/HairSB
+  rotate: true
+  xy: 166, 327
+  size: 8, 21
+  orig: 8, 21
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair06/Side/HairSM
+  rotate: false
+  xy: 53, 62
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair07/Back/HairBB
+  rotate: true
+  xy: 365, 183
+  size: 12, 20
+  orig: 12, 20
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair07/Back/HairBM
+  rotate: false
+  xy: 448, 69
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair07/Front/HairBangFM
+  rotate: false
+  xy: 2, 367
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair07/Front/HairFB
+  rotate: true
+  xy: 343, 183
+  size: 12, 20
+  orig: 12, 20
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair07/Front/HairFM
+  rotate: false
+  xy: 428, 166
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair07/Side/HairBangSM
+  rotate: true
+  xy: 155, 419
+  size: 5, 8
+  orig: 5, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair07/Side/HairSB
+  rotate: true
+  xy: 262, 210
+  size: 11, 21
+  orig: 11, 21
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair07/Side/HairSM
+  rotate: false
+  xy: 71, 61
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08/Back/HairBM
+  rotate: true
+  xy: 232, 60
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08/Back/HairBangBL
+  rotate: true
+  xy: 390, 410
+  size: 6, 13
+  orig: 6, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08/Back/HairBangBM
+  rotate: false
+  xy: 242, 223
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08/Back/HairBangBR
+  rotate: true
+  xy: 426, 410
+  size: 6, 13
+  orig: 6, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08/Front/HairBangFL
+  rotate: true
+  xy: 441, 410
+  size: 6, 12
+  orig: 6, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08/Front/HairBangFM
+  rotate: false
+  xy: 274, 223
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08/Front/HairBangFR
+  rotate: true
+  xy: 455, 410
+  size: 6, 12
+  orig: 6, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08/Front/HairFM
+  rotate: false
+  xy: 461, 208
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08/Side/HairBangSL
+  rotate: true
+  xy: 165, 419
+  size: 5, 13
+  orig: 5, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08/Side/HairBangSM
+  rotate: true
+  xy: 180, 419
+  size: 5, 9
+  orig: 5, 9
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08/Side/HairBangSR
+  rotate: true
+  xy: 191, 419
+  size: 5, 13
+  orig: 5, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08/Side/HairSM
+  rotate: true
+  xy: 342, 59
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08_Z/Back/HairBM_Z
+  rotate: false
+  xy: 167, 25
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08_Z/Back/HairBangBL_Z
+  rotate: true
+  xy: 58, 328
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08_Z/Back/HairBangBR_Z
+  rotate: true
+  xy: 251, 235
+  size: 9, 12
+  orig: 9, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08_Z/Front/HairBangFL_Z
+  rotate: true
+  xy: 193, 385
+  size: 7, 12
+  orig: 7, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08_Z/Front/HairBangFM_Z
+  rotate: false
+  xy: 133, 225
+  size: 16, 10
+  orig: 16, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08_Z/Front/HairBangFR_Z
+  rotate: true
+  xy: 72, 328
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08_Z/Front/HairFB_Z
+  rotate: false
+  xy: 489, 16
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08_Z/Front/HairFM_Z
+  rotate: false
+  xy: 415, 90
+  size: 20, 14
+  orig: 20, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08_Z/Side/HairBangSL_Z
+  rotate: true
+  xy: 203, 411
+  size: 6, 12
+  orig: 6, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08_Z/Side/HairBangSR_Z
+  rotate: true
+  xy: 203, 411
+  size: 6, 12
+  orig: 6, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08_Z/Side/HairBangSM_Z
+  rotate: false
+  xy: 265, 235
+  size: 12, 9
+  orig: 12, 9
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair08_Z/Side/HairSM_Z
+  rotate: false
+  xy: 188, 25
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair09/Back/HairBM
+  rotate: false
+  xy: 378, 168
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair09/Front/HairFM
+  rotate: false
+  xy: 160, 210
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair09/Side/HairSM
+  rotate: false
+  xy: 447, 166
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair09_Z/Back/HairBM_Z
+  rotate: false
+  xy: 305, 76
+  size: 18, 15
+  orig: 18, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair09_Z/Front/HairFM_Z
+  rotate: false
+  xy: 321, 168
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair09_Z/Side/HairSM_Z
+  rotate: false
+  xy: 325, 76
+  size: 18, 15
+  orig: 18, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10/Back/HairBM
+  rotate: false
+  xy: 227, 25
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10/Back/HairBangBM
+  rotate: false
+  xy: 158, 338
+  size: 9, 8
+  orig: 9, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10/Front/HairBangFM
+  rotate: false
+  xy: 156, 328
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10/Front/HairFM
+  rotate: false
+  xy: 246, 25
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10/Side/HairBangSM
+  rotate: true
+  xy: 363, 210
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10/Side/HairSM
+  rotate: true
+  xy: 80, 7
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10_Z/Back/HairBM_Z
+  rotate: false
+  xy: 2, 9
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10_Z/Back/HairB_Drooping_Z
+  rotate: true
+  xy: 86, 328
+  size: 8, 10
+  orig: 8, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10_Z/Back/HairBangBL_Z
+  rotate: true
+  xy: 120, 419
+  size: 5, 10
+  orig: 5, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10_Z/Front/HairBangFM_Z
+  rotate: true
+  xy: 238, 410
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10_Z/Front/HairBangFR_Z
+  rotate: true
+  xy: 279, 235
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10_Z/Front/HairFM_Z
+  rotate: false
+  xy: 206, 25
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10_Z/Side/HairBangSM_Z
+  rotate: false
+  xy: 469, 346
+  size: 9, 8
+  orig: 9, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair10_Z/Side/HairSM_Z
+  rotate: false
+  xy: 22, 9
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Back/HairBB
+  rotate: true
+  xy: 100, 7
+  size: 17, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Back/HairBM
+  rotate: false
+  xy: 198, 60
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Back/HairBangBL
+  rotate: true
+  xy: 189, 326
+  size: 8, 18
+  orig: 8, 18
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Back/HairBangBM
+  rotate: false
+  xy: 209, 326
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Back/HairBangBR
+  rotate: true
+  xy: 239, 326
+  size: 8, 18
+  orig: 8, 18
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Front/HairBangFL
+  rotate: true
+  xy: 259, 326
+  size: 8, 18
+  orig: 8, 18
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Front/HairBangFM
+  rotate: false
+  xy: 279, 326
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Front/HairBangFR
+  rotate: true
+  xy: 294, 326
+  size: 8, 18
+  orig: 8, 18
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Front/HairFB
+  rotate: true
+  xy: 127, 7
+  size: 17, 26
+  orig: 17, 26
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Front/HairFM
+  rotate: false
+  xy: 427, 208
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Side/HairBangSL
+  rotate: true
+  xy: 12, 376
+  size: 7, 19
+  orig: 7, 19
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Side/HairBangSM
+  rotate: false
+  xy: 500, 262
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Side/HairBangSR
+  rotate: true
+  xy: 33, 376
+  size: 7, 19
+  orig: 7, 19
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Side/HairSB
+  rotate: true
+  xy: 2, 201
+  size: 11, 19
+  orig: 11, 19
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair11/Side/HairSM
+  rotate: false
+  xy: 291, 59
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12/Back/HairBB
+  rotate: true
+  xy: 379, 235
+  size: 9, 18
+  orig: 9, 18
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12/Back/HairBM
+  rotate: false
+  xy: 379, 107
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12/Front/HairBangFL
+  rotate: true
+  xy: 318, 410
+  size: 6, 15
+  orig: 6, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12/Front/HairBangFM
+  rotate: false
+  xy: 141, 328
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12/Front/HairBangFR
+  rotate: true
+  xy: 335, 410
+  size: 6, 15
+  orig: 6, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12/Front/HairFB
+  rotate: true
+  xy: 359, 235
+  size: 9, 18
+  orig: 9, 18
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12/Front/HairFM
+  rotate: false
+  xy: 177, 210
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12/Side/HairBangSL
+  rotate: true
+  xy: 423, 384
+  size: 7, 16
+  orig: 7, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12/Side/HairBangSR
+  rotate: true
+  xy: 423, 384
+  size: 7, 16
+  orig: 7, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12/Side/HairBangSM
+  rotate: false
+  xy: 144, 307
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12/Side/HairSB
+  rotate: true
+  xy: 417, 235
+  size: 9, 19
+  orig: 9, 19
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12/Side/HairSM
+  rotate: false
+  xy: 88, 60
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12_Z/Back/HairBB_Z
+  rotate: true
+  xy: 292, 235
+  size: 9, 14
+  orig: 9, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12_Z/Back/HairBM_Z
+  rotate: false
+  xy: 437, 86
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12_Z/Back/HairBangBL_Z
+  rotate: true
+  xy: 249, 410
+  size: 6, 13
+  orig: 6, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12_Z/Front/HairBangFL_Z
+  rotate: true
+  xy: 229, 384
+  size: 7, 13
+  orig: 7, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12_Z/Front/HairBangFM_Z
+  rotate: true
+  xy: 98, 328
+  size: 8, 10
+  orig: 8, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12_Z/Front/HairBangFR_Z
+  rotate: true
+  xy: 264, 410
+  size: 6, 15
+  orig: 6, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12_Z/Front/HairFB_Z
+  rotate: true
+  xy: 308, 235
+  size: 9, 14
+  orig: 9, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12_Z/Front/HairFM_Z
+  rotate: false
+  xy: 324, 235
+  size: 15, 9
+  orig: 15, 9
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12_Z/Side/HairBangSL_Z
+  rotate: true
+  xy: 244, 384
+  size: 7, 15
+  orig: 7, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12_Z/Side/HairBangSR_Z
+  rotate: true
+  xy: 244, 384
+  size: 7, 15
+  orig: 7, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12_Z/Side/HairBangSM_Z
+  rotate: true
+  xy: 281, 410
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12_Z/Side/HairSB_Z
+  rotate: true
+  xy: 151, 224
+  size: 10, 13
+  orig: 10, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair12_Z/Side/HairSM_Z
+  rotate: true
+  xy: 345, 76
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair13/Back/HairBM
+  rotate: true
+  xy: 395, 168
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair13/Front/HairFM
+  rotate: false
+  xy: 227, 223
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair13/Side/HairSM
+  rotate: false
+  xy: 464, 163
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair13_Z/Back/HairBB_Z
+  rotate: true
+  xy: 261, 384
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair13_Z/Back/HairBM_Z
+  rotate: false
+  xy: 363, 74
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair13_Z/Front/HairFM_Z
+  rotate: false
+  xy: 341, 168
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair13_Z/Side/HairSB_Z
+  rotate: true
+  xy: 271, 384
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair13_Z/Side/HairSM_Z
+  rotate: true
+  xy: 305, 169
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair18/Back/HairBB
+  rotate: true
+  xy: 232, 4
+  size: 19, 26
+  orig: 19, 26
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair18/Back/HairBM
+  rotate: false
+  xy: 181, 60
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair18/Back/HairBangBM
+  rotate: false
+  xy: 438, 234
+  size: 17, 9
+  orig: 17, 9
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair18/Front/HairBangFM
+  rotate: false
+  xy: 457, 234
+  size: 17, 9
+  orig: 17, 9
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair18/Front/HairFB
+  rotate: true
+  xy: 284, 3
+  size: 19, 26
+  orig: 19, 26
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair18/Front/HairFM
+  rotate: false
+  xy: 394, 210
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair18/Side/HairBangSM
+  rotate: false
+  xy: 476, 234
+  size: 12, 9
+  orig: 12, 9
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair18/Side/HairSB
+  rotate: true
+  xy: 478, 205
+  size: 11, 19
+  orig: 11, 19
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair18/Side/HairSM
+  rotate: false
+  xy: 274, 60
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair19/Back/HairBM
+  rotate: false
+  xy: 411, 166
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair19/Front/HairFM
+  rotate: false
+  xy: 194, 210
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair19/Side/HairSM
+  rotate: false
+  xy: 56, 96
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Back/HairBB
+  rotate: true
+  xy: 281, 384
+  size: 7, 16
+  orig: 7, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Back/HairBM
+  rotate: false
+  xy: 457, 117
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Back/HairBangBL
+  rotate: true
+  xy: 299, 384
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Back/HairBangBM
+  rotate: false
+  xy: 166, 223
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Back/HairBangBR
+  rotate: true
+  xy: 311, 384
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Front/HairBangFL
+  rotate: true
+  xy: 292, 410
+  size: 6, 11
+  orig: 6, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Front/HairBangFM
+  rotate: false
+  xy: 183, 223
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Front/HairBangFR
+  rotate: true
+  xy: 305, 410
+  size: 6, 11
+  orig: 6, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Front/HairFB
+  rotate: true
+  xy: 323, 384
+  size: 7, 16
+  orig: 7, 16
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Front/HairFM
+  rotate: false
+  xy: 82, 213
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Side/HairBangSL
+  rotate: true
+  xy: 341, 384
+  size: 7, 12
+  orig: 7, 12
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Side/HairBangSM
+  rotate: false
+  xy: 110, 328
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Side/HairBangSR
+  rotate: true
+  xy: 132, 419
+  size: 5, 11
+  orig: 5, 11
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Side/HairSB
+  rotate: true
+  xy: 355, 384
+  size: 7, 14
+  orig: 7, 14
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair20/Side/HairSM
+  rotate: false
+  xy: 380, 73
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair22/Back/HairBM
+  rotate: true
+  xy: 41, 7
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair22/Front/HairFM
+  rotate: false
+  xy: 61, 7
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+images/Hair/Female/Hair22/Side/HairSM
+  rotate: true
+  xy: 302, 24
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/Anim_IronLance
+  rotate: true
+  xy: 54, 376
+  size: 7, 51
+  orig: 7, 51
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/Anim_RockLance
+  rotate: true
+  xy: 18, 403
+  size: 6, 48
+  orig: 6, 48
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_ClawHammer
+  rotate: false
+  xy: 312, 2
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_HandLight
+  rotate: true
+  xy: 347, 326
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_IronAxe
+  rotate: true
+  xy: 23, 201
+  size: 11, 15
+  orig: 11, 15
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_IronCrowbar
+  rotate: true
+  xy: 490, 231
+  size: 9, 19
+  orig: 9, 19
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_IronHammer
+  rotate: true
+  xy: 52, 158
+  size: 13, 25
+  orig: 13, 25
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_IronHoe
+  rotate: true
+  xy: 304, 223
+  size: 10, 26
+  orig: 10, 26
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_IronPick
+  rotate: true
+  xy: 260, 4
+  size: 19, 22
+  orig: 19, 22
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_MetalBat
+  rotate: true
+  xy: 68, 403
+  size: 6, 27
+  orig: 6, 27
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_Sickle
+  rotate: true
+  xy: 79, 156
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_StoneAxe
+  rotate: true
+  xy: 40, 201
+  size: 11, 15
+  orig: 11, 15
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_StoneHammer
+  rotate: true
+  xy: 97, 156
+  size: 13, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_StonePick
+  rotate: true
+  xy: 378, 56
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_Torch
+  rotate: true
+  xy: 107, 376
+  size: 7, 20
+  orig: 7, 20
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/MW_WoodBat
+  rotate: true
+  xy: 362, 326
+  size: 8, 26
+  orig: 8, 26
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/THW_IncomExplosive
+  rotate: false
+  xy: 499, 204
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+images/Weapon/MeleeWeapon/THW_IncomExplosives
+  rotate: true
+  xy: 455, 86
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Bow_Crossbow_FB
+  rotate: true
+  xy: 155, 6
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Bow_Crossbow_S
+  rotate: false
+  xy: 2, 227
+  size: 17, 9
+  orig: 17, 9
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Gun_Pistol_M60_FB
+  rotate: true
+  xy: 129, 376
+  size: 7, 14
+  orig: 7, 14
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Gun_Pistol_M60_S
+  rotate: false
+  xy: 332, 223
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Gun_Rifle_Carbine_FB
+  rotate: true
+  xy: 145, 376
+  size: 7, 29
+  orig: 7, 29
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Gun_Rifle_Carbine_S
+  rotate: false
+  xy: 73, 200
+  size: 29, 11
+  orig: 29, 11
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Gun_Rifle_M16_FB
+  rotate: true
+  xy: 176, 376
+  size: 7, 28
+  orig: 7, 28
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Gun_Rifle_M16_S
+  rotate: false
+  xy: 440, 181
+  size: 28, 12
+  orig: 28, 12
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Gun_SMG_Mp5_FB
+  rotate: true
+  xy: 206, 375
+  size: 7, 20
+  orig: 7, 20
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Gun_SMG_Mp5_S
+  rotate: false
+  xy: 485, 177
+  size: 22, 12
+  orig: 22, 12
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Gun_Shotgun_M3_FB
+  rotate: true
+  xy: 228, 375
+  size: 7, 28
+  orig: 7, 28
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Gun_Shotgun_M3_S
+  rotate: false
+  xy: 2, 174
+  size: 29, 12
+  orig: 29, 12
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_SlingShot_Metal
+  rotate: true
+  xy: 21, 227
+  size: 9, 12
+  orig: 9, 12
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_SlingShot_Wood
+  rotate: true
+  xy: 35, 227
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Slingshot_Rubberband01
+  rotate: true
+  xy: 258, 375
+  size: 7, 15
+  orig: 7, 15
+  offset: 0, 0
+  index: -1
+images/Weapon/RangedWeapon/RW_Slingshot_Rubberband02
+  rotate: false
+  xy: 206, 419
+  size: 9, 5
+  orig: 9, 5
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Back/DW_PantsB
+  rotate: true
+  xy: 120, 155
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Back/DW_ShoeBL_00
+  rotate: false
+  xy: 487, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Back/DW_ShoeBR_00
+  rotate: false
+  xy: 487, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 390, 326
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 475, 325
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 53, 318
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 138, 318
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Front/DW_PantsF
+  rotate: true
+  xy: 228, 154
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Front/DW_ShoeFL
+  rotate: false
+  xy: 10, 404
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Front/DW_ShoeFR
+  rotate: false
+  xy: 10, 404
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 234, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 309, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 384, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 459, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Side/DW_PantsS
+  rotate: true
+  xy: 57, 201
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Side/DW_ShoeSL
+  rotate: false
+  xy: 121, 403
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Side/DW_ShoeSR
+  rotate: false
+  xy: 176, 403
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Side/DW_TrouserSL
+  rotate: true
+  xy: 32, 308
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear00/Side/DW_TrouserSR
+  rotate: true
+  xy: 102, 308
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Back/DW_PantsB
+  rotate: true
+  xy: 138, 154
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Back/DW_ShoeBL_00
+  rotate: false
+  xy: 495, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Back/DW_ShoeBR_00
+  rotate: false
+  xy: 495, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear11/Back/DW_ShoeBL_00
+  rotate: false
+  xy: 495, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear11/Back/DW_ShoeBR_00
+  rotate: false
+  xy: 495, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 407, 326
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 492, 325
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 70, 318
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 166, 317
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Front/DW_PantsF
+  rotate: true
+  xy: 246, 154
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Front/DW_ShoeFL
+  rotate: false
+  xy: 97, 403
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear11/Front/DW_ShoeFR
+  rotate: false
+  xy: 97, 403
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 249, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 324, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 399, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 474, 315
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Side/DW_PantsS
+  rotate: true
+  xy: 104, 199
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Side/DW_ShoeSL
+  rotate: false
+  xy: 132, 403
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear11/Side/DW_ShoeSL
+  rotate: false
+  xy: 132, 403
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Side/DW_ShoeSR
+  rotate: false
+  xy: 186, 403
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear11/Side/DW_ShoeSR
+  rotate: false
+  xy: 186, 403
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Side/DW_TrouserSL
+  rotate: true
+  xy: 46, 308
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Side/DW_TrouserSR
+  rotate: true
+  xy: 116, 308
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Back/DW_PantsB
+  rotate: true
+  xy: 156, 154
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Back/DW_ShoeBL_00
+  rotate: false
+  xy: 503, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Back/DW_ShoeBR_00
+  rotate: false
+  xy: 503, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Front/DW_ShoeFL
+  rotate: false
+  xy: 503, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Front/DW_ShoeFR
+  rotate: false
+  xy: 503, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Back/DW_ShoeBL_00
+  rotate: false
+  xy: 503, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Back/DW_ShoeBR_00
+  rotate: false
+  xy: 503, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Front/DW_ShoeFL
+  rotate: false
+  xy: 503, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Front/DW_ShoeFR
+  rotate: false
+  xy: 503, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Back/DW_ShoeBL_00
+  rotate: false
+  xy: 503, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Back/DW_ShoeBR_00
+  rotate: false
+  xy: 503, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Front/DW_ShoeFL
+  rotate: false
+  xy: 503, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Front/DW_ShoeFR
+  rotate: false
+  xy: 503, 410
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 424, 326
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 2, 318
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 87, 318
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 183, 316
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Front/DW_PantsF
+  rotate: true
+  xy: 264, 154
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 264, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 339, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 414, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 489, 315
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Side/DW_PantsS
+  rotate: true
+  xy: 120, 199
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Side/DW_ShoeSL
+  rotate: false
+  xy: 143, 403
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Side/DW_ShoeSR
+  rotate: false
+  xy: 196, 403
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Side/DW_TrouserSL
+  rotate: true
+  xy: 60, 308
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear02/Side/DW_TrouserSR
+  rotate: true
+  xy: 130, 308
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Back/DW_PantsB
+  rotate: true
+  xy: 174, 154
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 441, 326
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 19, 318
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 104, 318
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 200, 316
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Front/DW_PantsF
+  rotate: true
+  xy: 282, 154
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 279, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 354, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 429, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 2, 308
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Side/DW_PantsS
+  rotate: true
+  xy: 136, 198
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Side/DW_ShoeSL
+  rotate: false
+  xy: 154, 403
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Side/DW_ShoeSL
+  rotate: false
+  xy: 154, 403
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Side/DW_ShoeSR
+  rotate: false
+  xy: 206, 403
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Side/DW_ShoeSR
+  rotate: false
+  xy: 206, 403
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Side/DW_TrouserSL
+  rotate: true
+  xy: 74, 308
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear03/Side/DW_TrouserSR
+  rotate: true
+  xy: 155, 307
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Back/DW_PantsB
+  rotate: true
+  xy: 192, 154
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 458, 326
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 36, 318
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 121, 318
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 217, 316
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Front/DW_PantsF
+  rotate: true
+  xy: 300, 154
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 294, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 369, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 444, 316
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 17, 308
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Side/DW_PantsS
+  rotate: true
+  xy: 152, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Side/DW_TrouserSL
+  rotate: true
+  xy: 88, 308
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear04/Side/DW_TrouserSR
+  rotate: true
+  xy: 169, 307
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Back/DW_PantsB
+  rotate: true
+  xy: 336, 153
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Back/DW_ShoeBL_00
+  rotate: false
+  xy: 275, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Back/DW_ShoeBR_00
+  rotate: false
+  xy: 275, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Front/DW_ShoeFL
+  rotate: false
+  xy: 275, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Front/DW_ShoeFR
+  rotate: false
+  xy: 275, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 183, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 319, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 472, 305
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 104, 298
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Front/DW_PantsF
+  rotate: true
+  xy: 480, 147
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 240, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 360, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 480, 295
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 92, 288
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Side/DW_PantsS
+  rotate: true
+  xy: 184, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Side/DW_ShoeSL
+  rotate: false
+  xy: 226, 402
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Side/DW_ShoeSR
+  rotate: false
+  xy: 224, 286
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Side/DW_TrouserSL
+  rotate: true
+  xy: 308, 286
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear05/Side/DW_TrouserSR
+  rotate: true
+  xy: 420, 286
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Back/DW_PantsB
+  rotate: true
+  xy: 354, 153
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Back/DW_ShoeBL_00
+  rotate: false
+  xy: 285, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Back/DW_ShoeBR_00
+  rotate: false
+  xy: 285, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 200, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 336, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 489, 305
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 121, 298
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Front/DW_PantsF
+  rotate: true
+  xy: 2, 144
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Front/DW_ShoeFL
+  rotate: false
+  xy: 355, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Front/DW_ShoeFR
+  rotate: false
+  xy: 355, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 255, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 375, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 495, 295
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 107, 288
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Side/DW_PantsS
+  rotate: true
+  xy: 200, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Side/DW_ShoeSL
+  rotate: false
+  xy: 237, 402
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Side/DW_ShoeSL
+  rotate: false
+  xy: 237, 402
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Side/DW_ShoeSR
+  rotate: false
+  xy: 236, 286
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Side/DW_TrouserSL
+  rotate: true
+  xy: 322, 286
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Side/DW_TrouserSL
+  rotate: true
+  xy: 322, 286
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear06/Side/DW_TrouserSR
+  rotate: true
+  xy: 434, 286
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Back/DW_PantsB
+  rotate: true
+  xy: 372, 153
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Back/DW_ShoeBL_00
+  rotate: false
+  xy: 295, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Back/DW_ShoeBR_00
+  rotate: false
+  xy: 295, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 217, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 353, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 2, 298
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 138, 297
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Front/DW_PantsF
+  rotate: true
+  xy: 20, 144
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Front/DW_ShoeFL
+  rotate: false
+  xy: 365, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Front/DW_ShoeFR
+  rotate: false
+  xy: 365, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 270, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 390, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 2, 288
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 122, 288
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Side/DW_PantsS
+  rotate: true
+  xy: 216, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Side/DW_ShoeSL
+  rotate: false
+  xy: 248, 402
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Side/DW_ShoeSR
+  rotate: false
+  xy: 248, 286
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Side/DW_TrouserSL
+  rotate: true
+  xy: 336, 286
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear07/Side/DW_TrouserSR
+  rotate: true
+  xy: 448, 286
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Back/DW_PantsB
+  rotate: true
+  xy: 390, 153
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Back/DW_ShoeBL
+  rotate: false
+  xy: 305, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Back/DW_ShoeBR
+  rotate: false
+  xy: 305, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Front/DW_ShoeFL
+  rotate: false
+  xy: 305, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Front/DW_ShoeFR
+  rotate: false
+  xy: 305, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 234, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 370, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 19, 298
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 155, 297
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Front/DW_PantsF
+  rotate: true
+  xy: 38, 143
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 285, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 405, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 17, 288
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 137, 287
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Side/DW_PantsS
+  rotate: true
+  xy: 232, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Side/DW_ShoeSL
+  rotate: false
+  xy: 259, 402
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Side/DW_ShoeSR
+  rotate: false
+  xy: 260, 286
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Side/DW_TrouserSL
+  rotate: true
+  xy: 350, 286
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear08/Side/DW_TrouserSR
+  rotate: true
+  xy: 462, 285
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Back/DW_PantsB
+  rotate: true
+  xy: 408, 151
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Back/DW_ShoeBL
+  rotate: false
+  xy: 315, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Back/DW_ShoeBR
+  rotate: false
+  xy: 315, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Front/DW_ShoeFL
+  rotate: false
+  xy: 315, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Front/DW_ShoeFR
+  rotate: false
+  xy: 315, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 251, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 387, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 36, 298
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 172, 296
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Front/DW_PantsF
+  rotate: true
+  xy: 56, 143
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 300, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 420, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 32, 288
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 152, 287
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Side/DW_PantsS
+  rotate: true
+  xy: 248, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Side/DW_ShoeSL
+  rotate: false
+  xy: 270, 402
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Side/DW_ShoeSR
+  rotate: false
+  xy: 272, 286
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Side/DW_TrouserSL
+  rotate: true
+  xy: 364, 286
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear09/Side/DW_TrouserSR
+  rotate: true
+  xy: 476, 285
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear10/Back/DW_ShoeBL_00
+  rotate: false
+  xy: 2, 404
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear10/Back/DW_ShoeBR_00
+  rotate: false
+  xy: 2, 404
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear10/Back/DW_SkirtB
+  rotate: false
+  xy: 128, 139
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear10/Front/DW_ShoeFL
+  rotate: false
+  xy: 105, 403
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear10/Front/DW_ShoeFR
+  rotate: false
+  xy: 105, 403
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear10/Front/DW_SkirtF
+  rotate: false
+  xy: 145, 139
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear10/Side/DW_ShoeSL
+  rotate: false
+  xy: 165, 403
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear10/Side/DW_ShoeSR
+  rotate: false
+  xy: 216, 402
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear10/Side/DW_SkirtS
+  rotate: false
+  xy: 162, 139
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear11/Back/DW_SkirtB
+  rotate: false
+  xy: 179, 139
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear11/Front/DW_ShoeFL
+  rotate: false
+  xy: 113, 403
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear01/Front/DW_ShoeFR
+  rotate: false
+  xy: 113, 403
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear11/Front/DW_SkirtF
+  rotate: false
+  xy: 196, 139
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear11/Side/DW_SkirtS
+  rotate: false
+  xy: 213, 139
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Back/DW_PantsB
+  rotate: true
+  xy: 230, 139
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Back/DW_ShoeBL
+  rotate: false
+  xy: 330, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Back/DW_ShoeBR
+  rotate: false
+  xy: 330, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Back/DW_SkirtB
+  rotate: false
+  xy: 266, 139
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 64, 278
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 115, 278
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 166, 276
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 217, 276
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Front/DW_PantsF
+  rotate: true
+  xy: 300, 139
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Front/DW_ShoeFL
+  rotate: false
+  xy: 354, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Front/DW_ShoeFR
+  rotate: false
+  xy: 354, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Front/DW_SkirtF
+  rotate: false
+  xy: 336, 138
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 264, 276
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 309, 276
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 354, 276
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 399, 276
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Side/DW_PantsS
+  rotate: true
+  xy: 312, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Side/DW_ShoeSR
+  rotate: false
+  xy: 412, 402
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Side/DW_SkirtS
+  rotate: false
+  xy: 370, 138
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear12/Side/DW_TrouserSR
+  rotate: true
+  xy: 470, 275
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Back/DW_PantsB
+  rotate: true
+  xy: 404, 136
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Back/DW_ShoeBL
+  rotate: false
+  xy: 314, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Back/DW_ShoeBR
+  rotate: false
+  xy: 314, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Back/DW_SkirtB
+  rotate: false
+  xy: 422, 136
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 30, 278
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 81, 278
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 132, 277
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 183, 276
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Front/DW_PantsF
+  rotate: true
+  xy: 439, 136
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Front/DW_ShoeFL
+  rotate: false
+  xy: 338, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Front/DW_ShoeFR
+  rotate: false
+  xy: 362, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Front/DW_SkirtF
+  rotate: false
+  xy: 457, 133
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 234, 276
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 279, 276
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 324, 276
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 369, 276
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Side/DW_PantsS
+  rotate: true
+  xy: 344, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Side/DW_ShoeSL
+  rotate: false
+  xy: 370, 402
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Side/DW_ShoeSR
+  rotate: false
+  xy: 392, 402
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Side/DW_SkirtS
+  rotate: false
+  xy: 474, 132
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Side/DW_TrouserSL
+  rotate: true
+  xy: 414, 276
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear13/Side/DW_TrouserSR
+  rotate: true
+  xy: 442, 276
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Back/DW_PantsB
+  rotate: true
+  xy: 426, 151
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Back/DW_ShoeBL_00
+  rotate: false
+  xy: 325, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Back/DW_ShoeBR_00
+  rotate: false
+  xy: 325, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 268, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 404, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 53, 298
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 189, 296
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Front/DW_PantsF
+  rotate: true
+  xy: 74, 141
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Front/DW_ShoeFL
+  rotate: false
+  xy: 375, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Front/DW_ShoeFR
+  rotate: false
+  xy: 375, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 315, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 435, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 47, 288
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 167, 286
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Side/DW_PantsS
+  rotate: true
+  xy: 264, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Side/DW_ShoeSL
+  rotate: false
+  xy: 281, 402
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Side/DW_ShoeSR
+  rotate: false
+  xy: 284, 286
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Side/DW_TrouserSL
+  rotate: true
+  xy: 378, 286
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear14/Side/DW_TrouserSR
+  rotate: true
+  xy: 490, 285
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Back/DW_PantsB
+  rotate: true
+  xy: 444, 151
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Back/DW_ShoeBL
+  rotate: false
+  xy: 2, 377
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Back/DW_ShoeBR
+  rotate: false
+  xy: 335, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Back/DW_Tail_B
+  rotate: true
+  xy: 422, 402
+  size: 6, 14
+  orig: 6, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Front/DW_Tail_F
+  rotate: true
+  xy: 422, 402
+  size: 6, 14
+  orig: 6, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 285, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 421, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 70, 298
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 206, 296
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Front/DW_PantsF
+  rotate: true
+  xy: 92, 141
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Front/DW_ShoeFL
+  rotate: false
+  xy: 385, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Front/DW_ShoeFR
+  rotate: false
+  xy: 405, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 330, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 450, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 62, 288
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 182, 286
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Side/DW_PantsS
+  rotate: true
+  xy: 280, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Side/DW_ShoeSL
+  rotate: false
+  xy: 292, 402
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Side/DW_ShoeSR
+  rotate: false
+  xy: 296, 286
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Side/DW_Tail_S
+  rotate: false
+  xy: 360, 197
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Side/DW_TrouserSL
+  rotate: true
+  xy: 392, 286
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear17/Side/DW_TrouserSR
+  rotate: true
+  xy: 2, 278
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Back/DW_PantsB
+  rotate: true
+  xy: 248, 139
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Back/DW_ShoeBL
+  rotate: false
+  xy: 322, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Back/DW_ShoeBR
+  rotate: false
+  xy: 322, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Back/DW_SkirtB
+  rotate: false
+  xy: 283, 139
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 47, 278
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 98, 278
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 149, 277
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 200, 276
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Front/DW_PantsF
+  rotate: true
+  xy: 318, 138
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Front/DW_ShoeFL
+  rotate: false
+  xy: 346, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Front/DW_ShoeFR
+  rotate: false
+  xy: 346, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Front/DW_SkirtF
+  rotate: false
+  xy: 353, 138
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 249, 276
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 294, 276
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 339, 276
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 384, 276
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Side/DW_PantsS
+  rotate: true
+  xy: 328, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Side/DW_ShoeSL
+  rotate: false
+  xy: 381, 402
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Side/DW_ShoeSR
+  rotate: false
+  xy: 402, 402
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Side/DW_SkirtS
+  rotate: false
+  xy: 387, 138
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Side/DW_TrouserSL
+  rotate: true
+  xy: 428, 276
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear18/Side/DW_TrouserSR
+  rotate: true
+  xy: 456, 275
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Back/DW_PantsB
+  rotate: true
+  xy: 462, 148
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Back/DW_ShoeBL
+  rotate: false
+  xy: 345, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Back/DW_ShoeBR
+  rotate: false
+  xy: 345, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 302, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 438, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 87, 298
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 223, 296
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Front/DW_PantsF
+  rotate: true
+  xy: 110, 140
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Front/DW_ShoeFL
+  rotate: false
+  xy: 395, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Front/DW_ShoeFR
+  rotate: false
+  xy: 395, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 345, 296
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 465, 295
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 77, 288
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 197, 286
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Side/DW_PantsS
+  rotate: true
+  xy: 296, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Side/DW_ShoeSL
+  rotate: false
+  xy: 303, 402
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Side/DW_ShoeSR
+  rotate: false
+  xy: 212, 286
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Side/DW_TrouserSL
+  rotate: true
+  xy: 406, 286
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear19/Side/DW_TrouserSR
+  rotate: true
+  xy: 16, 278
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Back/DW_PantsB
+  rotate: true
+  xy: 491, 132
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Back/DW_ShoeBL
+  rotate: false
+  xy: 438, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Front/DW_ShoeFL
+  rotate: false
+  xy: 438, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Back/DW_ShoeBR
+  rotate: false
+  xy: 446, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Front/DW_ShoeFR
+  rotate: false
+  xy: 446, 402
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 484, 275
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 2, 268
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 19, 268
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 36, 268
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Front/DW_PantsF
+  rotate: true
+  xy: 2, 129
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 53, 268
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 68, 268
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 83, 268
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 98, 268
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Side/DW_PantsS
+  rotate: true
+  xy: 374, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Side/DW_ShoeSL
+  rotate: false
+  xy: 454, 402
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Side/DW_ShoeSR
+  rotate: false
+  xy: 465, 402
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Side/DW_TrouserSL
+  rotate: true
+  xy: 113, 268
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear20/Side/DW_TrouserSR
+  rotate: true
+  xy: 127, 267
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Back/DW_PantsB
+  rotate: true
+  xy: 20, 129
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Back/DW_ShoeBL
+  rotate: false
+  xy: 415, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Front/DW_ShoeFR
+  rotate: false
+  xy: 415, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Back/DW_ShoeBR
+  rotate: false
+  xy: 425, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Front/DW_ShoeFL
+  rotate: false
+  xy: 425, 375
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Back/DW_TrouserBL_00
+  rotate: true
+  xy: 141, 267
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Back/DW_TrouserBL_01
+  rotate: true
+  xy: 455, 306
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Back/DW_TrouserBR_00
+  rotate: true
+  xy: 158, 266
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Back/DW_TrouserBR_01
+  rotate: true
+  xy: 175, 266
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Front/DW_PantsF
+  rotate: true
+  xy: 38, 128
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Front/DW_TrouserFL_00
+  rotate: true
+  xy: 192, 266
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Front/DW_TrouserFL_01
+  rotate: true
+  xy: 207, 266
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Front/DW_TrouserFR_00
+  rotate: true
+  xy: 222, 266
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Front/DW_TrouserFR_01
+  rotate: true
+  xy: 237, 266
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Side/DW_PantsS
+  rotate: true
+  xy: 390, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Side/DW_ShoeSL
+  rotate: false
+  xy: 475, 402
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Side/DW_ShoeSR
+  rotate: false
+  xy: 252, 266
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Side/DW_TrouserSL
+  rotate: true
+  xy: 264, 266
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear22/Side/DW_TrouserSR
+  rotate: true
+  xy: 278, 266
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear999/Back/DW_PantsB
+  rotate: true
+  xy: 210, 154
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear10/Back/DW_PantsB
+  rotate: true
+  xy: 210, 154
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear999/Front/DW_PantsF
+  rotate: true
+  xy: 318, 153
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear10/Front/DW_PantsF
+  rotate: true
+  xy: 318, 153
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear999/Side/DW_PantsS
+  rotate: true
+  xy: 168, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Down/Female/DownWear10/Side/DW_PantsS
+  rotate: true
+  xy: 168, 197
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear00/Back/HW_Main_B_00
+  rotate: false
+  xy: 90, 126
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear00/Front/HW_Main_F_00
+  rotate: true
+  xy: 462, 52
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear00/Front/HW_Main_F_01
+  rotate: true
+  xy: 214, 43
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear00/Front/HW_Main_F_02
+  rotate: true
+  xy: 457, 35
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear00/Side/HW_Main_S_00
+  rotate: false
+  xy: 316, 123
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear01/Back/HW_Main_B_00
+  rotate: false
+  xy: 107, 125
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear01/Front/HW_Main_F_00
+  rotate: true
+  xy: 480, 52
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear01/Front/HW_Main_F_01
+  rotate: true
+  xy: 233, 43
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear01/Front/HW_Main_F_02
+  rotate: true
+  xy: 475, 35
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear01/Side/HW_Main_S_00
+  rotate: false
+  xy: 336, 123
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear02/Back/HW_Main_B_00
+  rotate: false
+  xy: 124, 124
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear02/Front/HW_Main_F_00
+  rotate: false
+  xy: 19, 46
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear02/Front/HW_Main_F_01
+  rotate: true
+  xy: 252, 43
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear02/Front/HW_Main_F_02
+  rotate: true
+  xy: 493, 35
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear02/Side/HW_Main_S_00
+  rotate: false
+  xy: 356, 123
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear03/Back/HW_Main_B_00
+  rotate: false
+  xy: 141, 124
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear03/Front/HW_Main_F_00
+  rotate: true
+  xy: 36, 45
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear03/Front/HW_Main_F_01
+  rotate: true
+  xy: 271, 43
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear03/Front/HW_Main_F_02
+  rotate: false
+  xy: 2, 31
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear03/Side/HW_Main_S_00
+  rotate: false
+  xy: 376, 123
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear04/Back/HW_Main_B_00
+  rotate: false
+  xy: 158, 124
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear04/Front/HW_Main_F_00
+  rotate: false
+  xy: 54, 44
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear04/Front/HW_Main_F_01
+  rotate: true
+  xy: 290, 42
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear04/Front/HW_Main_F_02
+  rotate: false
+  xy: 19, 28
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear04/Side/HW_Main_S_00
+  rotate: false
+  xy: 396, 121
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear05/Back/HW_Main_B_00
+  rotate: false
+  xy: 470, 178
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear05/Front/HW_Main_F_00
+  rotate: false
+  xy: 37, 159
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear05/Front/HW_Main_F_01
+  rotate: true
+  xy: 309, 42
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear05/Front/HW_Main_F_02
+  rotate: false
+  xy: 226, 124
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear05/Side/HW_Main_S_00
+  rotate: false
+  xy: 33, 174
+  size: 18, 12
+  orig: 18, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear06/Back/HW_Main_B_00
+  rotate: false
+  xy: 379, 91
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear06/Front/HW_Main_F_00
+  rotate: false
+  xy: 2, 49
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear06/Front/HW_Main_F_01
+  rotate: true
+  xy: 327, 42
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear06/Front/HW_Main_F_02
+  rotate: false
+  xy: 243, 124
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear06/Side/HW_Main_S_00
+  rotate: false
+  xy: 53, 173
+  size: 18, 12
+  orig: 18, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear07/Back/HW_Main_B_00
+  rotate: false
+  xy: 73, 126
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear07/Front/HW_Main_F_00
+  rotate: false
+  xy: 192, 124
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear07/Front/HW_Main_F_01
+  rotate: true
+  xy: 195, 43
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear07/Front/HW_Main_F_02
+  rotate: true
+  xy: 439, 35
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear07/Side/HW_Main_S_00
+  rotate: false
+  xy: 297, 124
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear08/Back/HW_Main_B_00
+  rotate: false
+  xy: 175, 124
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear08/Front/HW_Main_F_00
+  rotate: false
+  xy: 209, 124
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear08/Front/HW_Main_F_01
+  rotate: true
+  xy: 345, 40
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear08/Front/HW_Main_F_02
+  rotate: true
+  xy: 36, 28
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear08/Side/HW_Main_S_00
+  rotate: false
+  xy: 416, 121
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear09/Back/HW_Main_B_00
+  rotate: false
+  xy: 321, 24
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear09/Front/HW_Main_F_00
+  rotate: false
+  xy: 71, 43
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear09/Front/HW_Main_F_01
+  rotate: false
+  xy: 175, 6
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear09/Front/HW_Main_F_02
+  rotate: false
+  xy: 363, 21
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear09/Side/HW_Main_S_00
+  rotate: false
+  xy: 89, 26
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear10/Back/HW_Main_B_00
+  rotate: false
+  xy: 342, 22
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear10/Front/HW_Main_F_00
+  rotate: false
+  xy: 92, 43
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear10/Front/HW_Main_F_01
+  rotate: false
+  xy: 194, 6
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear10/Front/HW_Main_F_02
+  rotate: false
+  xy: 382, 21
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear10/Side/HW_Main_S_00
+  rotate: false
+  xy: 110, 26
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear11/Back/HW_Main_B_00
+  rotate: false
+  xy: 399, 56
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear11/Front/HW_Main_F_00
+  rotate: false
+  xy: 113, 43
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear11/Front/HW_Main_F_01
+  rotate: false
+  xy: 213, 6
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear11/Front/HW_Main_F_02
+  rotate: false
+  xy: 401, 21
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear11/Side/HW_Main_S_00
+  rotate: false
+  xy: 2, 83
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear12/Back/HW_Main_B_00
+  rotate: false
+  xy: 348, 223
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear12/Front/HW_Main_F_00
+  rotate: false
+  xy: 435, 375
+  size: 13, 7
+  orig: 13, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear12/Front/HW_Main_F_01
+  rotate: false
+  xy: 465, 375
+  size: 13, 7
+  orig: 13, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear12/Front/HW_Main_F_02
+  rotate: false
+  xy: 486, 402
+  size: 13, 6
+  orig: 13, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear12/Side/HW_Main_S_00
+  rotate: false
+  xy: 48, 227
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear13/Back/HW_Main_B_00
+  rotate: false
+  xy: 363, 223
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear13/Front/HW_Main_F_00
+  rotate: false
+  xy: 450, 375
+  size: 13, 7
+  orig: 13, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear13/Front/HW_Main_F_01
+  rotate: false
+  xy: 492, 374
+  size: 13, 7
+  orig: 13, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear13/Front/HW_Main_F_02
+  rotate: false
+  xy: 12, 367
+  size: 13, 7
+  orig: 13, 7
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear13/Side/HW_Main_S_00
+  rotate: false
+  xy: 64, 227
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear14/Back/HW_Main_B_00
+  rotate: false
+  xy: 378, 223
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear14/Front/HW_Main_F_00
+  rotate: false
+  xy: 423, 195
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear14/Front/HW_Main_F_01
+  rotate: true
+  xy: 364, 39
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear14/Front/HW_Main_F_02
+  rotate: false
+  xy: 54, 26
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear14/Side/HW_Main_S_00
+  rotate: false
+  xy: 393, 223
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear15/Back/HW_Main_B_00
+  rotate: false
+  xy: 406, 197
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear15/Front/HW_Main_F_00
+  rotate: false
+  xy: 438, 195
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear15/Front/HW_Main_F_01
+  rotate: true
+  xy: 383, 39
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear15/Front/HW_Main_F_02
+  rotate: true
+  xy: 71, 26
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear15/Side/HW_Main_S_00
+  rotate: false
+  xy: 410, 223
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear17/Back/HW_Main_B_00
+  rotate: false
+  xy: 474, 86
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear17/Back/HW_Main_B_00_EarL
+  rotate: true
+  xy: 292, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear17/Back/HW_Main_B_00_EarR
+  rotate: true
+  xy: 305, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear17/Front/HW_Main_F_00
+  rotate: false
+  xy: 443, 52
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear17/Front/HW_Main_F_00_EarPartsL
+  rotate: true
+  xy: 318, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear17/Front/HW_Main_F_00_EarPartsR
+  rotate: true
+  xy: 331, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear17/Front/HW_Main_F_01
+  rotate: true
+  xy: 176, 43
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear17/Front/HW_Main_F_02
+  rotate: true
+  xy: 420, 35
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear17/Side/HW_Main_S_00
+  rotate: false
+  xy: 280, 124
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear17/Side/HW_Main_S_00_EarL
+  rotate: true
+  xy: 344, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear17/Side/HW_Main_S_00_EarR
+  rotate: true
+  xy: 344, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear18/Back/HW_Main_B_00
+  rotate: false
+  xy: 56, 128
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear18/Front/HW_Main_F_00
+  rotate: true
+  xy: 360, 57
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear18/Front/HW_Main_F_01
+  rotate: true
+  xy: 157, 43
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear18/Front/HW_Main_F_02
+  rotate: true
+  xy: 402, 39
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear18/Side/HW_Main_S_00
+  rotate: false
+  xy: 260, 124
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear20/Back/HW_Main_B_00
+  rotate: false
+  xy: 420, 52
+  size: 21, 15
+  orig: 21, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear20/Front/HW_Main_F_00
+  rotate: false
+  xy: 134, 43
+  size: 21, 15
+  orig: 21, 15
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear20/Side/HW_Main_S_00
+  rotate: false
+  xy: 435, 121
+  size: 20, 13
+  orig: 20, 13
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear22/Back/HW_Main_B_00
+  rotate: false
+  xy: 493, 86
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear22/Front/HW_Main_F_00
+  rotate: true
+  xy: 131, 26
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Head/HeadWear22/Side/HW_Main_S_00
+  rotate: true
+  xy: 149, 26
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear00/Back/TW_Panel_B
+  rotate: true
+  xy: 474, 117
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear00/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 357, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear00/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 357, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear00/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 422, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear00/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 422, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear00/Front/TW_Panel_F
+  rotate: true
+  xy: 163, 109
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear00/Side/TW_Panel_S
+  rotate: true
+  xy: 455, 195
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear00/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 480, 375
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear00/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 75, 367
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear01/Back/TW_Panel_B
+  rotate: true
+  xy: 492, 117
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear02/Back/TW_Panel_B
+  rotate: true
+  xy: 492, 117
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear01/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 370, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear01/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 370, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear02/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 370, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear02/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 370, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear01/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 435, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear01/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 435, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear02/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 435, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear02/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 435, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear01/Front/TW_Panel_F
+  rotate: true
+  xy: 181, 109
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear01/Side/TW_Panel_S
+  rotate: true
+  xy: 471, 192
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear01/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 27, 367
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear02/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 27, 367
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear01/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 86, 367
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear02/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 86, 367
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear02/Front/TW_Panel_F
+  rotate: true
+  xy: 199, 109
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear02/Side/TW_Panel_S
+  rotate: true
+  xy: 487, 191
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear03/Back/TW_Panel_B
+  rotate: true
+  xy: 2, 114
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear03/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 383, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear03/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 383, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear03/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 448, 265
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear03/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 448, 265
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear03/Front/TW_Panel_F
+  rotate: true
+  xy: 217, 109
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear03/Side/TW_Panel_S
+  rotate: true
+  xy: 2, 188
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear03/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 39, 367
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear03/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 97, 367
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear04/Back/TW_Panel_B
+  rotate: true
+  xy: 20, 114
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear04/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 396, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear04/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 396, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear04/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 461, 265
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear04/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 461, 265
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear04/Front/TW_Panel_F
+  rotate: true
+  xy: 235, 109
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear04/Side/TW_Panel_S
+  rotate: true
+  xy: 18, 188
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear04/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 51, 367
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear04/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 108, 367
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear05/Back/TW_Panel_B
+  rotate: true
+  xy: 38, 113
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear05/Front/TW_Panel_F
+  rotate: true
+  xy: 253, 109
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear05/Side/TW_Panel_S
+  rotate: true
+  xy: 34, 188
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear06/Back/TW_Panel_B
+  rotate: true
+  xy: 73, 111
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear06/Front/TW_Panel_F
+  rotate: true
+  xy: 271, 109
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear06/Side/TW_Panel_S
+  rotate: true
+  xy: 50, 188
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear07/Back/TW_Panel_B
+  rotate: true
+  xy: 91, 110
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear07/Front/TW_Panel_F
+  rotate: true
+  xy: 289, 109
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear07/Side/TW_Panel_S
+  rotate: true
+  xy: 66, 187
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear08/Back/TW_Panel_B
+  rotate: true
+  xy: 109, 109
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear08/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 409, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear14/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 409, 266
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear08/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 474, 265
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear14/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 474, 265
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear08/Front/TW_Panel_F
+  rotate: true
+  xy: 307, 108
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear08/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 487, 265
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear14/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 487, 265
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear08/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 2, 258
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear14/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 2, 258
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear08/Side/TW_Panel_S
+  rotate: true
+  xy: 82, 187
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear08/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 63, 367
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear14/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 63, 367
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear08/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 119, 367
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear14/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 119, 367
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Back/TW_Panel_B
+  rotate: true
+  xy: 468, 102
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Back/TW_SleeveBL_Down
+  rotate: true
+  xy: 80, 258
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 236, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 236, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Back/TW_SleeveBR_Down
+  rotate: true
+  xy: 392, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 41, 248
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 41, 248
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Front/TW_Panel_F
+  rotate: true
+  xy: 217, 94
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Front/TW_SleeveFL_Down
+  rotate: true
+  xy: 197, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Front/TW_SleeveFR_Down
+  rotate: true
+  xy: 457, 245
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Side/TW_Panel_S
+  rotate: true
+  xy: 210, 184
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Side/TW_SleeveSL_Down
+  rotate: true
+  xy: 190, 367
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Side/TW_SleeveSR_Down
+  rotate: true
+  xy: 464, 366
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 83, 358
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Back/TW_Panel_B
+  rotate: true
+  xy: 450, 102
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Back/TW_SleeveBL_Down
+  rotate: true
+  xy: 67, 258
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 223, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 223, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Back/TW_SleeveBR_Down
+  rotate: true
+  xy: 379, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 28, 248
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 28, 248
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Front/TW_Panel_F
+  rotate: true
+  xy: 199, 94
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Front/TW_SleeveFL_Down
+  rotate: true
+  xy: 184, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Front/TW_SleeveFR_Down
+  rotate: true
+  xy: 444, 245
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Side/TW_Panel_S
+  rotate: true
+  xy: 194, 184
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Side/TW_SleeveSL_Down
+  rotate: true
+  xy: 178, 367
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 322, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear09/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 322, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Side/TW_SleeveSR_Down
+  rotate: true
+  xy: 453, 366
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear10/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 72, 358
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Back/TW_Panel_B
+  rotate: true
+  xy: 486, 102
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Back/TW_SleeveBL_Down
+  rotate: true
+  xy: 93, 258
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 249, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Back/TW_SleeveBR_Down
+  rotate: true
+  xy: 405, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 54, 248
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Front/TW_Panel_F
+  rotate: true
+  xy: 235, 94
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Front/TW_SleeveFL_Down
+  rotate: true
+  xy: 210, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 327, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Front/TW_SleeveFR_Down
+  rotate: true
+  xy: 470, 245
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 67, 238
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Side/TW_Panel_S
+  rotate: true
+  xy: 226, 184
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Side/TW_SleeveSL_Down
+  rotate: true
+  xy: 202, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 334, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Side/TW_SleeveSR_Down
+  rotate: true
+  xy: 475, 366
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear11/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 94, 358
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Back/TW_Panel_B
+  rotate: true
+  xy: 2, 99
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Back/TW_SleeveBL_Down
+  rotate: true
+  xy: 106, 258
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 262, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Back/TW_SleeveBR_Down
+  rotate: true
+  xy: 418, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 67, 248
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Front/TW_Panel_F
+  rotate: true
+  xy: 253, 94
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Front/TW_SleeveFL_Down
+  rotate: true
+  xy: 223, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 340, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Front/TW_SleeveFR_Down
+  rotate: true
+  xy: 483, 245
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 80, 238
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Side/TW_Panel_S
+  rotate: true
+  xy: 242, 184
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Side/TW_SleeveSL_Down
+  rotate: true
+  xy: 214, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 346, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Side/TW_SleeveSR_Down
+  rotate: true
+  xy: 486, 365
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear12/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 105, 358
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Back/TW_Panel_B
+  rotate: true
+  xy: 91, 95
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Back/TW_SleeveBL_Down
+  rotate: true
+  xy: 145, 257
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Front/TW_SleeveFR_Down
+  rotate: true
+  xy: 145, 257
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 301, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Back/TW_SleeveBR_Down
+  rotate: true
+  xy: 457, 255
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Front/TW_SleeveFL_Down
+  rotate: true
+  xy: 457, 255
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 106, 248
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Front/TW_Panel_F
+  rotate: true
+  xy: 325, 93
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 379, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 119, 237
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Side/TW_Panel_S
+  rotate: true
+  xy: 290, 184
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Side/TW_SleeveSL_Down
+  rotate: true
+  xy: 262, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 394, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Side/TW_SleeveSR_Down
+  rotate: true
+  xy: 14, 358
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear13/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 139, 358
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear14/Back/TW_Panel_B
+  rotate: true
+  xy: 127, 109
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear14/Front/TW_Panel_F
+  rotate: true
+  xy: 325, 108
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear14/Side/TW_Panel_S
+  rotate: true
+  xy: 98, 186
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Back/TW_Panel_B
+  rotate: true
+  xy: 361, 108
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Back/TW_SleeveBL_Down
+  rotate: true
+  xy: 15, 258
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 171, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Back/TW_SleeveBR_Down
+  rotate: true
+  xy: 327, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 483, 255
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Front/TW_Panel_F
+  rotate: true
+  xy: 127, 94
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Front/TW_SleeveFL_Down
+  rotate: true
+  xy: 132, 247
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 275, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Front/TW_SleeveFR_Down
+  rotate: true
+  xy: 392, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 15, 238
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Side/TW_Panel_S
+  rotate: true
+  xy: 130, 185
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Side/TW_SleeveSL_Down
+  rotate: true
+  xy: 130, 367
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 274, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Side/TW_SleeveSR_Down
+  rotate: true
+  xy: 406, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear15/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 25, 358
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Back/TW_Panel_B
+  rotate: true
+  xy: 20, 99
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Back/TW_SleeveBL_Down
+  rotate: true
+  xy: 119, 257
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 275, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Back/TW_SleeveBR_Down
+  rotate: true
+  xy: 431, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 80, 248
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Front/TW_Panel_F
+  rotate: true
+  xy: 271, 94
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Front/TW_SleeveFL_Down
+  rotate: true
+  xy: 236, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 353, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Front/TW_SleeveFR_Down
+  rotate: true
+  xy: 496, 242
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 93, 238
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Side/TW_Panel_S
+  rotate: true
+  xy: 258, 184
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Side/TW_SleeveSL_Down
+  rotate: true
+  xy: 238, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 370, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Side/TW_SleeveSR_Down
+  rotate: true
+  xy: 2, 358
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear16/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 127, 358
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Back/TW_Panel_B
+  rotate: true
+  xy: 432, 106
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Back/TW_Scarf_B
+  rotate: true
+  xy: 38, 98
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Back/TW_SleeveBL_Down
+  rotate: true
+  xy: 54, 258
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 210, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Back/TW_SleeveBR_Down
+  rotate: true
+  xy: 366, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 15, 248
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Front/TW_Panel_F
+  rotate: true
+  xy: 181, 94
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Front/TW_Scarf_F
+  rotate: true
+  xy: 289, 94
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Front/TW_SleeveFL_Down
+  rotate: true
+  xy: 171, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 314, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Front/TW_SleeveFR_Down
+  rotate: true
+  xy: 431, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 54, 238
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/GloveL_00
+  rotate: false
+  xy: 375, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/GloveL_01
+  rotate: true
+  xy: 423, 418
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/GloveL_02
+  rotate: true
+  xy: 44, 394
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/GloveL_03
+  rotate: true
+  xy: 98, 394
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/GloveL_04
+  rotate: true
+  xy: 153, 394
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/GloveR_00
+  rotate: false
+  xy: 433, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/GloveR_01
+  rotate: true
+  xy: 481, 418
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/GloveR_02
+  rotate: true
+  xy: 204, 394
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/GloveR_03
+  rotate: true
+  xy: 258, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/GloveR_04
+  rotate: true
+  xy: 313, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Glove_HoldWaterBottle
+  rotate: true
+  xy: 297, 418
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Side/TW_Panel_S
+  rotate: true
+  xy: 178, 184
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Side/TW_Scarf_S
+  rotate: true
+  xy: 343, 93
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Side/TW_SleeveSL_Down
+  rotate: true
+  xy: 166, 367
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 310, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Side/TW_SleeveSR_Down
+  rotate: true
+  xy: 441, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear17/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 60, 358
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Back/TW_Panel_B
+  rotate: true
+  xy: 414, 106
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Back/TW_SleeveBL_Down
+  rotate: true
+  xy: 41, 258
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 197, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Back/TW_SleeveBR_Down
+  rotate: true
+  xy: 353, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 2, 248
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Front/TW_Panel_F
+  rotate: true
+  xy: 163, 94
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Front/TW_SleeveFL_Down
+  rotate: true
+  xy: 158, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 301, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Front/TW_SleeveFR_Down
+  rotate: true
+  xy: 418, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 41, 238
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/GloveL_00
+  rotate: false
+  xy: 367, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/GloveR_00
+  rotate: false
+  xy: 367, 418
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/GloveL_01
+  rotate: true
+  xy: 413, 418
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/GloveL_02
+  rotate: true
+  xy: 34, 394
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/GloveL_03
+  rotate: true
+  xy: 87, 394
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/GloveL_04
+  rotate: true
+  xy: 142, 394
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/GloveR_01
+  rotate: true
+  xy: 471, 418
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/GloveR_02
+  rotate: true
+  xy: 194, 394
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/GloveR_03
+  rotate: true
+  xy: 247, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/GloveR_04
+  rotate: true
+  xy: 302, 393
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Glove_HoldWaterBottle
+  rotate: true
+  xy: 286, 418
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Side/TW_Panel_S
+  rotate: true
+  xy: 162, 184
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Side/TW_SleeveSL_Down
+  rotate: true
+  xy: 154, 367
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 298, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Side/TW_SleeveSR_Down
+  rotate: true
+  xy: 429, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear18/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 48, 358
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Back/TW_Panel_B
+  rotate: true
+  xy: 396, 106
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Back/TW_SleeveBL_Down
+  rotate: true
+  xy: 28, 258
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 184, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Back/TW_SleeveBR_Down
+  rotate: true
+  xy: 340, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 496, 252
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Front/TW_Panel_F
+  rotate: true
+  xy: 145, 94
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Front/TW_SleeveFL_Down
+  rotate: true
+  xy: 145, 247
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 288, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Front/TW_SleeveFR_Down
+  rotate: true
+  xy: 405, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 28, 238
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Side/TW_Panel_S
+  rotate: true
+  xy: 146, 184
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Side/TW_SleeveSL_Down
+  rotate: true
+  xy: 142, 367
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 286, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Side/TW_SleeveSR_Down
+  rotate: true
+  xy: 418, 366
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear19/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 37, 358
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Back/TW_Panel_B
+  rotate: true
+  xy: 73, 96
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Back/TW_SleeveBL_Down
+  rotate: true
+  xy: 132, 257
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 288, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Back/TW_SleeveBR_Down
+  rotate: true
+  xy: 444, 255
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 93, 248
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Front/TW_Panel_F
+  rotate: true
+  xy: 307, 93
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Front/TW_SleeveFL_Down
+  rotate: true
+  xy: 249, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 366, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Front/TW_SleeveFR_Down
+  rotate: true
+  xy: 2, 238
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 106, 238
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Side/TW_Panel_S
+  rotate: true
+  xy: 274, 184
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Side/TW_SleeveSL_Down
+  rotate: true
+  xy: 250, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 382, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Side/TW_SleeveSR_Down
+  rotate: true
+  xy: 150, 358
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear20/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 161, 358
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Back/Camera_B
+  rotate: false
+  xy: 17, 420
+  size: 9, 4
+  orig: 9, 4
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Back/TW_Panel_B
+  rotate: true
+  xy: 109, 94
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Back/TW_SleeveBL_Down
+  rotate: true
+  xy: 158, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Back/TW_SleeveBL_UP
+  rotate: true
+  xy: 314, 256
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Back/TW_SleeveBR_Down
+  rotate: true
+  xy: 470, 255
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Back/TW_SleeveBR_UP
+  rotate: true
+  xy: 119, 247
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Front/Camera_F
+  rotate: true
+  xy: 80, 227
+  size: 9, 12
+  orig: 9, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Front/TW_Panel_F
+  rotate: true
+  xy: 361, 93
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Front/TW_SleeveFL_Down
+  rotate: true
+  xy: 262, 246
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Front/TW_SleeveFL_UP
+  rotate: true
+  xy: 132, 237
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Front/TW_SleeveFR_Down
+  rotate: true
+  xy: 145, 237
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Front/TW_SleeveFR_UP
+  rotate: true
+  xy: 158, 236
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Side/Camera_S
+  rotate: false
+  xy: 73, 173
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Side/TW_Panel_S
+  rotate: true
+  xy: 306, 184
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Side/TW_SleeveSL_Down
+  rotate: true
+  xy: 226, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Side/TW_SleeveSL_UP
+  rotate: true
+  xy: 358, 366
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Side/TW_SleeveSR_Down
+  rotate: true
+  xy: 497, 365
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear22/Side/TW_SleeveSR_UP
+  rotate: true
+  xy: 116, 358
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear999/Back/TW_Panel_B
+  rotate: true
+  xy: 145, 109
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear999/Front/TW_Panel_F
+  rotate: true
+  xy: 343, 108
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/Wear_Top/Female/TopWear999/Side/TW_Panel_S
+  rotate: true
+  xy: 114, 186
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1

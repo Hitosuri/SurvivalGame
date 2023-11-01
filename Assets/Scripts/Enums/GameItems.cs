@@ -1,0 +1,32 @@
+﻿namespace Assets.Scripts.Enums {
+    public enum GameItems {
+        WoodBranch,
+        WoodBoard,
+        Stone,
+        StoneAxe,
+        Charcoal,
+        RawMeat,
+        RawApple,
+        GrillApple,
+        GrillStickMeat,
+        Bottle,
+        WaterBottle,
+        Leather,
+        Potato,
+        Cornerstone,
+        RabbitLiver,
+        RabbitStirFriedSoup,
+        Wheat,
+        BakedPotato,
+        PotatoSoup,
+        RottenPotato,
+        MedicalHerb,
+        Rocklance,
+        StonePickaxe,
+        MedicalHerbRed,
+        MedicalHerbYellow,
+        MedicalHerbBlue,
+        Recover,
+        SeedApple
+    }
+}

@@ -1,10 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Assets.Scripts.Interface;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour {
     private static GameManager _instance;
+
+    public IHudController HudController { get; set; }
 
     public static GameManager Instance {
         get {

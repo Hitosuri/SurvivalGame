@@ -38,6 +38,9 @@ public class PlayerController : MonoBehaviour {
     }
 
     private void Update() {
+        if (Time.timeScale == 0) {
+            return;
+        }
         float mouseAngle;
         var newSide = GetMouseSide(out mouseAngle);
         if (currentSide != newSide) {
@@ -55,44 +58,55 @@ public class PlayerController : MonoBehaviour {
         controlVector.x = Input.GetAxisRaw("Horizontal");
         controlVector.y = Input.GetAxisRaw("Vertical");
 
+        bool backMove = false;
+        bool sideMove = false;
         if (newSide == 1) {
             if (controlVector.x > 0.01) {
                 animator.SetFloat("SideWalk", -1);
                 animator.SetFloat("BackWalk", 0);
+                sideMove = true;
             } else if (controlVector.x < -0.01) {
                 animator.SetFloat("SideWalk", 1);
                 animator.SetFloat("BackWalk", 0);
+                sideMove = true;
             } else if (controlVector.y < -0.01) {
                 animator.SetFloat("SideWalk", 0);
                 animator.SetFloat("BackWalk", 0);
             } else if (controlVector.y > 0.01) {
                 animator.SetFloat("SideWalk", 0);
                 animator.SetFloat("BackWalk", 1);
+                backMove = true;
             }
         } else if (newSide == 2) {
             if (controlVector.x > 0.01) {
                 animator.SetFloat("SideWalk", 0);
                 animator.SetFloat("BackWalk", 1);
+                backMove = true;
             } else if (controlVector.x < -0.01) {
                 animator.SetFloat("SideWalk", 0);
                 animator.SetFloat("BackWalk", 0);
             } else if (controlVector.y < -0.01) {
                 animator.SetFloat("SideWalk", -1);
                 animator.SetFloat("BackWalk", 0);
+                sideMove = true;
             } else if (controlVector.y > 0.01) {
                 animator.SetFloat("SideWalk", 1);
                 animator.SetFloat("BackWalk", 0);
+                sideMove = true;
             }
         } else if (newSide == 3) {
             if (controlVector.x > 0.01) {
                 animator.SetFloat("SideWalk", 1);
                 animator.SetFloat("BackWalk", 0);
+                sideMove = true;
             } else if (controlVector.x < -0.01) {
                 animator.SetFloat("SideWalk", -1);
                 animator.SetFloat("BackWalk", 0);
+                sideMove = true;
             } else if (controlVector.y < -0.01) {
                 animator.SetFloat("SideWalk", 0);
                 animator.SetFloat("BackWalk", 1);
+                backMove = true;
             } else if (controlVector.y > 0.01) {
                 animator.SetFloat("SideWalk", 0);
                 animator.SetFloat("BackWalk", 0);
@@ -104,12 +118,15 @@ public class PlayerController : MonoBehaviour {
             } else if (controlVector.x < -0.01) {
                 animator.SetFloat("SideWalk", 0);
                 animator.SetFloat("BackWalk", 1);
+                backMove = true;
             } else if (controlVector.y < -0.01) {
                 animator.SetFloat("SideWalk", 1);
                 animator.SetFloat("BackWalk", 0);
+                sideMove = true;
             } else if (controlVector.y > 0.01) {
                 animator.SetFloat("SideWalk", -1);
                 animator.SetFloat("BackWalk", 0);
+                sideMove = true;
             }
         }
 
@@ -146,6 +163,17 @@ public class PlayerController : MonoBehaviour {
         var moveAngle = Mathf.Atan2(controlVector.y, controlVector.x) * Mathf.Rad2Deg;
 
         float targetSpeed = isWalking ? walkSpeed : runSpeed;
+
+        if (isWalking || (!backMove && !sideMove)) {
+            animator.SetFloat("MoveSpeed", 1f);
+        } else if (backMove) {
+            animator.SetFloat("MoveSpeed", 0.5f);
+            targetSpeed *= 0.4f;
+        } else {
+            animator.SetFloat("MoveSpeed", 0.75f);
+            targetSpeed *= 0.8f;
+        }
+
         Vector2 currentVelocity = rigidbody.velocity;
 
         float targetSpeedX = Mathf.Abs(targetSpeed * Mathf.Cos(moveAngle * Mathf.Deg2Rad)) * controlVector.x;

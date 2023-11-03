@@ -3,7 +3,7 @@ using Random = System.Random;
 
 namespace Assets.Scripts {
     public class PerlinNoise {
-        public static float[,] GenerateHeightMap(int chunkSize, int mapSize, int seed, float scale, int octaves, float persistance, float lacunarity, Vector2 offset, bool useFalloff) {
+        public static float[,] GenerateHeightMap(int chunkSize, int mapSize, int seed, Vector2 scale, int octaves, float persistance, float lacunarity, Vector2 offset, bool useFalloff) {
             float[,] noiseMap = new float[chunkSize, chunkSize];
 
             Random random = new Random(seed);
@@ -20,8 +20,12 @@ namespace Assets.Scripts {
                 amplitude *= persistance;
             }
 
-            if (scale <= 0) {
-                scale = 0.0001f;
+            if (scale.x <= 0) {
+                scale.x = 0.0001f;
+            }
+
+            if (scale.x <= 0) {
+                scale.x = 0.0001f;
             }
 
             float maxLocalNoiseHeight = float.MinValue;
@@ -37,8 +41,8 @@ namespace Assets.Scripts {
                     float noiseHeight = 0;
 
                     for (int i = 0; i < octaves; i++) {
-                        float sampleX = (x - halfSize + octaveOffets[i].x) / scale * frequency;
-                        float sampleY = (y - halfSize + octaveOffets[i].y) / scale * frequency;
+                        float sampleX = (x - halfSize + octaveOffets[i].x) / scale.x * frequency;
+                        float sampleY = (y - halfSize + octaveOffets[i].y) / scale.y * frequency;
 
                         float perlinValue = Mathf.PerlinNoise(sampleX, sampleY) * 2 - 1;
                         noiseHeight += perlinValue * amplitude;

@@ -1,0 +1,119 @@
+.IconStyle {
+    max-width: 36px;
+    max-height: 36px;
+}
+
+.IconInfo {
+    top: 30px;
+    -unity-text-align: upper-center;
+    -unity-font-definition: url('project://database/Assets/Font/NotoSansCJKkr-DemiLight%20SDF.asset?fileID=11400000&guid=887f571ca93f58e488be54a634a7da9a&type=2#NotoSansCJKkr-DemiLight SDF');
+    -unity-font: initial;
+    white-space: nowrap;
+    text-overflow: clip;
+    font-size: 7px;
+    background-image: url('project://database/Assets/Texture2D/UI/Hud/Status/QuestUI_CountFrame%20(2).png?fileID=2800000&guid=d77bf079f77ddad4ebedcb333184f78c&type=3#QuestUI_CountFrame (2)');
+    max-width: none;
+    width: 50px;
+    height: 15px;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-self: center;
+    flex-direction: column;
+    position: relative;
+    -unity-background-image-tint-color: rgba(60, 60, 60, 0.65);
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(226, 226, 226);
+    padding-top: 2px;
+    text-shadow: 1px 0.7px 38.4px rgb(0, 0, 0);
+}
+
+.IconProgress {
+}
+
+.Health .unity-progress-bar__progress {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Texture2D/UI/Hud/Status/Blood_Gauge_L.png?fileID=2800000&guid=b0fa5803125d46d4bb2a7904b8bd15ed&type=3#Blood_Gauge_L');
+    max-height: 14px;
+    justify-content: flex-start;
+    align-self: auto;
+    top: 3px;
+    left: 5px;
+    max-width: 230px;
+}
+
+.Health .unity-progress-bar__background {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Texture2D/UI/Hud/Status/Dropdown_Bar00.png?fileID=2800000&guid=93c4844d08c473348a931ab9cfea2eee&type=3#Dropdown_Bar00');
+    max-height: 20px;
+    left: 30px;
+    top: 24px;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-self: auto;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.Thirsty .unity-progress-bar__background {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Texture2D/UI/Hud/Status/Dropdown_Bar00.png?fileID=2800000&guid=93c4844d08c473348a931ab9cfea2eee&type=3#Dropdown_Bar00');
+    max-height: 13px;
+    left: 63px;
+    top: -73px;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-self: auto;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    width: 120px;
+    min-height: auto;
+}
+
+.Hungry .unity-progress-bar__background {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Texture2D/UI/Hud/Status/Dropdown_Bar00.png?fileID=2800000&guid=93c4844d08c473348a931ab9cfea2eee&type=3#Dropdown_Bar00');
+    max-height: 13px;
+    left: 63px;
+    top: -72px;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-self: auto;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    width: 120px;
+}
+
+.Thirsty .unity-progress-bar__progress {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Texture2D/UI/Hud/Status/Blood_Gauge_L.png?fileID=2800000&guid=b0fa5803125d46d4bb2a7904b8bd15ed&type=3#Blood_Gauge_L');
+    max-height: 11px;
+    justify-content: flex-start;
+    align-self: auto;
+    top: 1px;
+    left: 2px;
+    -unity-background-image-tint-color: rgb(0, 255, 249);
+    max-width: 116px;
+}
+
+.Hungry .unity-progress-bar__progress {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Texture2D/UI/Hud/Status/Blood_Gauge_L.png?fileID=2800000&guid=b0fa5803125d46d4bb2a7904b8bd15ed&type=3#Blood_Gauge_L');
+    max-height: 11px;
+    justify-content: flex-start;
+    align-self: auto;
+    top: 1px;
+    left: 2px;
+    -unity-background-image-tint-color: rgb(144, 255, 0);
+    max-width: 116px;
+}

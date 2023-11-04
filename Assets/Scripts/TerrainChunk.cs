@@ -8,18 +8,20 @@ namespace Assets.Scripts {
         public Bounds bounds;
         public int size;
         public Action<object> print;
+        public Vector3Int[][] tilePositions;
+        public GameObject chunkPlant;
+        public bool dataCompleted;
+
         private Transform observer;
         private float allowdRadius;
-
         private TerrainTileType[] terrainTileTypes;
-        private Vector3Int[][] tilePositions = null;
 
         public bool IsVisible { get; private set; }
 
         public TerrainChunk(
             Vector2Int coord,
             int size,
-            Action<Action<Vector3Int[][]>, Vector2Int> requestMapAction,
+            Action<TerrainChunk> requestMapAction,
             Action<object> print,
             TerrainTileType[] terrainTileTypes,
             Transform observer,
@@ -35,7 +37,7 @@ namespace Assets.Scripts {
             var position = coord * size;
             bounds = new Bounds(new Vector3(position.x, position.y), Vector2.one * size);
             IsVisible = false;
-            requestMapAction(OnMapDataReceived, position);
+            requestMapAction(this);
         }
 
         private void ShowChunk() {
@@ -43,6 +45,7 @@ namespace Assets.Scripts {
                 return;
             }
             IsVisible = true;
+            chunkPlant.SetActive(true);
             for (int i = 0; i < terrainTileTypes.Length; i++) {
                 if (tilePositions[i].Length == 0) {
                     break;
@@ -57,18 +60,18 @@ namespace Assets.Scripts {
             }
 
             IsVisible = false;
+            chunkPlant.SetActive(false);
             for (int i = 0; i < terrainTileTypes.Length; i++) {
                 terrainTileTypes[i].tilemap.SetTiles(tilePositions[i], TerrainGenerator.emptyTiles);
             }
         }
 
-        private void OnMapDataReceived(Vector3Int[][] data) {
-            tilePositions = data;
+        private void OnMapDataReceived() {
             CheckLoad(GameManager.Instance);
         }
 
         public void CheckLoad(GameManager manager) {
-            if (tilePositions == null) {
+            if (!dataCompleted) {
                 return;
             }
             float viewerDstFromNearestEdge = Mathf.Sqrt(bounds.SqrDistance(observer.position));

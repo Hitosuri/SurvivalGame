@@ -45,6 +45,7 @@ namespace Assets.Scripts {
                 return;
             }
             IsVisible = true;
+            chunkPlant.SetActive(true);
             for (int i = 0; i < terrainTileTypes.Length; i++) {
                 if (tilePositions[i].Length == 0) {
                     break;
@@ -59,6 +60,7 @@ namespace Assets.Scripts {
             }
 
             IsVisible = false;
+            chunkPlant.SetActive(false);
             for (int i = 0; i < terrainTileTypes.Length; i++) {
                 terrainTileTypes[i].tilemap.SetTiles(tilePositions[i], TerrainGenerator.emptyTiles);
             }

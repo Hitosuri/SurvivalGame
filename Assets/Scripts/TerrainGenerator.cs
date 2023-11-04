@@ -71,7 +71,6 @@ namespace Assets.Scripts {
                 lock (chunkGenerateResultQueue) {
                     while (chunkGenerateResultQueue.Count > 0) {
                         var result = chunkGenerateResultQueue.Dequeue();
-                        print(RandomUnity.insideUnitCircle);
 
                         var terrainChunk = result.Item1;
                         var position = terrainChunk.coord * chunkSize;
@@ -79,14 +78,15 @@ namespace Assets.Scripts {
                             transform = {
                                 parent = plantParent,
                                 position = new Vector3(position.x, position.y, 0),
-                            }
+                            },
                         };
+                        terrainChunk.chunkPlant.SetActive(false);
 
                         for (int i = 0; i < result.Item2.Count; i++) {
                             var h = Instantiate(result.Item2[i].Item2, result.Item2[i].Item1, Quaternion.identity);
                             var spriteRenderer = h.GetComponent<SpriteRenderer>();
                             spriteRenderer.sortingLayerName = "On Ground";
-                            spriteRenderer.sortingOrder = Mathf.CeilToInt(result.Item2[i].Item1.y * 2 * -1);
+                            spriteRenderer.sortingOrder = Mathf.CeilToInt(result.Item2[i].Item1.y * 4 * -1);
                             h.transform.parent = terrainChunk.chunkPlant.transform;
                         }
 

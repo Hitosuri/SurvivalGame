@@ -38,7 +38,8 @@ public class CharacterHUD : MonoBehaviour, IHudController
     ProgressBar Health;
     ProgressBar Thirsty;
     ProgressBar Hungry;
-    Label watchTimer;
+    VisualElement Hours;
+    VisualElement Minutes;
 
     // Start is called before the first frame update
     void Start()
@@ -48,7 +49,8 @@ public class CharacterHUD : MonoBehaviour, IHudController
         Health = root.Q<ProgressBar>("Health");
         Thirsty = root.Q<ProgressBar>("Thirsty");
         Hungry = root.Q<ProgressBar>("Hungry");
-        watchTimer = root.Q<Label>("WatchTimer");
+        Hours = root.Q<VisualElement>("Hours");
+        Minutes = root.Q<VisualElement>("Minutes");
         Inventory = root.Q<VisualElement>("Inventory");
         currentHealth = Health.value;
         currentThirsty = Thirsty.value;
@@ -163,7 +165,6 @@ public class CharacterHUD : MonoBehaviour, IHudController
 
     public void SetTime(int minutes)
     {
-        watchTimer.text = minutes.ToString();
     }
 
     public void SetQuickSlotItem(int slotIndex, GameItems item)

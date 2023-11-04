@@ -43,6 +43,7 @@ public class CharacterHUD : MonoBehaviour, IHudController
     // Start is called before the first frame update
     void Start()
     {
+        GameManager.Instance.HudController = this;
         var root = hud.rootVisualElement;
         Health = root.Q<ProgressBar>("Health");
         Thirsty = root.Q<ProgressBar>("Thirsty");
@@ -131,11 +132,11 @@ public class CharacterHUD : MonoBehaviour, IHudController
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I) && InventoryOpenCheck == false)
+        if (Input.GetKeyDown(KeyCode.B) && InventoryOpenCheck == false)
         {
             Inventory.style.display = DisplayStyle.Flex;
             InventoryOpenCheck = true;
-        }else if(Input.GetKeyDown(KeyCode.I) && InventoryOpenCheck == true)
+        }else if(Input.GetKeyDown(KeyCode.B) && InventoryOpenCheck == true)
         {
             Inventory.style.display = DisplayStyle.None;
             InventoryOpenCheck = false;

@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody2D rigidbody;
     private Animator animator;
     private SkeletonMecanim skeletonMecanim;
+    private MeshRenderer meshRenderer;
     private Bone weaponMainBone;
     private Vector2 deltraPos;
     private int currentSide = -1;
@@ -35,6 +36,17 @@ public class PlayerController : MonoBehaviour {
         deltraPos = centerBone.GetWorldPosition(transform) - transform.position;
         weaponMainBone = skeleton.FindBone("Weapon_Main");
         ChangeSkin(null);
+        meshRenderer = GetComponent<MeshRenderer>();
+    }
+
+    private void FixedUpdate() {
+        if (Mathf.Abs(rigidbody.velocity.y) > 0.01) {
+            UpdateSortingOrder();
+        }
+    }
+
+    private void UpdateSortingOrder() {
+        meshRenderer.sortingOrder = Mathf.CeilToInt((rigidbody.position.y - 0.2f) * 4 * -1);
     }
 
     private void Update() {

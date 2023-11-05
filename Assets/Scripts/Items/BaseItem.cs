@@ -2,6 +2,7 @@
     public abstract class BaseItem {
         public PlayerController Owner { get; set; }
         public abstract float UseAnimationLength { get; }
+        public abstract string SpritePath { get; }
 
         public abstract void Use();
     }

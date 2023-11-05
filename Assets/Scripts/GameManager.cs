@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
     private static GameManager _instance;
 
     public IHudController HudController { get; set; }
+    public PlayerController Player { get; set; }
 
     public static GameManager Instance {
         get {

@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
-    private const float maxHealth = 100;
+    public float MaxHealth => 100f;
 
     public float Health {
         get => _health;
@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
-    private const float maxHunger = 100;
+    public float MaxHunger => 100f;
 
     public float Hunger {
         get => _hunger;
@@ -57,12 +57,12 @@ public class PlayerController : MonoBehaviour {
             _hunger = Mathf.Clamp(value, 0, 100);
             animator.SetBool("Exhausted", _hunger <= 20 || _thirst <= 20);
             animator.SetBool("IsHunger", _hunger <= 20);
-            GameManager.Instance.HudController?.SetHunger(_hunger / maxHunger);
-            print($"set hunger = {_hunger / maxHunger}");
+            GameManager.Instance.HudController?.SetHunger(_hunger / MaxHunger);
+            print($"set hunger = {_hunger / MaxHunger}");
         }
     }
 
-    private const float maxThirst = 100;
+    public float MaxThirst => 100f;
 
     public float Thirst {
         get => _thirst;
@@ -70,8 +70,8 @@ public class PlayerController : MonoBehaviour {
             _thirst = Mathf.Clamp(value, 0, 100);
             animator.SetBool("Exhausted", _hunger <= 20 || _thirst <= 20);
             animator.SetBool("IsThirsty", _thirst <= 20);
-            GameManager.Instance.HudController?.SetThirsty(_thirst / maxThirst);
-            print($"set thirst = {_thirst / maxThirst}");
+            GameManager.Instance.HudController?.SetThirsty(_thirst / MaxThirst);
+            print($"set thirst = {_thirst / MaxThirst}");
         }
     }
 
@@ -86,6 +86,7 @@ public class PlayerController : MonoBehaviour {
     public SkeletonMecanim PlayerMecanim { get; set; }
 
     private void Start() {
+        GameManager.Instance.Player = this;
         rigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         PlayerMecanim = GetComponent<SkeletonMecanim>();

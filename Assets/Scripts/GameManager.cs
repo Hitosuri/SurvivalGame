@@ -29,6 +29,15 @@ public class GameManager : MonoBehaviour {
         _instance = this;
     }
 
+    public void CallDelay(Action callback, float delayTime) {
+        StartCoroutine(WaitForFunction(delayTime, callback));
+    }
+
+    private IEnumerator WaitForFunction(float delayTime, Action callback) {
+        yield return new WaitForSeconds(delayTime);
+        callback.Invoke();
+    }
+
     private void InvokeOneSecondTick() {
         OneSecondTick?.Invoke(_instance);
         SecondPassed++;

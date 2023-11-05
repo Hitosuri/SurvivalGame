@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Enums;
+using Assets.Scripts.Items;
 
 namespace Assets.Scripts.Interface {
     public interface IHudController {
@@ -26,10 +27,16 @@ namespace Assets.Scripts.Interface {
         /// <param name="minutes">so phut tinh tu luc 0h sang</param>
         public void SetTime(int minutes);
 
-        public void SetQuickSlotItem(int slotIndex, GameItems item);
+        public void SetBagState(bool isOpened);
 
-        public void CleatQuickSlotItem(int slotIndex);
+        public void SetQuickSlotItem(int slotIndex, BaseItem item);
+
+        public void ClearQuickSlotItem(int slotIndex);
 
         public void SelectSlot(int slotIndex);
+
+        public void SetInventoryItem(int slotIndex, BaseItem item);
+
+        public void ClearInventoryItem(int slotIndex);
     }
 }

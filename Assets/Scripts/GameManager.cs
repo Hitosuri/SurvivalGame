@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
     private static GameManager _instance;
 
     public IHudController HudController { get; set; }
+    public PlayerController Player { get; set; }
 
     public static GameManager Instance {
         get {
@@ -27,6 +28,15 @@ public class GameManager : MonoBehaviour {
         OneSecondTick = delegate(GameManager manager) { };
         InvokeRepeating("InvokeOneSecondTick", 0f, 1f);
         _instance = this;
+    }
+
+    public void CallDelay(Action callback, float delayTime) {
+        StartCoroutine(WaitForFunction(delayTime, callback));
+    }
+
+    private IEnumerator WaitForFunction(float delayTime, Action callback) {
+        yield return new WaitForSeconds(delayTime);
+        callback.Invoke();
     }
 
     private void InvokeOneSecondTick() {

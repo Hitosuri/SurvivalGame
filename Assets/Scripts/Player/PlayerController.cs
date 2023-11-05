@@ -3,11 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using Assets;
+using Assets.Scripts.Items;
+using Assets.Scripts.Items.Implements;
+using JetBrains.Annotations;
 using Spine;
 using Spine.Unity;
 using Spine.Unity.AttachmentTools;
 using Unity.Collections;
 using UnityEngine;
+using static System.Runtime.CompilerServices.RuntimeHelpers;
 
 public class PlayerController : MonoBehaviour {
     public float runSpeed = 8f;
@@ -17,31 +21,117 @@ public class PlayerController : MonoBehaviour {
     public float velocityPower = 0.9f;
 
     private Rigidbody2D rigidbody;
-    private Animator animator;
-    private SkeletonMecanim skeletonMecanim;
+    [NonSerialized]
+    public Animator animator;
+
     private MeshRenderer meshRenderer;
     private Bone weaponMainBone;
     private Vector2 deltraPos;
     private int currentSide = -1;
-    private bool isEquiped;
+
+    private BaseItem[] bagItems;
+    private BaseItem[] quickSlotItems;
+
+    private int SelectedQuickSlotItemIndex {
+        get => _selectedQuickSlotItemIndex;
+        set {
+            _selectedQuickSlotItemIndex = value;
+            OnSelectedQuickSlotChange(_selectedQuickSlotItemIndex);
+        }
+    }
+
+    public float MaxHealth => 100f;
+
+    public float Health {
+        get => _health;
+        set {
+            _health = Mathf.Clamp(value, 0, 100);
+        }
+    }
+
+    public float MaxHunger => 100f;
+
+    public float Hunger {
+        get => _hunger;
+        set {
+            _hunger = Mathf.Clamp(value, 0, 100);
+            animator.SetBool("Exhausted", _hunger <= 20 || _thirst <= 20);
+            animator.SetBool("IsHunger", _hunger <= 20);
+            GameManager.Instance.HudController?.SetHunger(_hunger / MaxHunger);
+            print($"set hunger = {_hunger / MaxHunger}");
+        }
+    }
+
+    public float MaxThirst => 100f;
+
+    public float Thirst {
+        get => _thirst;
+        set {
+            _thirst = Mathf.Clamp(value, 0, 100);
+            animator.SetBool("Exhausted", _hunger <= 20 || _thirst <= 20);
+            animator.SetBool("IsThirsty", _thirst <= 20);
+            GameManager.Instance.HudController?.SetThirsty(_thirst / MaxThirst);
+            print($"set thirst = {_thirst / MaxThirst}");
+        }
+    }
+
+    private float thirst = 0;
+    private int _selectedQuickSlotItemIndex;
+    private float _health;
+    private float _hunger;
+    private float _thirst;
+
+    public bool PreventMoving { get; set; }
+    public bool ReFire { get; set; }
+    public SkeletonMecanim PlayerMecanim { get; set; }
 
     private void Start() {
+        GameManager.Instance.Player = this;
         rigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        skeletonMecanim = GetComponent<SkeletonMecanim>();
+        PlayerMecanim = GetComponent<SkeletonMecanim>();
+        bagItems = new BaseItem[12];
+        quickSlotItems = new BaseItem[5];
         SetupBasicInfo();
 
-        var skeleton = skeletonMecanim.Skeleton;
+        ReFire = false;
+        var skeleton = PlayerMecanim.Skeleton;
         var centerBone = skeleton.FindBone("Center");
         deltraPos = centerBone.GetWorldPosition(transform) - transform.position;
         weaponMainBone = skeleton.FindBone("Weapon_Main");
         ChangeSkin(null);
         meshRenderer = GetComponent<MeshRenderer>();
+        TestSetup();
+    }
+
+    private void TestSetup() {
+        quickSlotItems[1] = new WCrossBow() {
+            Owner = this
+        };
+        quickSlotItems[2] = new WLance() {
+            Owner = this
+        };
+        quickSlotItems[3] = new FApple() {
+            Owner = this
+        };
     }
 
     private void FixedUpdate() {
         if (Mathf.Abs(rigidbody.velocity.y) > 0.01) {
             UpdateSortingOrder();
+        }
+    }
+
+    private void OnSelectedQuickSlotChange(int currentIndex) {
+        BaseItem x = quickSlotItems[currentIndex];
+        if (x != null) {
+            if (x is WeaponItem p) {
+                ChangeSkin(p);
+            } else {
+                ChangeSkin(null);
+            }
+        } else {
+            ChangeSkin(null);
         }
     }
 
@@ -69,6 +159,9 @@ public class PlayerController : MonoBehaviour {
         var controlVector = new Vector2();
         controlVector.x = Input.GetAxisRaw("Horizontal");
         controlVector.y = Input.GetAxisRaw("Vertical");
+        if (PreventMoving) {
+            controlVector = Vector2.zero;
+        }
 
         bool backMove = false;
         bool sideMove = false;
@@ -152,24 +245,19 @@ public class PlayerController : MonoBehaviour {
             animator.SetFloat("SideWalk", 0);
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1)) {
-            ChangeSkin(null);
-        }
+        KeyCode[] quickSlotKey = new[] {
+            KeyCode.Alpha1,
+            KeyCode.Alpha2,
+            KeyCode.Alpha3,
+            KeyCode.Alpha4,
+            KeyCode.Alpha5,
+        };
 
-        if (Input.GetKeyDown(KeyCode.Alpha2)) {
-            ChangeSkin(WeaponDetailType.IronLance);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha3)) {
-            ChangeSkin(WeaponDetailType.SlingshotMetal);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha4)) {
-            ChangeSkin(WeaponDetailType.BatWood);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha5)) {
-            ChangeSkin(WeaponDetailType.CrossBow);
+        for (int i = 0; i < quickSlotKey.Length; i++) {
+            if (Input.GetKeyDown(quickSlotKey[i])) {
+                SelectedQuickSlotItemIndex = i + 1;
+                break;
+            }
         }
 
         var moveAngle = Mathf.Atan2(controlVector.y, controlVector.x) * Mathf.Rad2Deg;
@@ -200,13 +288,36 @@ public class PlayerController : MonoBehaviour {
 
         rigidbody.AddForce(new Vector2(movementX, movementY));
 
-        if (Input.GetButtonDown("Fire1")) {
-            print("Fire");
-            if (isEquiped) {
-                animator.SetTrigger("DoShot");
-            } else {
-                animator.SetTrigger("AttackTrigger");
-            }
+        if (!ReFire) {
+            CheckFire(false);
+        }
+        if (ReFire) {
+            ReFire = false;
+            Fire();
+        }
+    }
+
+    public bool CheckFire(bool checkPress) {
+        if (checkPress) {
+            ReFire = Input.GetButton("Fire1");
+            return ReFire;
+        }
+        ReFire = Input.GetButtonDown("Fire1");
+        return ReFire;
+    }
+
+    private void Fire() {
+        if (quickSlotItems[SelectedQuickSlotItemIndex] != null) {
+            quickSlotItems[SelectedQuickSlotItemIndex].Use();
+        } else {
+            PreventMoving = true;
+            animator.SetTrigger("AttackTrigger");
+            GameManager.Instance.CallDelay(
+                () => {
+                    PreventMoving = false;
+                    CheckFire(true);
+                }, 0.5f
+            );
         }
     }
 
@@ -217,34 +328,31 @@ public class PlayerController : MonoBehaviour {
 
     private void Unequip() {
         animator.SetLayerWeight(1, 0);
-        isEquiped = false;
     }
 
-    private void ChangeSkin(SpineSkinInfo? weapon) {
+    private void ChangeSkin(WeaponItem weapon) {
         Skin skin = AddDefaultSkin(new Skin("new-skin"));
         if (weapon != null) {
-            skin = EquipWeapon(skin, (SpineSkinInfo)weapon);
+            skin = EquipWeapon(skin, weapon);
         } else {
             Unequip();
         }
 
-        var skeleton = skeletonMecanim.Skeleton;
+        var skeleton = PlayerMecanim.Skeleton;
         skeleton.SetSkin(skin);
         skeleton.SetSlotsToSetupPose();
     }
 
-    private Skin EquipWeapon(Skin skin, SpineSkinInfo weapon) {
-        var skeletonData = skeletonMecanim.Skeleton.Data;
+    private Skin EquipWeapon(Skin skin, WeaponItem weapon) {
         animator.SetLayerWeight(1, 1);
-        skin.AddAttachments(skeletonData.FindSkin(weapon.Name));
+        skin.AddAttachments(weapon.WeaponSkin);
         animator.SetFloat(WeaponDetailType.ParameterName, weapon.Id);
         animator.SetFloat(WeaponType.ParameterName, weapon.Type);
-        isEquiped = true;
         return skin;
     }
 
     private Skin AddDefaultSkin(Skin skin) {
-        var skeletonData = skeletonMecanim.Skeleton.Data;
+        var skeletonData = PlayerMecanim.Skeleton.Data;
         skin.AddSkin(skeletonData.FindSkin("01. BodyColor/BodyColorType00"));
         skin.AddSkin(skeletonData.FindSkin("02. Hair/Hair01"));
         skin.AddSkin(skeletonData.FindSkin("08. Down Wear/DW00"));

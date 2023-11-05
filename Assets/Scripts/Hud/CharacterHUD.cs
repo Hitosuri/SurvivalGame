@@ -50,7 +50,12 @@ public class CharacterHUD : MonoBehaviour, IHudController {
     }
 
     public void SetTime(int minutes) {
-        throw new System.NotImplementedException();
+        float hour = Mathf.FloorToInt(minutes / 60);
+        float minute = minutes % 60;
+        float degOfHour = (30 * hour) + (minute / 2);
+        float degOfMinute = 6 * minute;
+        Hours.transform.rotation = Quaternion.Euler(0, 0, degOfHour);
+        Minutes.transform.rotation = Quaternion.Euler(0, 0, degOfMinute);
     }
 
     public void SetBagState(bool isOpened) {

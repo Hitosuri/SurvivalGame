@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 using Assets;
 using Assets.Scripts.Items;
@@ -31,6 +32,7 @@ public class PlayerController : MonoBehaviour {
 
     private BaseItem[] bagItems;
     private BaseItem[] quickSlotItems;
+    private bool isBagOpened = false;
 
     private int SelectedQuickSlotItemIndex {
         get => _selectedQuickSlotItemIndex;
@@ -58,7 +60,6 @@ public class PlayerController : MonoBehaviour {
             animator.SetBool("Exhausted", _hunger <= 20 || _thirst <= 20);
             animator.SetBool("IsHunger", _hunger <= 20);
             GameManager.Instance.HudController?.SetHunger(_hunger / MaxHunger);
-            print($"set hunger = {_hunger / MaxHunger}");
         }
     }
 
@@ -71,11 +72,9 @@ public class PlayerController : MonoBehaviour {
             animator.SetBool("Exhausted", _hunger <= 20 || _thirst <= 20);
             animator.SetBool("IsThirsty", _thirst <= 20);
             GameManager.Instance.HudController?.SetThirsty(_thirst / MaxThirst);
-            print($"set thirst = {_thirst / MaxThirst}");
         }
     }
 
-    private float thirst = 0;
     private int _selectedQuickSlotItemIndex;
     private float _health;
     private float _hunger;
@@ -84,6 +83,7 @@ public class PlayerController : MonoBehaviour {
     public bool PreventMoving { get; set; }
     public bool ReFire { get; set; }
     public SkeletonMecanim PlayerMecanim { get; set; }
+    public List<DroppedItem> CollectableItems { get; set; }
 
     private void Start() {
         GameManager.Instance.Player = this;
@@ -92,6 +92,7 @@ public class PlayerController : MonoBehaviour {
         PlayerMecanim = GetComponent<SkeletonMecanim>();
         bagItems = new BaseItem[12];
         quickSlotItems = new BaseItem[5];
+        CollectableItems = new List<DroppedItem>();
         SetupBasicInfo();
 
         ReFire = false;
@@ -100,11 +101,18 @@ public class PlayerController : MonoBehaviour {
         deltraPos = centerBone.GetWorldPosition(transform) - transform.position;
         weaponMainBone = skeleton.FindBone("Weapon_Main");
         ChangeSkin(null);
+        GameManager.Instance.OnPropertyChange(nameof(GameManager.HudController), () => {
+            GameManager.Instance.HudController.SetBagState(false);
+        });
         meshRenderer = GetComponent<MeshRenderer>();
         TestSetup();
     }
 
     private void TestSetup() {
+        if (GameManager.Instance.DroppedItemTemplate) {
+            var x = Instantiate(GameManager.Instance.DroppedItemTemplate, Vector3.zero, Quaternion.identity);
+            x.GetComponent<DroppedItem>().ItemData = new FApple();
+        }
         quickSlotItems[1] = new WCrossBow() {
             Owner = this
         };
@@ -139,12 +147,56 @@ public class PlayerController : MonoBehaviour {
         meshRenderer.sortingOrder = Mathf.CeilToInt((rigidbody.position.y - 0.2f) * 4 * -1);
     }
 
+    private void AddToInventory(BaseItem item) {
+        if (item is StackableItem stackableItem) {
+            int index = Array.FindIndex(bagItems, x => x?.Id == stackableItem.Id);
+            if (index >= 0) {
+                ((StackableItem)bagItems[index]).Quantity += stackableItem.Quantity;
+                print($"bag {index} - quantity: {((StackableItem)bagItems[index]).Quantity}");
+                return;
+            }
+            index = Array.FindIndex(quickSlotItems, x => x?.Id == stackableItem.Id);
+            if (index >= 0) {
+                ((StackableItem)quickSlotItems[index]).Quantity += stackableItem.Quantity;
+                print($"quickslot {index} - quantity: {((StackableItem)quickSlotItems[index]).Quantity}");
+                return;
+            }
+        }
+
+        int emptyIndex = Array.FindIndex(quickSlotItems, x => x == null);
+        if (emptyIndex >= 0) {
+            quickSlotItems[emptyIndex] = item;
+            print($"quickslot {emptyIndex}");
+            return;
+        }
+        emptyIndex = Array.FindIndex(bagItems, x => x == null);
+        if (emptyIndex >= 0) {
+            bagItems[emptyIndex] = item;
+            print($"bag {emptyIndex}");
+        }
+    }
+
     private void Update() {
         if (Time.timeScale == 0) {
             return;
         }
-        float mouseAngle;
-        var newSide = GetMouseSide(out mouseAngle);
+
+        if (Input.GetKeyDown(KeyCode.B)) {
+            isBagOpened = !isBagOpened;
+            GameManager.Instance.HudController?.SetBagState(isBagOpened);
+        }
+
+        if (Input.GetKeyDown(KeyCode.F)) {
+            var collectableItemArray = CollectableItems.ToArray();
+            for (int i = 0; i < collectableItemArray.Length; i++) {
+                var item = collectableItemArray[i].ItemData;
+                item.Owner = this;
+                Destroy(collectableItemArray[i].gameObject);
+                AddToInventory(item);
+            }
+        }
+
+        var newSide = GetMouseSide(out var mouseAngle);
         if (currentSide != newSide) {
             currentSide = newSide;
             animator.SetFloat("Rotate", currentSide == 4 ? 2 : currentSide);
@@ -156,9 +208,10 @@ public class PlayerController : MonoBehaviour {
         }
         weaponMainBone.Rotation = mouseAngle;
 
-        var controlVector = new Vector2();
-        controlVector.x = Input.GetAxisRaw("Horizontal");
-        controlVector.y = Input.GetAxisRaw("Vertical");
+        var controlVector = new Vector2 {
+            x = Input.GetAxisRaw("Horizontal"),
+            y = Input.GetAxisRaw("Vertical")
+        };
         if (PreventMoving) {
             controlVector = Vector2.zero;
         }
@@ -346,7 +399,7 @@ public class PlayerController : MonoBehaviour {
     private Skin EquipWeapon(Skin skin, WeaponItem weapon) {
         animator.SetLayerWeight(1, 1);
         skin.AddAttachments(weapon.WeaponSkin);
-        animator.SetFloat(WeaponDetailType.ParameterName, weapon.Id);
+        animator.SetFloat(WeaponDetailType.ParameterName, weapon.WeaponId);
         animator.SetFloat(WeaponType.ParameterName, weapon.Type);
         return skin;
     }

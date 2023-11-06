@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - DroppedItem
   layers:
   - Default
   - TransparentFX
@@ -43,4 +44,7 @@ TagManager:
     locked: 0
   - name: On Ground
     uniqueID: 804678989
+    locked: 0
+  - name: Above Ground
+    uniqueID: 1722085397
     locked: 0

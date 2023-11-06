@@ -18,7 +18,6 @@ public class CharacterHUD : MonoBehaviour, IHudController {
     VisualElement Minutes;
 
     void Start() {
-        GameManager.Instance.HudController = this;
         var root = hud.rootVisualElement;
         Health = root.Q<ProgressBar>("Health");
         Thirsty = root.Q<ProgressBar>("Thirsty");
@@ -26,6 +25,7 @@ public class CharacterHUD : MonoBehaviour, IHudController {
         Hours = root.Q<VisualElement>("Hours");
         Minutes = root.Q<VisualElement>("Minutes");
         Inventory = root.Q<VisualElement>("Inventory");
+        GameManager.Instance.HudController = this;
     }
 
     public void SetHealth(float health) {

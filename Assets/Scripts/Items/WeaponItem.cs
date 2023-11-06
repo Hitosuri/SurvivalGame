@@ -3,10 +3,11 @@ using Spine.Unity;
 
 namespace Assets.Scripts.Items {
     public abstract class WeaponItem : BaseItem {
+        public override bool CanPlaceOnQuickSlot => true;
         private Skin _weaponSkin;
         public abstract string Name { get; }
         public abstract int Type { get; }
-        public abstract int Id { get; }
+        public abstract int WeaponId { get; }
 
         public Skin WeaponSkin {
             get {

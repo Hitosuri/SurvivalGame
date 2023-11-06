@@ -6,9 +6,26 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
     private static GameManager _instance;
+    private Dictionary<string, Action> _onChangeActions;
+    public GameObject DroppedItemTemplate;
+    private IHudController _hudController;
+    private PlayerController _player;
 
-    public IHudController HudController { get; set; }
-    public PlayerController Player { get; set; }
+    public IHudController HudController {
+        get => _hudController;
+        set {
+            _hudController = value;
+            OnPropertyChangeHandler(nameof(HudController));
+        }
+    }
+
+    public PlayerController Player {
+        get => _player;
+        set {
+            _player = value;
+            OnPropertyChangeHandler(nameof(Player));
+        }
+    }
 
     public static GameManager Instance {
         get {
@@ -24,10 +41,25 @@ public class GameManager : MonoBehaviour {
     public int SecondPassed { get; private set; }
 
     private void Awake() {
+        _onChangeActions = new Dictionary<string, Action>();
         SecondPassed = 0;
         OneSecondTick = delegate(GameManager manager) { };
         InvokeRepeating("InvokeOneSecondTick", 0f, 1f);
         _instance = this;
+    }
+
+    private void OnPropertyChangeHandler(string propertyName) {
+        if (_onChangeActions.TryGetValue(propertyName.Trim(), out var action)) {
+            action?.Invoke();
+        }
+    }
+
+    public void OnPropertyChange(string propertyName, Action callback) {
+        if (_onChangeActions.ContainsKey(propertyName.Trim())) {
+            _onChangeActions[propertyName] += callback;
+        } else {
+            _onChangeActions[propertyName] = callback;
+        }
     }
 
     public void CallDelay(Action callback, float delayTime) {

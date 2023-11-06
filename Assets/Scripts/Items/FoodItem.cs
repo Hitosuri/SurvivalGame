@@ -1,6 +1,7 @@
 ﻿namespace Assets.Scripts.Items {
     public abstract class FoodItem : StackableItem {
         public override float UseAnimationLength => 0.6f;
+        public override bool CanPlaceOnQuickSlot => true;
         public abstract float HealthAmount { get; }
         public abstract float HungerAmount { get; }
         public abstract float ThirstAmount { get; }

@@ -196,7 +196,7 @@ Slot3_Container, Slot4_Container, Slot5_Container;
     }
 
     private void OnMouseUpEvent(MouseUpEvent mouseEvent) {
-        if (isBagClose) {
+        if (isBagClose || dragFrom == null) {
             return;
         }
         SetItemPosition(dragFrom, Vector2.zero);

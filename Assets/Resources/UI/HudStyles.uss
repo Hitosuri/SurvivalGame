@@ -142,3 +142,13 @@
     max-height: 50%;
     left: 3%;
 }
+
+.quickanim {
+    translate: 0 6%;
+    transition-timing-function: ease-out-bounce;
+    transition-duration: 1s;
+}
+
+.quicanim--up {
+    translate: 0 -9%;
+}

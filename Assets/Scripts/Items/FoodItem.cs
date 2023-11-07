@@ -7,6 +7,7 @@
         public abstract float ThirstAmount { get; }
 
         public override void Use() {
+            Owner.PreventMoving = true;
             Owner.animator.SetBool("IsEat", true);
             GameManager.Instance.CallDelay(
                 () => {
@@ -16,6 +17,7 @@
                     if (Owner.CheckFire(true)) {
                         Use();
                     } else {
+                        Owner.PreventMoving = false;
                         Owner.animator.SetBool("IsEat", false);
                     }
                 }, UseAnimationLength

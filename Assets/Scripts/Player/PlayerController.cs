@@ -12,13 +12,15 @@ using Spine.Unity;
 using Spine.Unity.AttachmentTools;
 using Unity.Collections;
 using UnityEngine;
+using WorldTime;
 using static System.Runtime.CompilerServices.RuntimeHelpers;
 
 public class PlayerController : MonoBehaviour {
-    public float runSpeed = 8f;
-    public float walkSpeed = 2f;
-    public float acceleration = 6f;
-    public float decceleration = 10f;
+    public float runSpeed = 6f;
+    public float walkSpeed = 1.8f;
+    public float exhaustedSpeed = 1.6f;
+    public float acceleration = 8f;
+    public float decceleration = 12f;
     public float velocityPower = 0.9f;
 
     private Rigidbody2D rigidbody;
@@ -49,7 +51,7 @@ public class PlayerController : MonoBehaviour {
         get => _health;
         set {
             _health = Mathf.Clamp(value, 0, 100);
-            GameManager.Instance.HudController?.SetHunger(_health / MaxHealth);
+            GameManager.Instance.HudController?.SetHealth(_health / MaxHealth);
         }
     }
 
@@ -107,10 +109,21 @@ public class PlayerController : MonoBehaviour {
         meshRenderer = GetComponent<MeshRenderer>();
         GameManager.Instance.OnPropertyChange(nameof(GameManager.HudController), () => {
             GameManager.Instance.HudController.SetBagState(false);
-            SelectedQuickSlotItemIndex = 0;
+            Health = MaxHealth * 0.8f;
+            Hunger = MaxHunger * 0.6f;
+            Thirst = MaxThirst * 0.6f;
             TestSetup();
+            SelectedQuickSlotItemIndex = 0;
         });
-
+        GameManager.Instance.OneSecondTick += gameManager => {
+            Hunger -= (MaxHunger * 0.3f) / gameManager.DayLengthInSeconds;
+            Thirst -= (MaxThirst * 0.5f) / gameManager.DayLengthInSeconds;
+            if (Hunger < 0.01f || Thirst < 0.01f) {
+                Health -= MaxHealth / gameManager.DayLengthInSeconds;
+            } else if (Hunger < 0.2f || Thirst < 0.2f) {
+                Health -= (MaxHealth * 0.5f) / gameManager.DayLengthInSeconds;
+            }
+        };
     }
 
     private void TestSetup() {
@@ -217,7 +230,7 @@ public class PlayerController : MonoBehaviour {
 
         var newSide = GetMouseSide(out var mouseAngle);
         CurrentMouseSide = newSide;
-        if (currentSide != newSide) {
+        if (currentSide != newSide && !isBagOpened) {
             currentSide = newSide;
             animator.SetFloat("Rotate", currentSide == 4 ? 2 : currentSide);
             UpdateAnimation(newSide);
@@ -232,7 +245,7 @@ public class PlayerController : MonoBehaviour {
             x = Input.GetAxisRaw("Horizontal"),
             y = Input.GetAxisRaw("Vertical")
         };
-        if (PreventMoving) {
+        if (PreventMoving || isBagOpened) {
             controlVector = Vector2.zero;
         }
 
@@ -336,6 +349,7 @@ public class PlayerController : MonoBehaviour {
         var moveAngle = Mathf.Atan2(controlVector.y, controlVector.x) * Mathf.Rad2Deg;
 
         float targetSpeed = isWalking ? walkSpeed : runSpeed;
+        targetSpeed = _hunger <= 20 || _thirst <= 20 ? exhaustedSpeed : targetSpeed;
 
         if (isWalking || (!backMove && !sideMove)) {
             animator.SetFloat("MoveSpeed", 1f);
@@ -361,6 +375,9 @@ public class PlayerController : MonoBehaviour {
 
         rigidbody.AddForce(new Vector2(movementX, movementY));
 
+        if (isBagOpened) {
+            return;
+        }
         if (!ReFire) {
             CheckFire(false);
         }

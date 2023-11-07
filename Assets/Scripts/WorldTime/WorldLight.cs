@@ -5,23 +5,17 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-namespace WorldTime
-{
+namespace WorldTime {
     [RequireComponent(typeof(Light2D))]
-    public class WorldLight : MonoBehaviour
-    {
+    public class WorldLight : MonoBehaviour {
         private Light2D _light;
-
-        [SerializeField]
-        private WorldTime _worldTime;
 
         private Gradient _gradient;
 
-        private void Awake()
-        {
+        private void Start() {
             _gradient = new Gradient();
             GradientColorKey[] gradientColorKeys = new GradientColorKey[8];
-            gradientColorKeys[0].color = new Color32(0x12, 0x19, 0x95,0xff);
+            gradientColorKeys[0].color = new Color32(0x12, 0x19, 0x95, 0xff);
             gradientColorKeys[0].time = 0;
             gradientColorKeys[1].color = new Color32(0x12, 0x19, 0x95, 0xff);
             gradientColorKeys[1].time = 0.25f;
@@ -44,23 +38,20 @@ namespace WorldTime
             gradientAlphaKeys[1].time = 1f;
             _gradient.SetKeys(gradientColorKeys, gradientAlphaKeys);
             _light = GetComponent<Light2D>();
-            _worldTime.WorldTimeChanged += OnWordTimeChanged;
+            GameManager.Instance.FixedUpdateTick += OnWordTimeChanged;
         }
 
-        private void OnDestroy()
-        {
-            _worldTime.WorldTimeChanged -= OnWordTimeChanged;
+        private void OnDestroy() {
+            GameManager.Instance.FixedUpdateTick -= OnWordTimeChanged;
         }
-        private void OnWordTimeChanged(object sender, TimeSpan newTime)
-        {
-            
+
+        private void OnWordTimeChanged(TimeSpan newTime) {
             _light.color = _gradient.Evaluate(Percentofday(newTime));
         }
 
-        private float Percentofday(TimeSpan timeSpan)
-        {
+        private float Percentofday(TimeSpan timeSpan) {
             return (float)timeSpan.TotalMinutes % WorldTimeContants.MinutesDay /
-                WorldTimeContants.MinutesDay;
+                   WorldTimeContants.MinutesDay;
         }
     }
 }

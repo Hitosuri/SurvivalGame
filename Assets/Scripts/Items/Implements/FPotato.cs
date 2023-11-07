@@ -10,11 +10,13 @@ namespace Assets.Scripts.Items.Implements {
         public override float HealthAmount => 15f;
         public override float HungerAmount => 20f;
         public override float ThirstAmount => 5f;
-        public string PrefabPath => "prefabs/plants/PotatoPlant";
+
+        public string PrefabPath => "prefabs/plants/GrowablePlant";
 
         public List<Tuple<float, string>> GrowPhase { get; } = new() {
-            new Tuple<float, string>(3f, "Sprite/Plant/Crops/Potato/Potato_Sprout_01"),
-            new Tuple<float, string>(4f, "Sprite/Plant/Crops/Potato/Potato_Plant")
+            new Tuple<float, string>(0f, "Sprite/Plant/Crops/Potato/Potato_Sprout_00"),
+            new Tuple<float, string>(60f, "Sprite/Plant/Crops/Potato/Potato_Sprout_01"),
+            new Tuple<float, string>(80f, "Sprite/Plant/Crops/Potato/Potato_Plant")
         };
 
         public void Plant() {
@@ -41,21 +43,8 @@ namespace Assets.Scripts.Items.Implements {
                 var gameObject = Object.Instantiate(
                     loadedPrefabResource, soilPosition + new Vector3(0.5f, 0.4f), Quaternion.identity
                 );
-                gameObject.transform.parent = GameObject.Find("PlantOnSoil")?.transform;
-                var renderer = gameObject.GetComponent<SpriteRenderer>();
-                renderer.sortingOrder = Mathf.CeilToInt((soilPosition.y + 0.4f - 0.2f) * 4 * -1);
-                GrowOverPhase(0, renderer);
+                gameObject.GetComponent<GrowablePlant>().PlantableItem = this;
             }
-        }
-
-        public void GrowOverPhase(int phaseIndex, SpriteRenderer renderer) {
-            GameManager.Instance.CallDelay(
-                () => {
-                    renderer.sprite = Resources.Load<Sprite>(GrowPhase[phaseIndex].Item2);
-                    if (phaseIndex + 1 < GrowPhase.Count) {
-                        GrowOverPhase(phaseIndex + 1, renderer);
-                    }
-                }, GrowPhase[phaseIndex].Item1);
         }
     }
 }

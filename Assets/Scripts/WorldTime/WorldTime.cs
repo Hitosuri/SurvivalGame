@@ -2,30 +2,22 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace WorldTime
-{
-    public class WorldTime : MonoBehaviour
-    {
-        public EventHandler<TimeSpan> WorldTimeChanged;
 
-        [SerializeField]
-        private float _dayLength = 30; //in senconds
+namespace WorldTime {
+    public class WorldTime : MonoBehaviour {
+        public EventHandler<TimeSpan> WorldTimeChanged;
+        public float DayLengthInSeconds = 30f;
 
         private TimeSpan _currentTime;
+        private float _fixedTimeDelta;
 
-        private float _minuteLength => _dayLength / WorldTimeContants.MinutesDay;
-
-        private void Start()
-        {
-            StartCoroutine(AddMinute());
+        private void Start() {
+            _fixedTimeDelta = WorldTimeContants.MinutesDay * 60 / DayLengthInSeconds * Time.fixedDeltaTime;
         }
-        private IEnumerator AddMinute()
-        {
-            _currentTime += TimeSpan.FromMinutes(1);
+
+        private void FixedUpdate() {
+            _currentTime += TimeSpan.FromSeconds(_fixedTimeDelta);
             WorldTimeChanged?.Invoke(this, _currentTime);
-            yield return new WaitForSeconds(_minuteLength);
-            StartCoroutine(AddMinute());
         }
     }
 }
-

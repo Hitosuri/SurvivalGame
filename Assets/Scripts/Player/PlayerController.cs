@@ -104,13 +104,13 @@ public class PlayerController : MonoBehaviour {
         deltraPos = centerBone.GetWorldPosition(transform) - transform.position;
         weaponMainBone = skeleton.FindBone("Weapon_Main");
         ChangeSkin(null);
+        meshRenderer = GetComponent<MeshRenderer>();
         GameManager.Instance.OnPropertyChange(nameof(GameManager.HudController), () => {
             GameManager.Instance.HudController.SetBagState(false);
+            SelectedQuickSlotItemIndex = 0;
             TestSetup();
         });
-        meshRenderer = GetComponent<MeshRenderer>();
 
-        SelectedQuickSlotItemIndex = 0;
     }
 
     private void TestSetup() {

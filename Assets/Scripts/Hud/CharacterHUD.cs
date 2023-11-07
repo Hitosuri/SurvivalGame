@@ -35,7 +35,6 @@ Slot3_Container, Slot4_Container, Slot5_Container;
     private bool isBagClose = true;
     VisualElement dragFrom;
 
-
     private Texture2D[] ItemTexture;
     void Start() {
         var root = hud.rootVisualElement;
@@ -72,12 +71,16 @@ Slot3_Container, Slot4_Container, Slot5_Container;
         Slot4 = root.Q<VisualElement>("Slot4");
         Slot5 = root.Q<VisualElement>("Slot5");
 
-        
+
         List<VisualElement> visualElements = new List<VisualElement>() 
         { Slot1, Slot2, Slot3, Slot4, Slot5,
         SlotIcon1, SlotIcon2, SlotIcon3, SlotIcon4, SlotIcon5,
         SlotIcon6, SlotIcon7, SlotIcon8, SlotIcon9, SlotIcon10,
         SlotIcon11, SlotIcon12};
+
+
+
+
         ItemTexture = Resources.LoadAll<Texture2D>("Sprite");
         GameManager.Instance.HudController = this;
 
@@ -196,7 +199,7 @@ Slot3_Container, Slot4_Container, Slot5_Container;
     }
 
     private void OnMouseUpEvent(MouseUpEvent mouseEvent) {
-        if (isBagClose) {
+        if (isBagClose || dragFrom == null) {
             return;
         }
         SetItemPosition(dragFrom, Vector2.zero);
@@ -224,10 +227,27 @@ Slot3_Container, Slot4_Container, Slot5_Container;
 
     private void SwapItems(VisualElement from, VisualElement to)
     {
+        List<VisualElement> visualElements = new List<VisualElement>()
+        { Slot1, Slot2, Slot3, Slot4, Slot5,
+        SlotIcon1, SlotIcon2, SlotIcon3, SlotIcon4, SlotIcon5,
+        SlotIcon6, SlotIcon7, SlotIcon8, SlotIcon9, SlotIcon10,
+        SlotIcon11, SlotIcon12};
+        List<VisualElement> BagSlots = new List<VisualElement>()
+        {
+                    SlotIcon1, SlotIcon2, SlotIcon3, SlotIcon4, SlotIcon5,
+        SlotIcon6, SlotIcon7, SlotIcon8, SlotIcon9, SlotIcon10,
+        SlotIcon11, SlotIcon12
+        };
+
+        List<VisualElement> QuickSlots = new List<VisualElement>()
+        {
+            Slot1, Slot2, Slot3, Slot4, Slot5
+        };
         StyleBackground style = null;
         style = from.style.backgroundImage;
         from.style.backgroundImage = to.style.backgroundImage;
         to.style.backgroundImage = style;
+        GameManager.Instance.Player.SwitchSlot(visualElements.IndexOf(from), BagSlots.Contains(from), visualElements.IndexOf(to), BagSlots.Contains(to));
     }
 
     public string BaseItemName(BaseItem item) => Path.GetFileNameWithoutExtension(item.SpritePath);

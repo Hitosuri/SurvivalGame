@@ -42,7 +42,9 @@ namespace Assets.Scripts {
         public float persistance;
         public float lacunarity;
         public TerrainTileType[] terrainTileType;
+        public TileBase soilTileBase;
         public static TileBase[] emptyTiles;
+        public static TileBase soilTileBaseStatic;
 
         [Header("Plant")]
         public Transform plantParent;
@@ -59,6 +61,7 @@ namespace Assets.Scripts {
         private Queue<Tuple<TerrainChunk, List<Tuple<Vector3, GameObject>>>> chunkGenerateResultQueue;
 
         private void Start() {
+            soilTileBaseStatic = soilTileBase;
             chunkGenerateResultQueue = new Queue<Tuple<TerrainChunk, List<Tuple<Vector3, GameObject>>>>();
             terrainCheckDictionary = new Dictionary<Vector2Int, TerrainChunk>();
             chunkVisibleInViewDistance = Mathf.CeilToInt(viewDistance / chunkSize);
@@ -111,6 +114,15 @@ namespace Assets.Scripts {
                 terrainTileType[i].tiles = new TileBase[chunkSize * chunkSize];
                 Array.Fill(terrainTileType[i].tiles, terrainTileType[i].tile);
             }
+
+            GameManager.Instance.SoilLayer = new GameObject("soil") {
+                transform = {
+                    parent = mapParent,
+                    position = Vector3.zero
+                }
+            }.AddComponent<Tilemap>();
+            var soilRenderer = GameManager.Instance.SoilLayer.gameObject.AddComponent<TilemapRenderer>();
+            soilRenderer.sortingOrder = terrainTileType.Length;
         }
 
         private void RequestMapData(TerrainChunk terrainChunk) {

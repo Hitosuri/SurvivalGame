@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Assets.Scripts.Interface;
 using UnityEngine;
+using UnityEngine.Tilemaps;
+using Object = UnityEngine.Object;
 
 public class GameManager : MonoBehaviour {
     private static GameManager _instance;
@@ -10,6 +12,7 @@ public class GameManager : MonoBehaviour {
     public GameObject DroppedItemTemplate;
     private IHudController _hudController;
     private PlayerController _player;
+    private Tilemap _soilLayer;
 
     public IHudController HudController {
         get => _hudController;
@@ -24,6 +27,14 @@ public class GameManager : MonoBehaviour {
         set {
             _player = value;
             OnPropertyChangeHandler(nameof(Player));
+        }
+    }
+
+    public Tilemap SoilLayer {
+        get => _soilLayer;
+        set {
+            _soilLayer = value;
+            OnPropertyChangeHandler(nameof(SoilLayer));
         }
     }
 
@@ -75,4 +86,8 @@ public class GameManager : MonoBehaviour {
         OneSecondTick?.Invoke(_instance);
         SecondPassed++;
     }
+
+    public static void Print(object obj) => print(obj);
+
+    public static void DestroyGameObject(Object obj) => Destroy(obj);
 }

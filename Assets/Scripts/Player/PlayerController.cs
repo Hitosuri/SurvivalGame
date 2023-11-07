@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour {
         get => _selectedQuickSlotItemIndex;
         set {
             _selectedQuickSlotItemIndex = value;
+            GameManager.Instance.HudController.SelectSlot(_selectedQuickSlotItemIndex);
             OnSelectedQuickSlotChange(_selectedQuickSlotItemIndex);
         }
     }
@@ -48,6 +49,7 @@ public class PlayerController : MonoBehaviour {
         get => _health;
         set {
             _health = Mathf.Clamp(value, 0, 100);
+            GameManager.Instance.HudController?.SetHunger(_health / MaxHealth);
         }
     }
 
@@ -84,6 +86,7 @@ public class PlayerController : MonoBehaviour {
     public bool ReFire { get; set; }
     public SkeletonMecanim PlayerMecanim { get; set; }
     public List<DroppedItem> CollectableItems { get; set; }
+    public int CurrentMouseSide { get; set; } = 1;
 
     private void Start() {
         GameManager.Instance.Player = this;
@@ -103,9 +106,9 @@ public class PlayerController : MonoBehaviour {
         ChangeSkin(null);
         GameManager.Instance.OnPropertyChange(nameof(GameManager.HudController), () => {
             GameManager.Instance.HudController.SetBagState(false);
+            TestSetup();
         });
         meshRenderer = GetComponent<MeshRenderer>();
-        TestSetup();
     }
 
     private void TestSetup() {
@@ -115,6 +118,17 @@ public class PlayerController : MonoBehaviour {
         quickSlotItems[0] = new WPickaxe() {
             Owner = this,
         };
+        GameManager.Instance.HudController.SetQuickSlotItem(0, quickSlotItems[0]);
+
+        quickSlotItems[1] = new WHoe() {
+            Owner = this,
+        };
+        GameManager.Instance.HudController.SetQuickSlotItem(1, quickSlotItems[1]);
+
+        quickSlotItems[2] = new FPotato() {
+            Owner = this,
+        };
+        GameManager.Instance.HudController.SetQuickSlotItem(2, quickSlotItems[2]);
     }
 
     private void FixedUpdate() {
@@ -146,12 +160,14 @@ public class PlayerController : MonoBehaviour {
             if (index >= 0) {
                 ((StackableItem)bagItems[index]).Quantity += stackableItem.Quantity;
                 print($"bag {index} - quantity: {((StackableItem)bagItems[index]).Quantity}");
+                GameManager.Instance.HudController.SetInventoryItem(index, item);
                 return;
             }
             index = Array.FindIndex(quickSlotItems, x => x?.Id == stackableItem.Id);
             if (index >= 0) {
                 ((StackableItem)quickSlotItems[index]).Quantity += stackableItem.Quantity;
                 print($"quickslot {index} - quantity: {((StackableItem)quickSlotItems[index]).Quantity}");
+                GameManager.Instance.HudController.SetQuickSlotItem(index, item);
                 return;
             }
         }
@@ -160,12 +176,14 @@ public class PlayerController : MonoBehaviour {
         if (emptyIndex >= 0) {
             quickSlotItems[emptyIndex] = item;
             print($"quickslot {emptyIndex}");
+            GameManager.Instance.HudController.SetQuickSlotItem(emptyIndex, item);
             return;
         }
         emptyIndex = Array.FindIndex(bagItems, x => x == null);
         if (emptyIndex >= 0) {
             bagItems[emptyIndex] = item;
             print($"bag {emptyIndex}");
+            GameManager.Instance.HudController.SetInventoryItem(emptyIndex, item);
         }
     }
 
@@ -190,6 +208,7 @@ public class PlayerController : MonoBehaviour {
         }
 
         var newSide = GetMouseSide(out var mouseAngle);
+        CurrentMouseSide = newSide;
         if (currentSide != newSide) {
             currentSide = newSide;
             animator.SetFloat("Rotate", currentSide == 4 ? 2 : currentSide);
@@ -340,6 +359,12 @@ public class PlayerController : MonoBehaviour {
         if (ReFire) {
             ReFire = false;
             Fire();
+        }
+
+        if (Input.GetButtonDown("Fire2")) {
+            if (quickSlotItems[SelectedQuickSlotItemIndex] is PlantableItem plantableItem) {
+                plantableItem.Plant();
+            }
         }
     }
 

@@ -32,6 +32,7 @@ Slot3_Container, Slot4_Container, Slot5_Container;
 
     private Vector2 mousePosition = Vector2.zero;
     private bool ismouseDown;
+    private bool isBagClose = true;
     VisualElement dragFrom;
 
 
@@ -86,13 +87,18 @@ Slot3_Container, Slot4_Container, Slot5_Container;
         {
             itm.RegisterCallback<MouseDownEvent>(OnMouseDownEventX =>
             {
+                if (isBagClose) {
+                    return;
+                }
                 dragFrom = itm;
                 mousePosition = OnMouseDownEventX.mousePosition;
                 ismouseDown = true;
             }, TrickleDown.TrickleDown);
 
-            itm.RegisterCallback<MouseEnterEvent>(OnMouseEnterEvent =>
-            {
+            itm.RegisterCallback<MouseEnterEvent>(OnMouseEnterEvent => {
+                if (isBagClose) {
+                    return;
+                }
                 if (dragFrom != null)
                 {
                     SwapItems(dragFrom, itm);
@@ -134,6 +140,7 @@ Slot3_Container, Slot4_Container, Slot5_Container;
 
     public void SetBagState(bool isOpened) {
         Inventory.style.display = isOpened ? DisplayStyle.Flex : DisplayStyle.None;
+        isBagClose = !isOpened;
     }
 
     public void SetQuickSlotItem(int slotIndex, BaseItem item) {
@@ -188,13 +195,17 @@ Slot3_Container, Slot4_Container, Slot5_Container;
     {
     }
 
-    private void OnMouseUpEvent(MouseUpEvent mouseEvent)
-    {
+    private void OnMouseUpEvent(MouseUpEvent mouseEvent) {
+        if (isBagClose) {
+            return;
+        }
         SetItemPosition(dragFrom, Vector2.zero);
         ismouseDown = false;
     }
-    private void OnMouseMoveEvent(MouseMoveEvent mouseEvent)
-    {
+    private void OnMouseMoveEvent(MouseMoveEvent mouseEvent) {
+        if (isBagClose) {
+            return;
+        }
         if (ismouseDown)
         {
             Vector2 moveItem = mouseEvent.mousePosition - mousePosition;

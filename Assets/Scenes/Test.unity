@@ -3110,11 +3110,11 @@ Transform:
   m_GameObject: {fileID: 1027404824}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.34703565, y: 0.12531841, z: 0}
+  m_LocalScale: {x: 0.24099696, y: 0.24099696, z: 0.24099696}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1962489674}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1029288790
 GameObject:
@@ -3480,6 +3480,7 @@ MonoBehaviour:
   - tile: {fileID: 11400000, guid: 517311e4b6bda694a84439e69995a4db, type: 2}
     weight: 1
     plants: []
+  soilTileBase: {fileID: 11400000, guid: 98e0dea50be67674fac052cc4a1146a7, type: 2}
   plantParent: {fileID: 504342501}
   plant: {fileID: 5307275119207011694, guid: 4a1bd0cea45cf494c91d83475aeb93c1, type: 3}
   plantNoiseScale: {x: 12, y: 3}
@@ -3527,6 +3528,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dayLength: 30
+--- !u!1 &1679295185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1679295186}
+  m_Layer: 0
+  m_Name: PlantOnSoil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1679295186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679295185}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1929188072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3597,7 +3629,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2073379384794225597, guid: cb82256b49068da49808025dc7ee2329, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1027404825}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb82256b49068da49808025dc7ee2329, type: 3}
 --- !u!4 &1962489674 stripped
@@ -3703,5 +3738,5 @@ SceneRoots:
   - {fileID: 1543102266}
   - {fileID: 253687260}
   - {fileID: 1929188072}
-  - {fileID: 1027404825}
   - {fileID: 946655132}
+  - {fileID: 1679295186}

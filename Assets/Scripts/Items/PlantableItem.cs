@@ -7,6 +7,5 @@ namespace Assets.Scripts.Items {
         public string PrefabPath { get; }
         public List<Tuple<float, string>> GrowPhase { get; }
         public void Plant();
-        public void GrowOverPhase(int phaseIndex, SpriteRenderer renderer);
     }
 }

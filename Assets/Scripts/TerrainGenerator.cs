@@ -7,19 +7,30 @@ using UnityEngine.Tilemaps;
 using Random = System.Random;
 using RandomUnity = UnityEngine.Random;
 
-namespace Assets.Scripts {
+namespace Assets.Scripts
+{
     [Serializable]
-    public struct DataPair {
+    public struct DataPair
+    {
         public GameObject plant;
         [Range(0, 1)]
         public float rate;
     }
 
     [Serializable]
-    public class TerrainTileType {
+    public struct DataPairAnimal
+    {
+        public GameObject animal;
+        [Range(0, 1)]
+        public float rate;
+    }
+    [Serializable]
+    public class TerrainTileType
+    {
         public TileBase tile;
         public float weight;
         public DataPair[] plants;
+        public DataPairAnimal[] animals;
 
         [NonSerialized]
         public Tilemap tilemap;
@@ -28,7 +39,8 @@ namespace Assets.Scripts {
         public TileBase[] tiles;
     }
 
-    public class TerrainGenerator : MonoBehaviour {
+    public class TerrainGenerator : MonoBehaviour
+    {
         public Transform observer;
         public int chunkSize;
         public int mapSize;
@@ -52,13 +64,22 @@ namespace Assets.Scripts {
         public float plantPersistance;
         public float plantLacunatity;
 
+        [Header("Animal")]
+        public Transform animalParent;
+        public GameObject animal;
+        public Vector2 animalNoiseScale;
+        public int animalOctaves;
+        public float animalPersistance;
+        public float animalLacunatity;
+
         private int positionScale = 2;
 
         private int chunkVisibleInViewDistance;
         private Dictionary<Vector2Int, TerrainChunk> terrainCheckDictionary;
         private Queue<Tuple<TerrainChunk, List<Tuple<Vector3, GameObject>>>> chunkGenerateResultQueue;
 
-        private void Start() {
+        private void Start()
+        {
             chunkGenerateResultQueue = new Queue<Tuple<TerrainChunk, List<Tuple<Vector3, GameObject>>>>();
             terrainCheckDictionary = new Dictionary<Vector2Int, TerrainChunk>();
             chunkVisibleInViewDistance = Mathf.CeilToInt(viewDistance / chunkSize);
@@ -68,26 +89,51 @@ namespace Assets.Scripts {
 
             GameManager.Instance.OneSecondTick += _ => {
                 UpdateVisibleChunk();
-                lock (chunkGenerateResultQueue) {
-                    while (chunkGenerateResultQueue.Count > 0) {
+                lock (chunkGenerateResultQueue)
+                {
+                    while (chunkGenerateResultQueue.Count > 0)
+                    {
                         var result = chunkGenerateResultQueue.Dequeue();
 
                         var terrainChunk = result.Item1;
                         var position = terrainChunk.coord * chunkSize;
-                        terrainChunk.chunkPlant = new GameObject($"{terrainChunk.coord.x}:{terrainChunk.coord.y}") {
+                        terrainChunk.chunkPlant = new GameObject($"{terrainChunk.coord.x}:{terrainChunk.coord.y}")
+                        {
                             transform = {
                                 parent = plantParent,
                                 position = new Vector3(position.x, position.y, 0),
                             },
                         };
+
+
+
                         terrainChunk.chunkPlant.SetActive(false);
 
-                        for (int i = 0; i < result.Item2.Count; i++) {
+                        for (int i = 0; i < result.Item2.Count; i++)
+                        {
                             var h = Instantiate(result.Item2[i].Item2, result.Item2[i].Item1, Quaternion.identity);
                             var spriteRenderer = h.GetComponent<SpriteRenderer>();
                             spriteRenderer.sortingLayerName = "On Ground";
                             spriteRenderer.sortingOrder = Mathf.CeilToInt(result.Item2[i].Item1.y * 4 * -1);
                             h.transform.parent = terrainChunk.chunkPlant.transform;
+                        }
+
+                        var resultNext = chunkGenerateResultQueue.Dequeue();
+                        terrainChunk.chunkAnimal = new GameObject($"{terrainChunk.coord.x}:{terrainChunk.coord.y}")
+                        {
+                            transform = {
+                                parent = animalParent,
+                                position = new Vector3(position.x, position.y, 0),
+                            },
+                        };
+                        terrainChunk.chunkAnimal.SetActive(false);
+                        for (int i = 0; i < resultNext.Item2.Count; i++)
+                        {
+                            var h = Instantiate(resultNext.Item2[i].Item2, resultNext.Item2[i].Item1, Quaternion.identity);
+                            //var spriteRenderer = h.GetComponent<SpriteRenderer>();
+                            //spriteRenderer.sortingLayerName = "On Ground";
+                            //spriteRenderer.sortingOrder = Mathf.CeilToInt(resultNext.Item2[i].Item1.y * 4 * -1);
+                            h.transform.parent = terrainChunk.chunkAnimal.transform;
                         }
 
                         terrainChunk.dataCompleted = true;
@@ -96,9 +142,12 @@ namespace Assets.Scripts {
             };
         }
 
-        private void SetupTilemapLayer() {
-            for (int i = 0; i < terrainTileType.Length; i++) {
-                var gameObject = new GameObject($"layer {i}") {
+        private void SetupTilemapLayer()
+        {
+            for (int i = 0; i < terrainTileType.Length; i++)
+            {
+                var gameObject = new GameObject($"layer {i}")
+                {
                     transform = {
                         parent = mapParent,
                         position = Vector3.zero
@@ -113,7 +162,8 @@ namespace Assets.Scripts {
             }
         }
 
-        private void RequestMapData(TerrainChunk terrainChunk) {
+        private void RequestMapData(TerrainChunk terrainChunk)
+        {
             Vector2Int chunkOffset = terrainChunk.coord * chunkSize;
             Thread thread = new Thread(
                 () => {
@@ -126,38 +176,56 @@ namespace Assets.Scripts {
                         chunkOffset * positionScale, false
                     );
 
+                    float[,] animalHeightMap = PerlinNoise.GenerateHeightMap(
+                        chunkSize * positionScale, mapSize, seed, animalNoiseScale, animalOctaves, animalPersistance, animalLacunatity,
+                        chunkOffset * positionScale, false
+                    );
+
                     int randomSeed = seed + (terrainChunk.coord.x * 1000 + terrainChunk.coord.y);
                     Random random = new Random(randomSeed);
 
                     Vector3Int[][] tilePos = new Vector3Int[terrainTileType.Length][];
                     List<Vector3Int>[] tilePos2 = new List<Vector3Int>[terrainTileType.Length];
-                    for (int i = 0; i < terrainTileType.Length; i++) {
+                    for (int i = 0; i < terrainTileType.Length; i++)
+                    {
                         tilePos2[i] = new List<Vector3Int>();
                     }
 
                     List<Tuple<Vector3, GameObject>> plantPositions = new List<Tuple<Vector3, GameObject>>();
-                    for (int y = 0; y < chunkSize; y++) {
-                        for (int x = 0; x < chunkSize; x++) {
+                    List<Tuple<Vector3, GameObject>> animalPostions = new List<Tuple<Vector3, GameObject>>();
+                    for (int y = 0; y < chunkSize; y++)
+                    {
+                        for (int x = 0; x < chunkSize; x++)
+                        {
                             DataPair[] allowPlants = Array.Empty<DataPair>();
-                            for (int i = 0; i < terrainTileType.Length; i++) {
-                                if (terrainTileType[i].weight < heightMap[x, y]) {
+                            for (int i = 0; i < terrainTileType.Length; i++)
+                            {
+                                if (terrainTileType[i].weight < heightMap[x, y])
+                                {
                                     allowPlants = terrainTileType[i].plants;
                                     tilePos2[i].Add(new Vector3Int(chunkOffset.x + x, chunkOffset.y + y));
-                                } else {
+                                }
+                                else
+                                {
                                     break;
                                 }
                             }
-                            if (allowPlants.Length == 0) {
+                            if (allowPlants.Length == 0)
+                            {
                                 continue;
                             }
                             int loopCount = random.Next(positionScale) + 1;
-                            for (int i = 0; i < loopCount; i++) {
-                                if (plantHeightMap[x * positionScale + i, y * positionScale + i] > 0.5) {
+                            for (int i = 0; i < loopCount; i++)
+                            {
+                                if (plantHeightMap[x * positionScale + i, y * positionScale + i] > 0.5)
+                                {
                                     continue;
                                 }
                                 float value = (float)random.NextDouble();
-                                for (int a = 0; a < allowPlants.Length; a++) {
-                                    if (value < allowPlants[a].rate) {
+                                for (int a = 0; a < allowPlants.Length; a++)
+                                {
+                                    if (value < allowPlants[a].rate)
+                                    {
                                         Vector3 pos = new Vector3(chunkOffset.x + x, chunkOffset.y + y);
                                         pos.x += i * (1f / loopCount) + (float)(random.NextDouble() * (0.8 / loopCount));
                                         pos.y += i * (1f / loopCount) + (float)(random.NextDouble() * (0.8 / loopCount));
@@ -171,37 +239,92 @@ namespace Assets.Scripts {
                         }
                     }
 
-                    for (int i = 0; i < terrainTileType.Length; i++) {
+                    for (int y = 0; y < chunkSize; y++)
+                    {
+                        for (int x = 0; x < chunkSize; x++)
+                        {
+                            DataPairAnimal[] allowAnimals = Array.Empty<DataPairAnimal>();
+                            for (int i = 0; i < terrainTileType.Length; i++)
+                            {
+                                if (terrainTileType[i].weight < heightMap[x, y])
+                                {
+                                    allowAnimals = terrainTileType[i].animals;
+                                    tilePos2[i].Add(new Vector3Int(chunkOffset.x + x, chunkOffset.y + y));
+                                }
+                                else
+                                {
+                                    break;
+                                }
+                            }
+                            if (allowAnimals.Length == 0)
+                            {
+                                continue;
+                            }
+                            int anotherLoopCount = random.Next(positionScale) + 1;
+                            for (int i = 0; i < anotherLoopCount; i++)
+                            {
+                                if (animalHeightMap[x * positionScale + i, y * positionScale + i] > 0.5)
+                                {
+                                    continue;
+                                }
+                                float value = (float)random.NextDouble();
+                                for (int a = 0; a < allowAnimals.Length; a++)
+                                {
+                                    if (value < allowAnimals[a].rate)
+                                    {
+                                        Vector3 pos = new Vector3(chunkOffset.x + x, chunkOffset.y + y);
+                                        pos.x += i * (1f / anotherLoopCount) + (float)(random.NextDouble() * (0.8 / anotherLoopCount));
+                                        pos.y += i * (1f / anotherLoopCount) + (float)(random.NextDouble() * (0.8 / anotherLoopCount));
+                                        animalPostions.Add(new Tuple<Vector3, GameObject>(pos, allowAnimals[a].animal));
+                                        break;
+                                    }
+
+                                    value -= allowAnimals[a].rate;
+                                }
+                            }
+                        }
+                    }
+                    for (int i = 0; i < terrainTileType.Length; i++)
+                    {
                         tilePos[i] = tilePos2[i].ToArray();
                     }
 
                     terrainChunk.tilePositions = tilePos;
 
-                    lock (chunkGenerateResultQueue) {
+                    lock (chunkGenerateResultQueue)
+                    {
                         chunkGenerateResultQueue.Enqueue(new Tuple<TerrainChunk, List<Tuple<Vector3, GameObject>>>(terrainChunk, plantPositions));
+                        chunkGenerateResultQueue.Enqueue(new Tuple<TerrainChunk, List<Tuple<Vector3, GameObject>>>(terrainChunk, animalPostions));
                     }
                 }
             );
             thread.Start();
         }
 
-        private void UpdateVisibleChunk() {
+        private void UpdateVisibleChunk()
+        {
             Vector2 observerPosition = observer.position;
             int currentChunkCoordX = Mathf.RoundToInt(observerPosition.x / chunkSize);
             int currentChunkCoordY = Mathf.RoundToInt(observerPosition.y / chunkSize);
             int halfMapSize = mapSize / 2;
 
-            for (int yOffset = -chunkVisibleInViewDistance; yOffset <= chunkVisibleInViewDistance; yOffset++) {
-                for (int xOffset = -chunkVisibleInViewDistance; xOffset <= chunkVisibleInViewDistance; xOffset++) {
+            for (int yOffset = -chunkVisibleInViewDistance; yOffset <= chunkVisibleInViewDistance; yOffset++)
+            {
+                for (int xOffset = -chunkVisibleInViewDistance; xOffset <= chunkVisibleInViewDistance; xOffset++)
+                {
                     var viewdChunkCoord = new Vector2Int(currentChunkCoordX + xOffset, currentChunkCoordY + yOffset);
                     if (Mathf.Abs(viewdChunkCoord.x) * chunkSize > halfMapSize
-                        || Mathf.Abs(viewdChunkCoord.y) * chunkSize > halfMapSize) {
+                        || Mathf.Abs(viewdChunkCoord.y) * chunkSize > halfMapSize)
+                    {
                         continue;
                     }
 
-                    if (terrainCheckDictionary.TryGetValue(viewdChunkCoord, out var currentTerrain)) {
+                    if (terrainCheckDictionary.TryGetValue(viewdChunkCoord, out var currentTerrain))
+                    {
                         currentTerrain.CheckLoad(GameManager.Instance);
-                    } else {
+                    }
+                    else
+                    {
                         terrainCheckDictionary.Add(
                             viewdChunkCoord,
                             new TerrainChunk(

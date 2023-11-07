@@ -3085,6 +3085,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &982411635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 982411637}
+  - component: {fileID: 982411636}
+  m_Layer: 0
+  m_Name: AnimalGen
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &982411636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982411635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a54aa52d43f1b64490195700fab2229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 1567974584126194005, guid: 44dadec8199692740883baaa6a35de90, type: 3}
+  spawnRate: 3
+  canSpawn: 1
+--- !u!4 &982411637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982411635}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.3112288, y: -4.5175333, z: -0.30652016}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1027404824
 GameObject:
   m_ObjectHideFlags: 0
@@ -3110,11 +3158,11 @@ Transform:
   m_GameObject: {fileID: 1027404824}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.6901848, y: 0.9444115, z: 0}
+  m_LocalScale: {x: 0.24099697, y: 0.24099697, z: 0.24099697}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1962489674}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1029288790
 GameObject:
@@ -3515,6 +3563,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1587386202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1587386203}
+  m_Layer: 0
+  m_Name: Animal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1587386203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587386202}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.1400857, y: -3.525314, z: -0.12112479}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1658880851
 GameObject:
   m_ObjectHideFlags: 0
@@ -3560,9 +3639,11 @@ MonoBehaviour:
   - tile: {fileID: 11400000, guid: f527d3667d2b4444a8e5df2ed70263fe, type: 2}
     weight: 0
     plants: []
+    animals: []
   - tile: {fileID: 11400000, guid: 25634e0f414e4184a931f6a10932998d, type: 2}
     weight: 0.1
     plants: []
+    animals: []
   - tile: {fileID: 11400000, guid: 554a189bf063d344fb587c4890a67225, type: 2}
     weight: 0.3
     plants:
@@ -3572,6 +3653,7 @@ MonoBehaviour:
       rate: 0.1
     - plant: {fileID: 1554000548667363081, guid: 3c5dd6e2e37ec3849821043f7bf199c7, type: 3}
       rate: 0.1
+    animals: []
   - tile: {fileID: 11400000, guid: 25ff6a4399adfdd4cb28ed360e55a03e, type: 2}
     weight: 0.45
     plants:
@@ -3579,6 +3661,7 @@ MonoBehaviour:
       rate: 0.2
     - plant: {fileID: 6381891221916704660, guid: d59c9ecd16f37d1439ab579358bc7a36, type: 3}
       rate: 0.2
+    animals: []
   - tile: {fileID: 11400000, guid: 0df99658c349bbd45aed91e3a4a0e9d4, type: 2}
     weight: 0.6
     plants:
@@ -3586,24 +3669,37 @@ MonoBehaviour:
       rate: 0.4
     - plant: {fileID: 5122979615744537676, guid: ae5790e45744c7746832d6d4f9232089, type: 3}
       rate: 0.2
+    animals:
+    - animal: {fileID: 982411635}
+      rate: 0.03
   - tile: {fileID: 11400000, guid: 260c1b10bafacaf4fa339ba908d7421f, type: 2}
     weight: 0.7
     plants: []
+    animals: []
   - tile: {fileID: 11400000, guid: 8f46bc16f6eb6cd4e8e4b793c4332dbe, type: 2}
     weight: 0.83
     plants: []
+    animals: []
   - tile: {fileID: 11400000, guid: 9bcf6c18e3e007643891d14c47e2f553, type: 2}
     weight: 0.9
     plants: []
+    animals: []
   - tile: {fileID: 11400000, guid: 517311e4b6bda694a84439e69995a4db, type: 2}
     weight: 1
     plants: []
+    animals: []
   plantParent: {fileID: 504342501}
   plant: {fileID: 5307275119207011694, guid: 4a1bd0cea45cf494c91d83475aeb93c1, type: 3}
   plantNoiseScale: {x: 12, y: 3}
   plantOctaves: 3
   plantPersistance: 0.16
   plantLacunatity: 6.57
+  animalParent: {fileID: 1587386203}
+  animal: {fileID: 982411635}
+  animalNoiseScale: {x: 12, y: 3}
+  animalOctaves: 2
+  animalPersistance: 0.14
+  animalLacunatity: 6.5
 --- !u!4 &1658880853
 Transform:
   m_ObjectHideFlags: 0
@@ -3715,7 +3811,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2073379384794225597, guid: cb82256b49068da49808025dc7ee2329, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1027404825}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb82256b49068da49808025dc7ee2329, type: 3}
 --- !u!4 &1962489674 stripped
@@ -3823,5 +3922,6 @@ SceneRoots:
   - {fileID: 1267616722}
   - {fileID: 1441044609}
   - {fileID: 1929188072}
-  - {fileID: 1027404825}
   - {fileID: 946655132}
+  - {fileID: 1587386203}
+  - {fileID: 982411637}

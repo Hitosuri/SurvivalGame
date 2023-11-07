@@ -46,3 +46,77 @@
     transition-timing-function: ease-out;
     scale: 1.05 1.05;
 }
+
+.unity-scroller__low-button {
+    border-radius: 10px;
+}
+
+.unity-scroller__high-button {
+    border-radius: 10px;
+}
+
+.unity-scroller__slider {
+    width: 10px;
+    border-radius: 10px;
+}
+
+.list {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('project://database/Assets/Images/Wooden%20GUI%20copy-01_23.asset?fileID=21300000&guid=b44eab4a016d57b44a90ff60c6be7582&type=2#Wooden GUI copy-01_23');
+    background-color: rgba(0, 0, 0, 0);
+    translate: 0 100%;
+    transition-timing-function: ease-out-bounce;
+    transition-duration: 1s;
+}
+
+.list-up {
+    translate: 0 0;
+}
+
+.scrim {
+    flex-grow: 1;
+    -unity-text-outline-color: rgba(51, 39, 39, 0);
+    color: rgba(34, 27, 27, 0.78);
+    background-color: rgba(0, 0, 0, 0.65);
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.scrim-fadedin {
+    opacity: 1;
+}
+
+.listLoadButton {
+    flex-grow: 1;
+    background-color: rgba(226, 22, 22, 0.72);
+    width: 20%;
+    height: 40%;
+    position: relative;
+    top: auto;
+    left: auto;
+    max-width: 20%;
+    max-height: 40%;
+    min-width: 20%;
+    min-height: 40%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 0;
+    margin-left: 5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.listLoatButton:hover {
+    scale: 8 8;
+    background-color: rgb(26, 221, 68);
+}
+
+.listLoatButton:active {
+    transition-duration: 0s;
+    transition-timing-function: ease-out;
+    scale: 1.55 1.55;
+}

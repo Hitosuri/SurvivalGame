@@ -2,14 +2,17 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-namespace Assets.Scripts {
-    public class TerrainChunk {
+namespace Assets.Scripts
+{
+    public class TerrainChunk
+    {
         public Vector2Int coord;
         public Bounds bounds;
         public int size;
         public Action<object> print;
         public Vector3Int[][] tilePositions;
         public GameObject chunkPlant;
+        public GameObject chunkAnimal;
         public bool dataCompleted;
 
         private Transform observer;
@@ -26,7 +29,8 @@ namespace Assets.Scripts {
             TerrainTileType[] terrainTileTypes,
             Transform observer,
             float allowdRadius
-        ) {
+        )
+        {
             this.coord = coord;
             this.size = size;
             this.print = print;
@@ -40,49 +44,63 @@ namespace Assets.Scripts {
             requestMapAction(this);
         }
 
-        private void ShowChunk() {
-            if (IsVisible) {
+        private void ShowChunk()
+        {
+            if (IsVisible)
+            {
                 return;
             }
             IsVisible = true;
             chunkPlant.SetActive(true);
-            for (int i = 0; i < terrainTileTypes.Length; i++) {
-                if (tilePositions[i].Length == 0) {
+            chunkAnimal.SetActive(true);
+            for (int i = 0; i < terrainTileTypes.Length; i++)
+            {
+                if (tilePositions[i].Length == 0)
+                {
                     break;
                 }
                 terrainTileTypes[i].tilemap.SetTiles(tilePositions[i], terrainTileTypes[i].tiles);
             }
         }
 
-        private void HideChunk() {
-            if (!IsVisible) {
+        private void HideChunk()
+        {
+            if (!IsVisible)
+            {
                 return;
             }
 
             IsVisible = false;
             chunkPlant.SetActive(false);
-            for (int i = 0; i < terrainTileTypes.Length; i++) {
+            chunkAnimal.SetActive(false);
+            for (int i = 0; i < terrainTileTypes.Length; i++)
+            {
                 terrainTileTypes[i].tilemap.SetTiles(tilePositions[i], TerrainGenerator.emptyTiles);
             }
         }
 
-        private void OnMapDataReceived() {
+        private void OnMapDataReceived()
+        {
             CheckLoad(GameManager.Instance);
         }
 
-        public void CheckLoad(GameManager manager) {
-            if (!dataCompleted) {
+        public void CheckLoad(GameManager manager)
+        {
+            if (!dataCompleted)
+            {
                 return;
             }
             float viewerDstFromNearestEdge = Mathf.Sqrt(bounds.SqrDistance(observer.position));
             bool visible = viewerDstFromNearestEdge <= allowdRadius;
 
-            if (visible && !IsVisible) {
+            if (visible && !IsVisible)
+            {
                 ShowChunk();
                 GameManager.Instance.OneSecondTick += CheckLoad;
             }
 
-            if (!visible && IsVisible) {
+            if (!visible && IsVisible)
+            {
                 GameManager.Instance.OneSecondTick -= CheckLoad;
                 HideChunk();
             }

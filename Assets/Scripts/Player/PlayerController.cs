@@ -109,18 +109,11 @@ public class PlayerController : MonoBehaviour {
     }
 
     private void TestSetup() {
-        if (GameManager.Instance.DroppedItemTemplate) {
-            var x = Instantiate(GameManager.Instance.DroppedItemTemplate, Vector3.zero, Quaternion.identity);
-            x.GetComponent<DroppedItem>().ItemData = new FApple();
-        }
-        quickSlotItems[1] = new WCrossBow() {
-            Owner = this
-        };
-        quickSlotItems[2] = new WLance() {
-            Owner = this
-        };
-        quickSlotItems[3] = new FApple() {
-            Owner = this
+        var x = Instantiate(GameManager.Instance.DroppedItemTemplate, Vector3.zero, Quaternion.identity);
+        x.GetComponent<DroppedItem>().ItemData = new WAxe();
+
+        quickSlotItems[0] = new WPickaxe() {
+            Owner = this,
         };
     }
 
@@ -308,7 +301,7 @@ public class PlayerController : MonoBehaviour {
 
         for (int i = 0; i < quickSlotKey.Length; i++) {
             if (Input.GetKeyDown(quickSlotKey[i])) {
-                SelectedQuickSlotItemIndex = i + 1;
+                SelectedQuickSlotItemIndex = i;
                 break;
             }
         }

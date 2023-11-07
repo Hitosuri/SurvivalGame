@@ -24,6 +24,7 @@ public class CharacterHUD : MonoBehaviour, IHudController {
         Hungry = root.Q<ProgressBar>("Hungry");
         Hours = root.Q<VisualElement>("Hours");
         Minutes = root.Q<VisualElement>("Minutes");
+
         Inventory = root.Q<VisualElement>("Inventory");
         GameManager.Instance.HudController = this;
     }

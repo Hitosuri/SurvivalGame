@@ -109,6 +109,8 @@ public class PlayerController : MonoBehaviour {
             TestSetup();
         });
         meshRenderer = GetComponent<MeshRenderer>();
+
+        SelectedQuickSlotItemIndex = 0;
     }
 
     private void TestSetup() {
@@ -148,6 +150,12 @@ public class PlayerController : MonoBehaviour {
         } else {
             ChangeSkin(null);
         }
+    }
+
+    public void SwitchSlot(int fromIndex, bool fromBag, int toIndex, bool toBag) {
+        var from = fromBag ? bagItems : quickSlotItems;
+        var to = toBag ? bagItems : quickSlotItems;
+        (from[fromIndex], to[toIndex]) = (to[toIndex], from[fromIndex]);
     }
 
     private void UpdateSortingOrder() {

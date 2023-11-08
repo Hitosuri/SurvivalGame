@@ -1,0 +1,328 @@
+
+WildAnimal_gorany.png
+size: 256,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gorany/Back/BadyB
+  rotate: false
+  xy: 30, 13
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+gorany/Back/EarBL_00
+  rotate: false
+  xy: 67, 2
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+gorany/Back/EarBR_00
+  rotate: false
+  xy: 76, 2
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+gorany/Back/HeadB
+  rotate: false
+  xy: 112, 2
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+gorany/Back/LegBL_00
+  rotate: false
+  xy: 111, 16
+  size: 7, 14
+  orig: 7, 14
+  offset: 0, 0
+  index: -1
+gorany/Back/LegBL_01
+  rotate: false
+  xy: 152, 2
+  size: 7, 13
+  orig: 7, 13
+  offset: 0, 0
+  index: -1
+gorany/Back/LegBR_00
+  rotate: false
+  xy: 120, 16
+  size: 7, 14
+  orig: 7, 14
+  offset: 0, 0
+  index: -1
+gorany/Back/LegBR_01
+  rotate: false
+  xy: 159, 17
+  size: 7, 13
+  orig: 7, 13
+  offset: 0, 0
+  index: -1
+gorany/Back/NeckB
+  rotate: false
+  xy: 140, 2
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1
+gorany/Back/TailB
+  rotate: false
+  xy: 227, 22
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+gorany/Front/BadyF
+  rotate: false
+  xy: 46, 13
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+gorany/Front/BadyFB
+  rotate: false
+  xy: 62, 13
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+gorany/Front/EarFL_00
+  rotate: false
+  xy: 201, 9
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+gorany/Front/EarFR_00
+  rotate: false
+  xy: 202, 21
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+gorany/Front/HeadF
+  rotate: false
+  xy: 126, 2
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+gorany/Front/LegFL_00
+  rotate: false
+  xy: 129, 16
+  size: 7, 14
+  orig: 7, 14
+  offset: 0, 0
+  index: -1
+gorany/Front/LegFL_01
+  rotate: false
+  xy: 161, 2
+  size: 7, 13
+  orig: 7, 13
+  offset: 0, 0
+  index: -1
+gorany/Front/LegFR_00
+  rotate: false
+  xy: 138, 16
+  size: 7, 14
+  orig: 7, 14
+  offset: 0, 0
+  index: -1
+gorany/Front/LegFR_01
+  rotate: false
+  xy: 168, 17
+  size: 7, 13
+  orig: 7, 13
+  offset: 0, 0
+  index: -1
+gorany/Front/NeckF
+  rotate: false
+  xy: 170, 3
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1
+gorany/Front/TailF
+  rotate: false
+  xy: 227, 12
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+gorany/Side/BadyS
+  rotate: true
+  xy: 2, 8
+  size: 22, 12
+  orig: 22, 12
+  offset: 0, 0
+  index: -1
+gorany/Side/BadyS_Dead
+  rotate: true
+  xy: 16, 8
+  size: 22, 12
+  orig: 22, 12
+  offset: 0, 0
+  index: -1
+gorany/Side/EarSL_00
+  rotate: true
+  xy: 221, 2
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+gorany/Side/EarSL_01
+  rotate: false
+  xy: 210, 2
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+gorany/Side/EarSR_00
+  rotate: false
+  xy: 46, 2
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+gorany/Side/EarSR_01
+  rotate: true
+  xy: 211, 21
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+gorany/Side/HeadS_00
+  rotate: true
+  xy: 147, 17
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+gorany/Side/HeadS_01
+  rotate: false
+  xy: 30, 2
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSL_00
+  rotate: false
+  xy: 102, 15
+  size: 7, 15
+  orig: 7, 15
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSL_00_01_Dead
+  rotate: false
+  xy: 210, 10
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSL_00_02_Dead
+  rotate: true
+  xy: 85, 2
+  size: 11, 7
+  orig: 11, 7
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSL_01
+  rotate: false
+  xy: 177, 19
+  size: 6, 11
+  orig: 6, 11
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSL_01_01_Dead
+  rotate: true
+  xy: 194, 8
+  size: 10, 5
+  orig: 10, 5
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSL_01_02_Dead
+  rotate: false
+  xy: 231, 2
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSR_00_01
+  rotate: false
+  xy: 78, 15
+  size: 10, 15
+  orig: 10, 15
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSR_00_01_Dead
+  rotate: true
+  xy: 194, 20
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSR_00_02
+  rotate: false
+  xy: 90, 15
+  size: 10, 15
+  orig: 10, 15
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSR_00_02_Dead
+  rotate: true
+  xy: 219, 10
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSR_01_01
+  rotate: false
+  xy: 94, 2
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSR_01_01_Dead
+  rotate: true
+  xy: 185, 20
+  size: 10, 7
+  orig: 10, 7
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSR_01_02
+  rotate: false
+  xy: 103, 2
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+gorany/Side/LegSR_01_02_Dead
+  rotate: true
+  xy: 219, 21
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+gorany/Side/NeckS
+  rotate: false
+  xy: 182, 7
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+gorany/Side/NeckS_Dead
+  rotate: true
+  xy: 236, 22
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+gorany/Side/TailS
+  rotate: true
+  xy: 57, 2
+  size: 9, 8
+  orig: 9, 8
+  offset: 0, 0
+  index: -1

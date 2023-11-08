@@ -1,0 +1,475 @@
+
+WildAnimal_rabbit.png
+size: 64,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rabbit/Back/BadyB
+  rotate: false
+  xy: 33, 2
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+rabbit/Back/EarBL_00
+  rotate: true
+  xy: 37, 80
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+rabbit/Back/EarBL_01
+  rotate: true
+  xy: 48, 80
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+rabbit/Back/EarBR_00
+  rotate: true
+  xy: 10, 73
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+rabbit/Back/EarBR_01
+  rotate: true
+  xy: 21, 73
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+rabbit/Back/HeadB
+  rotate: false
+  xy: 36, 27
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+rabbit/Back/LegBL_00
+  rotate: false
+  xy: 2, 74
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+rabbit/Back/LegBL_01
+  rotate: false
+  xy: 2, 74
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+rabbit/Back/LegBR_00
+  rotate: false
+  xy: 2, 74
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+rabbit/Back/LegBR_01
+  rotate: false
+  xy: 2, 74
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+rabbit/Back/LegBL_00_01
+  rotate: true
+  xy: 30, 47
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+rabbit/Back/LegBL_00_02
+  rotate: true
+  xy: 14, 28
+  size: 8, 9
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+rabbit/Front/LegFL_01_02
+  rotate: true
+  xy: 14, 28
+  size: 8, 9
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+rabbit/Back/LegBR_00_01
+  rotate: true
+  xy: 40, 47
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+rabbit/Back/LegBR_00_02
+  rotate: true
+  xy: 25, 28
+  size: 8, 9
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+rabbit/Front/LegFR_01_02
+  rotate: true
+  xy: 25, 28
+  size: 8, 9
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+rabbit/Back/NeckB
+  rotate: false
+  xy: 20, 95
+  size: 11, 5
+  orig: 11, 5
+  offset: 0, 0
+  index: -1
+rabbit/Back/TailB
+  rotate: true
+  xy: 33, 95
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+rabbit/Front/BadyF
+  rotate: false
+  xy: 48, 2
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+rabbit/Front/EarFL_00
+  rotate: true
+  xy: 31, 72
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+rabbit/Front/EarFL_01
+  rotate: true
+  xy: 42, 72
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+rabbit/Front/EarFR_00
+  rotate: true
+  xy: 53, 72
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+rabbit/Front/EarFR_01
+  rotate: true
+  xy: 10, 65
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+rabbit/Front/HeadF
+  rotate: false
+  xy: 49, 27
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+rabbit/Front/LegFL_00
+  rotate: false
+  xy: 2, 66
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+rabbit/Front/LegFL_01
+  rotate: false
+  xy: 21, 65
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+rabbit/Front/LegFL_01_01
+  rotate: false
+  xy: 41, 95
+  size: 7, 5
+  orig: 7, 5
+  offset: 0, 0
+  index: -1
+rabbit/Front/LegFR_00
+  rotate: false
+  xy: 29, 64
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+rabbit/Front/LegFR_01
+  rotate: false
+  xy: 37, 64
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+rabbit/Front/LegFR_01_01
+  rotate: false
+  xy: 50, 95
+  size: 7, 5
+  orig: 7, 5
+  offset: 0, 0
+  index: -1
+rabbit/Front/NeckF
+  rotate: false
+  xy: 2, 89
+  size: 11, 5
+  orig: 11, 5
+  offset: 0, 0
+  index: -1
+rabbit/Front/TailF
+  rotate: true
+  xy: 15, 88
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+rabbit/Side/BadyS
+  rotate: false
+  xy: 33, 15
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+rabbit/Side/BadyS_Dead_01
+  rotate: false
+  xy: 2, 5
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+rabbit/Side/BadyS_Dead_02
+  rotate: false
+  xy: 2, 17
+  size: 15, 9
+  orig: 15, 9
+  offset: 0, 0
+  index: -1
+rabbit/Side/EarSL_00
+  rotate: false
+  xy: 50, 47
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+rabbit/Side/EarSL_01
+  rotate: false
+  xy: 2, 40
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+rabbit/Side/EarSL_02
+  rotate: false
+  xy: 45, 64
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+rabbit/Side/EarSR_00
+  rotate: false
+  xy: 2, 57
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+rabbit/Side/EarSR_01
+  rotate: false
+  xy: 21, 38
+  size: 9, 7
+  orig: 9, 7
+  offset: 0, 0
+  index: -1
+rabbit/Side/EarSR_02
+  rotate: false
+  xy: 13, 57
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+rabbit/Side/HeadS_00
+  rotate: false
+  xy: 49, 15
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+rabbit/Side/HeadS_01
+  rotate: false
+  xy: 18, 5
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+rabbit/Side/HeadS_02
+  rotate: false
+  xy: 19, 17
+  size: 12, 9
+  orig: 12, 9
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSL_00
+  rotate: false
+  xy: 32, 38
+  size: 9, 7
+  orig: 9, 7
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSL_00_01_Dead_01
+  rotate: false
+  xy: 12, 40
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSL_00_01_Dead_02
+  rotate: false
+  xy: 42, 56
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSL_01
+  rotate: false
+  xy: 23, 56
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSL_01_02_Dead_01
+  rotate: true
+  xy: 43, 38
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSL_01_02_Dead_02
+  rotate: false
+  xy: 33, 56
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSR_00_01
+  rotate: false
+  xy: 52, 56
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSR_00_01_Dead_01
+  rotate: true
+  xy: 2, 82
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSR_00_01_Dead_02
+  rotate: false
+  xy: 11, 96
+  size: 7, 4
+  orig: 7, 4
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSR_00_02
+  rotate: false
+  xy: 10, 81
+  size: 8, 5
+  orig: 8, 5
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSR_00_02_Dead_01
+  rotate: false
+  xy: 2, 49
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSR_00_02_Dead_02
+  rotate: false
+  xy: 20, 81
+  size: 7, 5
+  orig: 7, 5
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSR_01_01
+  rotate: false
+  xy: 23, 88
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSR_01_01_Dead_01
+  rotate: false
+  xy: 56, 64
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSR_01_01_Dead_02
+  rotate: false
+  xy: 2, 96
+  size: 7, 4
+  orig: 7, 4
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSR_01_02
+  rotate: false
+  xy: 31, 88
+  size: 8, 5
+  orig: 8, 5
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSR_01_02_Dead_01
+  rotate: true
+  xy: 41, 88
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+rabbit/Side/LegSR_01_02_Dead_02
+  rotate: false
+  xy: 49, 88
+  size: 7, 5
+  orig: 7, 5
+  offset: 0, 0
+  index: -1
+rabbit/Side/NeckS
+  rotate: false
+  xy: 2, 31
+  size: 10, 7
+  orig: 10, 7
+  offset: 0, 0
+  index: -1
+rabbit/Side/NeckS_Dead
+  rotate: false
+  xy: 53, 38
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+rabbit/Side/TailS_00
+  rotate: true
+  xy: 11, 49
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+rabbit/Side/TailS_01
+  rotate: true
+  xy: 21, 48
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+rabbit/Side/TailS_02
+  rotate: false
+  xy: 29, 81
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1

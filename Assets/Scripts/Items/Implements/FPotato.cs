@@ -15,8 +15,8 @@ namespace Assets.Scripts.Items.Implements {
 
         public List<Tuple<float, string>> GrowPhase { get; } = new() {
             new Tuple<float, string>(0f, "Sprite/Plant/Crops/Potato/Potato_Sprout_00"),
-            new Tuple<float, string>(60f, "Sprite/Plant/Crops/Potato/Potato_Sprout_01"),
-            new Tuple<float, string>(80f, "Sprite/Plant/Crops/Potato/Potato_Plant")
+            new Tuple<float, string>(80f, "Sprite/Plant/Crops/Potato/Potato_Sprout_01"),
+            new Tuple<float, string>(10f, "Sprite/Plant/Crops/Potato/Potato_Plant")
         };
 
         public void Plant() {

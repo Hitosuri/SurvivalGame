@@ -27,6 +27,14 @@ namespace Assets.Scripts.Items {
                 () => {
                     Owner.PreventMoving = false;
                     Owner.CheckFire(true);
+                    Owner.hitbox.gameObject.SetActive(true);
+                    GameManager.Instance.CallDelay(
+                        () => {
+                            if (Owner.hitbox.gameObject.activeSelf) {
+                                Owner.hitbox.gameObject.SetActive(false);
+                            }
+                        }, 0.1f
+                    );
                 }, UseAnimationLength
             );
         }

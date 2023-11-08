@@ -293,6 +293,134 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &672003812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 672003814}
+  - component: {fileID: 672003813}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &672003813
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672003812}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7b9b1c8692e88ad41867d1e5ae0c00fd, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.49
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &672003814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672003812}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.46475464, y: 2.6235425, z: -0.016346589}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &946655129
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,9 +755,11 @@ MonoBehaviour:
   - tile: {fileID: 11400000, guid: f527d3667d2b4444a8e5df2ed70263fe, type: 2}
     weight: 0
     plants: []
+    trees: []
   - tile: {fileID: 11400000, guid: 25634e0f414e4184a931f6a10932998d, type: 2}
     weight: 0.1
     plants: []
+    trees: []
   - tile: {fileID: 11400000, guid: 554a189bf063d344fb587c4890a67225, type: 2}
     weight: 0.3
     plants:
@@ -639,6 +769,13 @@ MonoBehaviour:
       rate: 0.1
     - plant: {fileID: 1554000548667363081, guid: 3c5dd6e2e37ec3849821043f7bf199c7, type: 3}
       rate: 0.1
+    trees:
+    - plant: {fileID: 6748007211584721442, guid: c73ef46c76724514192b71287e019427, type: 3}
+      rate: 0.3
+    - plant: {fileID: 8965416019547178320, guid: 67709fa9f7c85c44e9242176fffee4d3, type: 3}
+      rate: 0.3
+    - plant: {fileID: 2478440049144463643, guid: 05ee1cbdbaca5df44913a44f05b3d914, type: 3}
+      rate: 0.2
   - tile: {fileID: 11400000, guid: 25ff6a4399adfdd4cb28ed360e55a03e, type: 2}
     weight: 0.45
     plants:
@@ -646,6 +783,11 @@ MonoBehaviour:
       rate: 0.2
     - plant: {fileID: 6381891221916704660, guid: d59c9ecd16f37d1439ab579358bc7a36, type: 3}
       rate: 0.2
+    trees:
+    - plant: {fileID: 6736627341151478017, guid: b58c08a949958914281a39476bd3b787, type: 3}
+      rate: 0.5
+    - plant: {fileID: 6748007211584721442, guid: c73ef46c76724514192b71287e019427, type: 3}
+      rate: 0.1
   - tile: {fileID: 11400000, guid: 0df99658c349bbd45aed91e3a4a0e9d4, type: 2}
     weight: 0.6
     plants:
@@ -653,18 +795,41 @@ MonoBehaviour:
       rate: 0.4
     - plant: {fileID: 5122979615744537676, guid: ae5790e45744c7746832d6d4f9232089, type: 3}
       rate: 0.2
+    trees:
+    - plant: {fileID: 4883170018076097252, guid: 6e3fc95173aedb248b527f08ace16a83, type: 3}
+      rate: 0.4
+    - plant: {fileID: 6540059607522214210, guid: 1cbccf6c0e87f764a8d53c1b5349dee7, type: 3}
+      rate: 0.4
+    - plant: {fileID: 6736627341151478017, guid: b58c08a949958914281a39476bd3b787, type: 3}
+      rate: 0.2
   - tile: {fileID: 11400000, guid: 260c1b10bafacaf4fa339ba908d7421f, type: 2}
     weight: 0.7
     plants: []
+    trees: []
   - tile: {fileID: 11400000, guid: 8f46bc16f6eb6cd4e8e4b793c4332dbe, type: 2}
     weight: 0.83
     plants: []
+    trees: []
   - tile: {fileID: 11400000, guid: 9bcf6c18e3e007643891d14c47e2f553, type: 2}
     weight: 0.9
     plants: []
+    trees:
+    - plant: {fileID: 6736627341151478017, guid: b58c08a949958914281a39476bd3b787, type: 3}
+      rate: 0.4
+    - plant: {fileID: 1094254956807000191, guid: 846efa6d80aee2a47999e28993debd9c, type: 3}
+      rate: 0.3
   - tile: {fileID: 11400000, guid: 517311e4b6bda694a84439e69995a4db, type: 2}
     weight: 1
     plants: []
+    trees:
+    - plant: {fileID: 7766690781750516030, guid: 1833e7e157a05d24e951d26acec2999f, type: 3}
+      rate: 0.4
+    - plant: {fileID: 5205992008909593011, guid: 85e23e25a12e90a42a913a9262fae781, type: 3}
+      rate: 0.3
+  - tile: {fileID: 11400000, guid: 517311e4b6bda694a84439e69995a4db, type: 2}
+    weight: 1
+    plants: []
+    trees: []
   soilTileBase: {fileID: 11400000, guid: 98e0dea50be67674fac052cc4a1146a7, type: 2}
   plantParent: {fileID: 504342501}
   plant: {fileID: 5307275119207011694, guid: 4a1bd0cea45cf494c91d83475aeb93c1, type: 3}
@@ -780,6 +945,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2683935147595857049, guid: cb82256b49068da49808025dc7ee2329, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081572973394282115, guid: cb82256b49068da49808025dc7ee2329, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4835451346381816319, guid: cb82256b49068da49808025dc7ee2329, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -826,3 +999,4 @@ SceneRoots:
   - {fileID: 1929188072}
   - {fileID: 946655132}
   - {fileID: 1679295186}
+  - {fileID: 672003814}

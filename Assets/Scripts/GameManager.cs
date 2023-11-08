@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour {
         CurrentGameTime = TimeSpan.Zero;
         CurrentRealTime = TimeSpan.Zero;
         OneSecondTick = delegate(GameManager manager) {
-            HudController?.SetTime((int)Math.Round(CurrentGameTime.TotalMinutes));
+            HudController?.SetTime((int)Math.Round((CurrentGameTime + TimeSpan.FromHours(12)).TotalMinutes));
         };
         FixedUpdateTick = delegate(TimeSpan timeSpan) { };
         InvokeRepeating("InvokeOneSecondTick", 0f, 1f);
@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour {
 
     private void FixedUpdate() {
         CurrentGameTime += TimeSpan.FromSeconds(_fixedTimeDelta);
-        FixedUpdateTick?.Invoke(CurrentGameTime);
+        FixedUpdateTick?.Invoke(CurrentGameTime + TimeSpan.FromHours(12));
     }
 
     private void OnPropertyChangeHandler(string propertyName) {

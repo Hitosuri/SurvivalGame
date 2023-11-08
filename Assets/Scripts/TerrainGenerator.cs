@@ -20,6 +20,7 @@ namespace Assets.Scripts {
         public TileBase tile;
         public float weight;
         public DataPair[] plants;
+        public DataPair[] trees;
 
         [NonSerialized]
         public Tilemap tilemap;
@@ -58,11 +59,11 @@ namespace Assets.Scripts {
 
         private int chunkVisibleInViewDistance;
         private Dictionary<Vector2Int, TerrainChunk> terrainCheckDictionary;
-        private Queue<Tuple<TerrainChunk, List<Tuple<Vector3, GameObject>>>> chunkGenerateResultQueue;
+        private Queue<Tuple<TerrainChunk, List<Tuple<Vector3, GameObject>>, Tuple<Vector3, GameObject>>> chunkGenerateResultQueue;
 
         private void Start() {
             soilTileBaseStatic = soilTileBase;
-            chunkGenerateResultQueue = new Queue<Tuple<TerrainChunk, List<Tuple<Vector3, GameObject>>>>();
+            chunkGenerateResultQueue = new Queue<Tuple<TerrainChunk, List<Tuple<Vector3, GameObject>>, Tuple<Vector3, GameObject>>>();
             terrainCheckDictionary = new Dictionary<Vector2Int, TerrainChunk>();
             chunkVisibleInViewDistance = Mathf.CeilToInt(viewDistance / chunkSize);
             emptyTiles = new TileBase[chunkSize * chunkSize];
@@ -84,6 +85,14 @@ namespace Assets.Scripts {
                             },
                         };
                         terrainChunk.chunkPlant.SetActive(false);
+
+                        if (result.Item3.Item2 != null) {
+                            var r = Instantiate(result.Item3.Item2, result.Item3.Item1 + new Vector3(0.5f, 0.3f), Quaternion.identity);
+                            var spriteRenderer = r.GetComponent<SpriteRenderer>();
+                            spriteRenderer.sortingLayerName = "On Ground";
+                            spriteRenderer.sortingOrder = Mathf.CeilToInt(result.Item3.Item1.y * 4 * -1);
+                            r.transform.parent = terrainChunk.chunkPlant.transform;
+                        }
 
                         for (int i = 0; i < result.Item2.Count; i++) {
                             var h = Instantiate(result.Item2[i].Item2, result.Item2[i].Item1, Quaternion.identity);
@@ -147,21 +156,41 @@ namespace Assets.Scripts {
                         tilePos2[i] = new List<Vector3Int>();
                     }
 
+                    Vector3Int treePos = new Vector3Int(random.Next(chunkSize), random.Next(chunkSize));
+                    GameObject treeObject = null;
+
                     List<Tuple<Vector3, GameObject>> plantPositions = new List<Tuple<Vector3, GameObject>>();
                     for (int y = 0; y < chunkSize; y++) {
                         for (int x = 0; x < chunkSize; x++) {
                             DataPair[] allowPlants = Array.Empty<DataPair>();
+                            DataPair[] allowTrees = Array.Empty<DataPair>();
                             for (int i = 0; i < terrainTileType.Length; i++) {
                                 if (terrainTileType[i].weight < heightMap[x, y]) {
                                     allowPlants = terrainTileType[i].plants;
+                                    allowTrees = terrainTileType[i].trees;
                                     tilePos2[i].Add(new Vector3Int(chunkOffset.x + x, chunkOffset.y + y));
                                 } else {
                                     break;
                                 }
                             }
+
+                            if (allowTrees.Length > 0 && x == treePos.x && y == treePos.y) {
+                                float value = (float)random.NextDouble();
+                                for (int i = 0; i < allowTrees.Length; i++) {
+                                    if (value < allowTrees[i].rate) {
+                                        treeObject = allowTrees[i].plant;
+                                        break;
+                                    }
+
+                                    value -= allowTrees[i].rate;
+                                }
+                                continue;
+                            }
+
                             if (allowPlants.Length == 0) {
                                 continue;
                             }
+
                             int loopCount = random.Next(positionScale) + 1;
                             for (int i = 0; i < loopCount; i++) {
                                 if (plantHeightMap[x * positionScale + i, y * positionScale + i] > 0.5) {
@@ -183,6 +212,8 @@ namespace Assets.Scripts {
                         }
                     }
 
+                    treePos += (Vector3Int)chunkOffset;
+
                     for (int i = 0; i < terrainTileType.Length; i++) {
                         tilePos[i] = tilePos2[i].ToArray();
                     }
@@ -190,7 +221,7 @@ namespace Assets.Scripts {
                     terrainChunk.tilePositions = tilePos;
 
                     lock (chunkGenerateResultQueue) {
-                        chunkGenerateResultQueue.Enqueue(new Tuple<TerrainChunk, List<Tuple<Vector3, GameObject>>>(terrainChunk, plantPositions));
+                        chunkGenerateResultQueue.Enqueue(new Tuple<TerrainChunk, List<Tuple<Vector3, GameObject>>, Tuple<Vector3, GameObject>>(terrainChunk, plantPositions, new Tuple<Vector3, GameObject>(treePos, treeObject)));
                     }
                 }
             );

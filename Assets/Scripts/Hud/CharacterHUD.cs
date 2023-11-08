@@ -99,7 +99,7 @@ Slot3_Container, Slot4_Container, Slot5_Container;
             }, TrickleDown.TrickleDown);
 
             itm.RegisterCallback<MouseEnterEvent>(OnMouseEnterEvent => {
-                if (isBagClose) {
+                if (isBagClose || itm == dragFrom) {
                     return;
                 }
                 if (dragFrom != null)

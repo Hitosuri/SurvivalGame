@@ -14,6 +14,7 @@ using Unity.Collections;
 using UnityEngine;
 using WorldTime;
 using static System.Runtime.CompilerServices.RuntimeHelpers;
+using static UnityEngine.Rendering.DebugUI;
 
 public class PlayerController : MonoBehaviour {
     public float runSpeed = 6f;
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour {
     public float acceleration = 8f;
     public float decceleration = 12f;
     public float velocityPower = 0.9f;
+    public Hitbox hitbox;
 
     private Rigidbody2D rigidbody;
     [NonSerialized]
@@ -32,11 +34,11 @@ public class PlayerController : MonoBehaviour {
     private Vector2 deltraPos;
     private int currentSide = -1;
 
-    private BaseItem[] bagItems;
-    private BaseItem[] quickSlotItems;
+    public BaseItem[] BagItems { get; set; }
+    public BaseItem[] QuickSlotItems { get; set; }
     private bool isBagOpened = false;
 
-    private int SelectedQuickSlotItemIndex {
+    public int SelectedQuickSlotItemIndex {
         get => _selectedQuickSlotItemIndex;
         set {
             _selectedQuickSlotItemIndex = value;
@@ -95,8 +97,8 @@ public class PlayerController : MonoBehaviour {
         rigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         PlayerMecanim = GetComponent<SkeletonMecanim>();
-        bagItems = new BaseItem[12];
-        quickSlotItems = new BaseItem[5];
+        BagItems = new BaseItem[12];
+        QuickSlotItems = new BaseItem[5];
         CollectableItems = new List<DroppedItem>();
         SetupBasicInfo();
 
@@ -130,20 +132,20 @@ public class PlayerController : MonoBehaviour {
         var x = Instantiate(GameManager.Instance.DroppedItemTemplate, Vector3.zero, Quaternion.identity);
         x.GetComponent<DroppedItem>().ItemData = new WAxe();
 
-        quickSlotItems[0] = new WPickaxe() {
+        QuickSlotItems[0] = new WPickaxe() {
             Owner = this,
         };
-        GameManager.Instance.HudController.SetQuickSlotItem(0, quickSlotItems[0]);
+        GameManager.Instance.HudController.SetQuickSlotItem(0, QuickSlotItems[0]);
 
-        quickSlotItems[1] = new WHoe() {
+        QuickSlotItems[1] = new WHoe() {
             Owner = this,
         };
-        GameManager.Instance.HudController.SetQuickSlotItem(1, quickSlotItems[1]);
+        GameManager.Instance.HudController.SetQuickSlotItem(1, QuickSlotItems[1]);
 
-        quickSlotItems[2] = new FPotato() {
+        QuickSlotItems[2] = new FPotato() {
             Owner = this,
         };
-        GameManager.Instance.HudController.SetQuickSlotItem(2, quickSlotItems[2]);
+        GameManager.Instance.HudController.SetQuickSlotItem(2, QuickSlotItems[2]);
     }
 
     private void FixedUpdate() {
@@ -153,7 +155,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     private void OnSelectedQuickSlotChange(int currentIndex) {
-        BaseItem x = quickSlotItems[currentIndex];
+        BaseItem x = QuickSlotItems[currentIndex];
         if (x != null) {
             if (x is WeaponItem p) {
                 ChangeSkin(p);
@@ -166,8 +168,15 @@ public class PlayerController : MonoBehaviour {
     }
 
     public void SwitchSlot(int fromIndex, bool fromBag, int toIndex, bool toBag) {
-        var from = fromBag ? bagItems : quickSlotItems;
-        var to = toBag ? bagItems : quickSlotItems;
+        if (toBag) {
+            toIndex -= 5;
+        }
+
+        if (fromBag) {
+            fromIndex -= 5;
+        }
+        var from = fromBag ? BagItems : QuickSlotItems;
+        var to = toBag ? BagItems : QuickSlotItems;
         (from[fromIndex], to[toIndex]) = (to[toIndex], from[fromIndex]);
     }
 
@@ -177,32 +186,32 @@ public class PlayerController : MonoBehaviour {
 
     private void AddToInventory(BaseItem item) {
         if (item is StackableItem stackableItem) {
-            int index = Array.FindIndex(bagItems, x => x?.Id == stackableItem.Id);
+            int index = Array.FindIndex(BagItems, x => x?.Id == stackableItem.Id);
             if (index >= 0) {
-                ((StackableItem)bagItems[index]).Quantity += stackableItem.Quantity;
-                print($"bag {index} - quantity: {((StackableItem)bagItems[index]).Quantity}");
+                ((StackableItem)BagItems[index]).Quantity += stackableItem.Quantity;
+                print($"bag {index} - quantity: {((StackableItem)BagItems[index]).Quantity}");
                 GameManager.Instance.HudController.SetInventoryItem(index, item);
                 return;
             }
-            index = Array.FindIndex(quickSlotItems, x => x?.Id == stackableItem.Id);
+            index = Array.FindIndex(QuickSlotItems, x => x?.Id == stackableItem.Id);
             if (index >= 0) {
-                ((StackableItem)quickSlotItems[index]).Quantity += stackableItem.Quantity;
-                print($"quickslot {index} - quantity: {((StackableItem)quickSlotItems[index]).Quantity}");
+                ((StackableItem)QuickSlotItems[index]).Quantity += stackableItem.Quantity;
+                print($"quickslot {index} - quantity: {((StackableItem)QuickSlotItems[index]).Quantity}");
                 GameManager.Instance.HudController.SetQuickSlotItem(index, item);
                 return;
             }
         }
 
-        int emptyIndex = Array.FindIndex(quickSlotItems, x => x == null);
+        int emptyIndex = Array.FindIndex(QuickSlotItems, x => x == null);
         if (emptyIndex >= 0) {
-            quickSlotItems[emptyIndex] = item;
+            QuickSlotItems[emptyIndex] = item;
             print($"quickslot {emptyIndex}");
             GameManager.Instance.HudController.SetQuickSlotItem(emptyIndex, item);
             return;
         }
-        emptyIndex = Array.FindIndex(bagItems, x => x == null);
+        emptyIndex = Array.FindIndex(BagItems, x => x == null);
         if (emptyIndex >= 0) {
-            bagItems[emptyIndex] = item;
+            BagItems[emptyIndex] = item;
             print($"bag {emptyIndex}");
             GameManager.Instance.HudController.SetInventoryItem(emptyIndex, item);
         }
@@ -240,6 +249,7 @@ public class PlayerController : MonoBehaviour {
             mouseAngle = 180 - mouseAngle;
         }
         weaponMainBone.Rotation = mouseAngle;
+        hitbox.gameObject.transform.rotation = Quaternion.Euler(0, 0, newSide == 4 ? mouseAngle * -1 : mouseAngle);
 
         var controlVector = new Vector2 {
             x = Input.GetAxisRaw("Horizontal"),
@@ -375,7 +385,7 @@ public class PlayerController : MonoBehaviour {
 
         rigidbody.AddForce(new Vector2(movementX, movementY));
 
-        if (isBagOpened) {
+        if (isBagOpened || PreventMoving) {
             return;
         }
         if (!ReFire) {
@@ -387,7 +397,7 @@ public class PlayerController : MonoBehaviour {
         }
 
         if (Input.GetButtonDown("Fire2")) {
-            if (quickSlotItems[SelectedQuickSlotItemIndex] is PlantableItem plantableItem) {
+            if (QuickSlotItems[SelectedQuickSlotItemIndex] is PlantableItem plantableItem) {
                 plantableItem.Plant();
             }
         }
@@ -403,8 +413,8 @@ public class PlayerController : MonoBehaviour {
     }
 
     private void Fire() {
-        if (quickSlotItems[SelectedQuickSlotItemIndex] != null) {
-            quickSlotItems[SelectedQuickSlotItemIndex].Use();
+        if (QuickSlotItems[SelectedQuickSlotItemIndex] != null) {
+            QuickSlotItems[SelectedQuickSlotItemIndex].Use();
         } else {
             PreventMoving = true;
             animator.SetTrigger("AttackTrigger");
